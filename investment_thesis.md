@@ -26,7 +26,8 @@ The only hard stop is a 10% portfolio drawdown. After that: reassess and rebuy.
 | Holding period | Hours to days preferred; multi-week allowed if catalyst is still live |
 | News-driven trading | PERMITTED — news is a valid primary catalyst trigger (see Section 4) |
 | Circuit breaker | 10% drawdown from current portfolio peak → pause, review, then rebuy allowed |
-| Leverage / margin / options / shorts | PROHIBITED (unchanged) |
+| Leverage / margin / options / shorts | PROHIBITED — except approved leveraged ETFs per Section 10 |
+| Leveraged ETF sleeve | Maximum 10% of total portfolio at any time; High or Very High conviction only; no weekend holds |
 
 > **On $100:** fractional shares are essential. The agent should expect to hold many positions simultaneously at $1–$20 each. Small size is not a bug — it enables diversification across the full pillar map without concentration risk on any single name.
 
@@ -296,6 +297,176 @@ These do not change regardless of conviction, urgency, or market conditions.
 
 ---
 
+## SECTION 9 — PROFIT-TAKING FRAMEWORK
+
+The default exit rule — "exit when the catalyst is priced" — handles most situations. This section adds a second layer: structured parameters for locking in gains on positions that are working, before momentum fades or a reversal erases the gain. The two rules together prevent overstaying.
+
+### Three variables that govern every profit-taking decision
+
+#### Variable 1 — Momentum State
+
+| State | Signals |
+|-------|---------|
+| **Accelerating** | Volume spike on up day, new catalyst layer added, sector rotating *into* this name |
+| **Sustained** | Steady price progression, volume consistent with breakout day, no divergence |
+| **Weakening** | Lower highs intraday, volume drying up on up days, RSI > 70, no new news |
+| **Reversing** | Break below recent support or entry-day low, adverse sector move, competitor catalyst |
+
+#### Variable 2 — Position Size as % of Portfolio
+
+Larger positions tolerate less reversal. A 10% reversal on a 4% position is noise. A 10% reversal on a 45% position is a meaningful drawdown from a large unrealized gain.
+
+#### Variable 3 — Remaining Catalyst Upside
+
+| Catalyst state | Description |
+|----------------|-------------|
+| **Live** | Named event not yet resolved (earnings still upcoming, contract award pending) |
+| **Partially resolved** | Catalyst broke; market repriced part of it; secondary effects still possible |
+| **Fully resolved** | All expected repricing complete; continued holding is speculation on a new catalyst |
+
+### Profit-taking trigger matrix
+
+| Unrealized Gain | Momentum | Catalyst State | Required Action |
+|----------------|----------|----------------|-----------------|
+| < +15% | Any | Live | HOLD — let thesis play out |
+| +15% to +25% | Accelerating / Sustained | Live | HOLD; add on dips if conviction unchanged |
+| +15% to +25% | Weakening | Partially resolved | Take 25–33% off the table |
+| +25% to +50% | Accelerating | Live | HOLD; set mental stop at +15% from entry |
+| +25% to +50% | Sustained / Weakening | Partially resolved | Take 40–50% off; let remainder run |
+| +25% to +50% | Any | Fully resolved | EXIT — catalyst is priced |
+| > +50% | Accelerating | Live | Take 25% off; trail remaining with +30% floor stop |
+| > +50% | Any | Partially / Fully resolved | EXIT minimum 50%; assess full exit |
+| Any gain | Reversing | Any | EXIT immediately — lock the gain, redeploy later |
+
+> **Hard rule: Never let a gain greater than +25% revert to a loss.** If momentum is reversing and the position is up more than +25%, exit. There will be another trade.
+
+### Position-size-specific overrides
+
+These override the matrix when position concentration creates outsized portfolio risk:
+
+| Position size (% of portfolio) | Profit-taking rule |
+|--------------------------------|--------------------|
+| **> 30%** | Take 30% off at +15% gain regardless of momentum. Reduces concentration to manageable level; trail remaining normally. |
+| **15% – 30%** | Take 25% off at +20% gain. No forced full exit — catalyst state governs the rest. |
+| **5% – 15%** | Standard matrix applies. No forced partial unless momentum reversing. |
+| **< 5%** | Hold to full catalyst resolution or thesis break. Small size = bounded loss on reversal; no need to micro-manage. |
+
+### Momentum-reversing signals (practical checklist)
+
+- Price breaks below the entry day's opening low after a multi-day run
+- Up-day volume < 50% of initial breakout volume for 2+ consecutive sessions
+- RSI above 75 AND no new price high in 2+ sessions
+- Sector ETF (SMH, XLE, ROBO, etc.) rolling over while position is still elevated — rotation signal
+- A named bear catalyst appears for this specific position (e.g., a competitor wins the contract this trade was priced for)
+
+### Profit-taking log additions
+
+Every partial or full profit-taking exit must add to the standard log entry:
+- `Gain % at exit:` [value]
+- `Momentum state:` [Accelerating / Sustained / Weakening / Reversing]
+- `Catalyst state:` [Live / Partially resolved / Fully resolved]
+- `Exit type:` [Full / Partial — X% taken off]
+- `Remaining position stop:` [if partial: the floor gain % below which the remainder will be exited]
+
+---
+
+## SECTION 10 — LEVERAGED ETF MODULE
+
+### Purpose and capital allocation
+
+A dedicated sleeve of capital — maximum **10% of total portfolio at any time** — may be deployed in leveraged ETFs (2x or 3x) when a high-conviction directional catalyst exists AND the underlying is in a clear trend. This uses the same bottleneck framework and filter gates as all other trades; it is not a separate strategy.
+
+The leveraged ETF sleeve amplifies returns on the highest-conviction directional moves, at the cost of volatility decay. The asymmetry only works in trending markets with short hold periods.
+
+### Approved leveraged ETFs
+
+| Ticker | Leverage | Underlying | Pillar alignment | Best use case |
+|--------|----------|-----------|------------------|--------------|
+| TQQQ | 3x | QQQ (Nasdaq 100) | All | Broad tech momentum catalyst; risk-on macro |
+| UPRO | 3x | S&P 500 | All | Broad market risk-on catalyst |
+| SOXL | 3x | Semiconductors | Pillar 1 / 2 | AI chip, power, or semiconductor catalyst |
+| NVDL | 2x | NVDA | Pillar 1 / 2 | NVDA-specific catalyst |
+| TSLL | 2x | TSLA | Pillar 2 | TSLA robotics / autonomy catalyst |
+| FNGU | 3x | FAANG+ tech | All | Mega-cap tech earnings catalyst |
+| LABU | 3x | Biotech | Wildcard | FDA / biotech catalyst *only* |
+| BOIL | 2x | Natural Gas | Wildcard | Energy price catalyst *only* |
+
+> **No new leveraged ETFs without first adding them to this table with a named use case.** Unknown leveraged products can have unexpected decay mechanics or tracking errors.
+
+### Decay mechanics — required understanding before any leveraged ETF entry
+
+Leveraged ETFs use daily rebalancing to maintain their stated leverage ratio. This creates **volatility decay** (also called beta slippage): in choppy or sideways markets, the fund loses value even when the underlying goes nowhere.
+
+| Market condition | Decay impact |
+|-----------------|--------------|
+| **Trending** (clear direction) | Minimal decay; leverage compounds in your favor |
+| **Choppy / sideways** | Severe decay; a 3x ETF can lose 2–5% per day even if the underlying is flat |
+| **High volatility (VIX > 25)** | Decay accelerates; 3x ETFs become wealth-destruction instruments in sideways chop |
+
+**Decay math example:** Underlying moves +5%, −5%, +5%, −5% over four days (net ≈ 0%). A 3x ETF on that underlying will be down approximately 3–5% from decay alone.
+
+### Decay factor parameters
+
+| Parameter | 2x ETF | 3x ETF |
+|-----------|--------|--------|
+| **Maximum hold — trending market (VIX < 20)** | 5 trading days | 3 trading days |
+| **Maximum hold — elevated volatility (VIX 20–25)** | 3 trading days | 1 trading day |
+| **Maximum hold — high volatility (VIX > 25)** | 1 day (intraday only) | DO NOT ENTER |
+| **Estimated daily decay — flat market** | ~0.3–0.5% | ~0.7–1.5% |
+| **Estimated daily decay — VIX > 20** | ~0.8–1.5% | ~2–4% |
+| **Overnight gap risk** | Moderate | High |
+| **Weekend hold** | PROHIBITED | PROHIBITED |
+
+> **Weekend rule: Never hold a leveraged ETF into Friday close.** Three days of non-trading with no price recovery, plus Monday gap risk. Exit all leveraged positions by Thursday close at the latest. If still open Friday morning, exit at the open.
+
+### Entry criteria (additional gates beyond standard Section 4)
+
+All standard filter gates (Section 2 + Section 4) must pass. Plus these leveraged-specific gates — all must pass:
+
+| Additional gate | Required threshold | Why it matters |
+|-----------------|-------------------|----------------|
+| Underlying trend | Price above 5-day MA, moving directionally | Decay kills non-trending plays |
+| VIX level | Prefer VIX < 20 for 3x; VIX < 25 for 2x | Higher VIX → faster decay |
+| Entry timing | Prefer first 30 min of session on catalyst day | Capture the directional move; minimize time-in-position |
+| Conviction level | **High or Very High ONLY** | Leverage amplifies losses — never use 2x or 3x on Medium or Low conviction |
+| Catalyst duration | Catalyst must price within the hold window | Don't buy a multi-week thesis in a 3x ETF |
+| No simultaneous equity | Not already holding the underlying stock for the same catalyst | No leverage-on-leverage; pick one vehicle per catalyst |
+
+### Position sizing within the leveraged sleeve
+
+| Conviction level | Max leveraged ETF allocation (% of total portfolio) |
+|-----------------|-----------------------------------------------------|
+| Very High | Up to 8% (the remaining 2% ceiling is a buffer) |
+| High | 3–5% |
+| Medium or below | DO NOT use leveraged ETFs — buy the underlying equity instead |
+
+**Total leveraged exposure cap: 10% of portfolio at all times.** This is a hard ceiling across all leveraged positions combined, not per position.
+
+### Exit rules for leveraged ETFs
+
+| Trigger | Action |
+|---------|--------|
+| Gain > +15% | Take 50% off immediately. Trail remaining with −8% stop from the peak price |
+| Gain > +30% | EXIT full position. Catalyst is almost certainly priced at this move size |
+| Loss > −10% from entry | EXIT immediately. Leverage amplifies — don't wait for confirmation |
+| Momentum reversing in underlying | EXIT — decay accelerates against you on the retracement |
+| Hold time limit reached (from parameters above) | EXIT regardless of P&L |
+| Thursday close (to avoid weekend decay) | EXIT if still holding |
+| VIX spikes above 25 mid-hold | EXIT 3x positions immediately; assess 2x positions for same-day exit |
+
+### Leveraged ETF trade log additions
+
+All standard log fields apply. Add these fields:
+
+- `Leverage type:` [2x / 3x]
+- `VIX at entry:` [value]
+- `Maximum hold date:` [calendar date — computed from entry date and hold limit above]
+- `Estimated daily decay:` [% based on current VIX and leverage]
+- `Underlying trend at entry:` [Above / Below 5-day MA]
+- `Leveraged sleeve % after entry:` [total leveraged ETF exposure as % of portfolio]
+
+---
+
 ## QUICK REFERENCE — THE THESIS IN FIVE LINES (AGGRESSIVE MODE)
 
 ```
@@ -304,6 +475,8 @@ These do not change regardless of conviction, urgency, or market conditions.
 3. FILTER fast — real bottleneck, not yet priced, specific catalyst. All three or skip.
 4. SIZE by conviction — all-in, partial, or fractional. Agent decides. No caps.
 5. EXIT when the catalyst is priced, not when you feel good about the name.
+6. TAKE PROFITS actively — use Section 9 matrix; never let a +25% gain revert to a loss.
+7. LEVERAGED ETFs: 10% sleeve max, High+ conviction only, no weekends, VIX governs hold limit.
 ```
 
 ---
@@ -327,6 +500,14 @@ Catalyst / news identified
 [S4] Score sizing gates (4–6)
   └─ Determine conviction level: Very High / High / Medium / Low
         │
+        ├─ HIGH or VERY HIGH + catalyst prices within 3–5 days?
+        │   └─ Consider leveraged ETF sleeve [S10]
+        │       ├─ VIX check: >25 → no 3x; >25 and marginal → no 2x either
+        │       ├─ Underlying trending? Above 5-day MA? → Yes → eligible
+        │       ├─ Leveraged sleeve < 10% of portfolio? → Yes → proceed
+        │       ├─ Log: leverage type, VIX, max hold date, decay estimate
+        │       └─ SIZE within sleeve limits (8% max Very High; 3–5% High)
+        │
         ▼
 [S3] Identify pillar & catalyst type
   └─ Confirm this catalyst type is valid for this pillar
@@ -344,7 +525,23 @@ EXECUTE
         │
         ▼
 Monitor: catalyst resolved? thesis dead? better opportunity?
-  └─ Yes to any → EXIT and redeploy
+  │
+  ├─ [S9] PROFIT-TAKING CHECK (run on every position with unrealized gain)
+  │     Assess: gain %, momentum state, catalyst state
+  │   ├─ Reversing momentum → EXIT immediately
+  │   ├─ >25% gain + not accelerating → refer to trigger matrix
+  │   ├─ Position >30% of portfolio + >15% gain → take 30% off
+  │   └─ Gain >25% reverting toward breakeven → EXIT
+  │
+  ├─ [S10] LEVERAGED ETF HOLD CHECK (run on every leveraged position)
+  │     ├─ Hold time limit reached? → EXIT
+  │     ├─ Thursday close? → EXIT (weekend rule)
+  │     ├─ VIX spiked above 25? → EXIT 3x immediately
+  │     ├─ Loss >−10%? → EXIT immediately
+  │     └─ Gain >+30%? → EXIT full position
+  │
+  └─ General: catalyst resolved? thesis dead? better opportunity?
+       └─ Yes to any → EXIT and redeploy
         │
 [S6] Check circuit breaker
   └─ If −10% drawdown from peak → PAUSE → re-validate → REBUY allowed

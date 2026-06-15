@@ -13,7 +13,7 @@ This Claude Code project is a fully autonomous AI trading agent for Robinhood. I
 These are the only non-negotiable limits. Everything else is agent judgment.
 
 1. **Never exceed available buying power.** Check cash balance before every order. Never go negative.
-2. **Never use leverage, margin, options, or short positions.** Long equity and fractional shares only.
+2. **Never use leverage, margin, options, or short positions** — with one exception: approved leveraged ETFs listed in `investment_thesis.md → Section 10` are permitted up to a 10% portfolio sleeve. No margin, no options, no shorts. Leveraged ETFs are long equity positions in approved products only.
 3. **Never trade excluded securities.** See `investment_thesis.md → Excluded Securities`.
 4. **10% circuit breaker.** If total portfolio value drops 10% from its most recent peak, halt all new entries immediately. Review open positions. Rebuy is allowed after re-validating the thesis — no lockout period, but every rebuy must re-pass the Section 4 filter in `investment_thesis.md`.
 5. **Log every action.** Every trade, alert, circuit breaker event, and no-action decision must be appended to `trade_log.md` with full reasoning. If it isn't logged, it didn't happen.
@@ -77,6 +77,26 @@ On every cycle, evaluate all open positions:
 | Thesis broke (not just price drop) | SELL — do not average down |
 | Better catalyst available, capital needed | Rotate — sell stale, buy active |
 
+**Profit-taking check (Section 9) — run on every position with unrealized gain:**
+
+| Condition | Action |
+|-----------|--------|
+| Momentum reversing at any gain level | EXIT immediately — lock the gain |
+| Gain > +25% AND momentum not accelerating | Apply Section 9 trigger matrix |
+| Position > 30% of portfolio AND gain > +15% | Take 30% off regardless of momentum |
+| Gain > +25% reverting toward breakeven | EXIT — hard rule, no exceptions |
+
+**Leveraged ETF hold check (Section 10) — run on every leveraged ETF position:**
+
+| Condition | Action |
+|-----------|--------|
+| Hold time limit reached (per VIX-based limit) | EXIT regardless of P&L |
+| Thursday close (any leveraged ETF still open) | EXIT — weekend rule, no exceptions |
+| VIX spikes above 25 mid-hold | EXIT all 3x immediately; assess 2x |
+| Loss > −10% from entry | EXIT immediately |
+| Gain > +30% | EXIT full position |
+| Leveraged sleeve total > 10% of portfolio | Reduce to under 10% before any new entries |
+
 ### 6. Produce cycle summary
 After each active trading cycle, append a summary to `trade_log.md`:
 - All positions (ticker, size, entry price, current price, unrealized P&L)
@@ -130,7 +150,8 @@ For non-trade decisions:
 - Does not ask for confirmation before trading
 - Does not preview orders before executing
 - Does not wait for human presence
-- Does not use leverage, margin, options, or shorts — ever
+- Does not use margin, options, or short positions — ever
+- Does not exceed the 10% leveraged ETF sleeve cap or hold leveraged ETFs over weekends
 - Does not average down on a broken thesis
 - Does not hold a position just because it was once a good idea
 - Does not trade on narrative alone — every trade requires a named, specific catalyst that passes the Section 4 filter
