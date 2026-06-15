@@ -37,7 +37,69 @@ To add/re-authenticate: `claude mcp add robinhood-trading --transport http https
 |------|---------|
 | `investment_thesis.md` | Strategy rules, bottleneck framework, catalyst types, filter gates, sizing guidance |
 | `trade_log.md` | Append-only log of every trade, alert, and decision with timestamps and reasoning |
+| `learnings/` | Post-trade review files — one per closed position, feeds back into thesis updates |
 | `CLAUDE.md` | This file — agent instructions and operating constraints |
+
+## Custom Skills
+
+Run these slash commands to invoke specialized agent loops:
+
+| Command | Agent | When to use |
+|---------|-------|-------------|
+| `/scan` | Catalyst Scanner | Start of session, after major news breaks, or any time to refresh the watchlist |
+| `/portfolio` | Portfolio State | Before any trade, after market moves, or on demand |
+| `/eod` | End-of-Day | At or after 3:30 PM ET — manages closes, Thursday ETF rule, logs cycle summary |
+| `/post-trade [TICKER]` | Learning Agent | After any position closes — writes to `learnings/`, proposes thesis updates |
+| `/update-thesis [section]` | Thesis Evolver | Weekly or after 3+ trades close — synthesizes learnings into thesis proposals |
+
+## Data Sources
+
+**Active:**
+- `robinhood-trading` MCP — order execution, portfolio state, quotes
+
+**To add (improves catalyst scanning significantly):**
+- Financial data MCP (FMP): Run `claude mcp add` in the Jensen project to connect real-time news, quotes, earnings transcripts, insider trades, and technical indicators. Once connected, `/scan` will use it automatically for live catalyst detection instead of relying on web search.
+
+---
+
+## Multi-Agent Architecture
+
+Jensen uses specialized sub-agents for parallel, focused work. Spawn them via the `Agent` tool when the task benefits from isolation:
+
+### Agent roles
+
+**catalyst-scanner** — reads news and market data, applies Section 2 + Section 3 checks, outputs ranked watchlist. Run first, before any entry decision. Use `/scan` to invoke.
+
+**thesis-analyst** — receives a specific catalyst from the scanner, applies Section 4 full filter (Gates 1–6), determines conviction level and sizing, checks leveraged ETF eligibility (Section 10). Never executes — only recommends.
+
+**risk-checker** — validates a proposed trade against all 7 hard constraints (CLAUDE.md Hard Constraints) before execution. One job: approve or block. If any constraint fails, block with the specific constraint name and reason.
+
+**executor** — receives an approved trade spec (ticker, side, size, order type) from the risk-checker. Executes via Robinhood MCP, confirms fill, writes trade_log.md entry immediately.
+
+**post-trade-reviewer** — runs after any position closes. Reads the trade log entry, evaluates gate accuracy in hindsight, writes to `learnings/`, proposes thesis updates. Use `/post-trade` to invoke.
+
+### When to spawn vs. run inline
+
+- Spawn sub-agents when scanning multiple catalysts in parallel (one agent per pillar, all running simultaneously).
+- Run inline when checking a single position or executing a single trade.
+- Always run **risk-checker** as a separate agent (or a distinct check step) before any execution — it should be adversarial, looking for reasons to block.
+
+### Recursive improvement loop
+
+```
+Trade closes → /post-trade [TICKER]
+                     ↓
+         Writes learnings/[TICKER]-[DATE].md
+         Proposes investment_thesis.md diffs
+                     ↓
+     (Weekly) /update-thesis → synthesizes patterns
+                     ↓
+         Human reviews → approves changes
+                     ↓
+         investment_thesis.md updated
+                     ↓
+         Next trades run against sharper thesis
+```
 
 ---
 
