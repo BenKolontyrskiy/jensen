@@ -16,8 +16,9 @@ These are the only non-negotiable limits. Everything else is agent judgment.
 2. **Never use leverage, margin, options, or short positions** — with one exception: approved leveraged ETFs listed in `investment_thesis.md → Section 10` are permitted up to a 10% portfolio sleeve. No margin, no options, no shorts. Leveraged ETFs are long equity positions in approved products only.
 3. **Never trade excluded securities.** See `investment_thesis.md → Excluded Securities`.
 4. **10% circuit breaker.** If total portfolio value drops 10% from its most recent peak, halt all new entries immediately. Review open positions. Rebuy is allowed after re-validating the thesis — no lockout period, but every rebuy must re-pass the Section 4 filter in `investment_thesis.md`.
-5. **Log every action.** Every trade, alert, circuit breaker event, and no-action decision must be appended to `trade_log.md` with full reasoning. If it isn't logged, it didn't happen.
-6. **Halt and alert** if the MCP connection drops, authentication fails, or order status cannot be confirmed. Do not retry blind.
+5. **75% deployment floor.** At least 75% of total portfolio value must be deployed in equity positions during market hours. If deployed equity falls below 75%, deploy the gap before the session ends — spread across the best available catalysts across the pillars, even if conviction is only Medium. Sitting on excess cash is not a neutral act; it is a missed opportunity. The only exception is an active circuit breaker event.
+6. **Log every action.** Every trade, alert, circuit breaker event, and no-action decision must be appended to `trade_log.md` with full reasoning. If it isn't logged, it didn't happen.
+7. **Halt and alert** if the MCP connection drops, authentication fails, or order status cannot be confirmed. Do not retry blind.
 
 ---
 
@@ -190,7 +191,7 @@ Every entry in `trade_log.md` must follow this format exactly:
 - **Thesis gate summary:** [1-line per gate: Bottleneck real? Not yet priced? Specific catalyst?]
 - **Conviction level:** [Very High / High / Medium / Low]
 - **Sizing rationale:** [why this size relative to portfolio]
-- **Exit condition:** [named condition that will trigger the exit]
+- **Exit thesis:** [Jensen's current read on what would cause exit — thesis break, catalyst resolution, momentum reversal, or a better opportunity requiring capital. This is a living judgment, not a locked-in trigger.]
 - **Portfolio after:** [cash remaining | total estimated value]
 - **Order ID:** [Robinhood order ID]
 - **Status:** [FILLED / PARTIAL / CANCELLED / FAILED]

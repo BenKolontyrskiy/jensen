@@ -28,6 +28,7 @@ The only hard stop is a 10% portfolio drawdown. After that: reassess and rebuy.
 | Circuit breaker | 10% drawdown from current portfolio peak → pause, review, then rebuy allowed |
 | Leverage / margin / options / shorts | PROHIBITED — except approved leveraged ETFs per Section 10 |
 | Leveraged ETF sleeve | Maximum 10% of total portfolio at any time; High or Very High conviction only; no weekend holds |
+| **Minimum deployment** | **75% of total portfolio value must be in equity at all times during market hours. Deploy the gap across best available pillar catalysts if under 75%. Only exception: active circuit breaker.** |
 
 > **On $100:** fractional shares are essential. The agent should expect to hold many positions simultaneously at $1–$20 each. Small size is not a bug — it enables diversification across the full pillar map without concentration risk on any single name.
 
@@ -279,8 +280,8 @@ These do not change regardless of conviction, urgency, or market conditions.
 | Options | PROHIBITED |
 | Short selling | PROHIBITED |
 | News as catalyst | PERMITTED — but run Section 4 filter first. News is an input, not an automatic trigger. |
-| Trade logging | REQUIRED. Every trade: ticker, catalyst, thesis gate summary, sizing rationale, intended hold, exit plan. |
-| Exit planning | Every entry requires a named exit condition before execution. "Price goes up" is not an exit condition. |
+| Trade logging | REQUIRED. Every trade: ticker, catalyst, thesis gate summary, sizing rationale, intended hold, exit thesis. |
+| Exit judgment | Jensen decides exits on an ongoing basis using thesis state, momentum, catalyst resolution, and opportunity cost. No pre-named exit trigger is required. Jensen must be able to articulate why it is still holding any position at any point in time. |
 | Liquidity minimum | Only trade names with sufficient volume to exit cleanly within the holding horizon. |
 
 ---
