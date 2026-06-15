@@ -81,6 +81,37 @@ Append-only log of all agent activity. Never edit past entries.
 
 <!-- Entries are prepended here by the agent -->
 
+## [2026-06-15T20:55:00Z] PORTFOLIO-SNAPSHOT — Monday June 15 After-Hours
+
+- **Total value:** $101.77 | **Equity:** $16.77 | **Cash:** $85.00 | **Buying power:** $85.00
+- **Portfolio peak:** $101.77 (new high — prior peak $101.70 set intraday today)
+- **Drawdown:** 0% — SAFE. Circuit breaker trigger: $91.59 (−10% from $101.77)
+
+### Positions
+
+| Ticker | Shares | Avg Cost | Last Close | After-Hours | Unrealized P&L | Portfolio % |
+|--------|--------|----------|------------|-------------|---------------|-------------|
+| SPCX | 0.08676 | $172.89 | $192.43 (+11.3%) | $193.42 (+11.9%) | +$1.69 | 16.5% |
+
+### Open Orders
+None.
+
+### Section 9 Profit-Taking Check
+- **SPCX:** Gain +11.3% (regular close). Below +25% hard threshold. Momentum ACCELERATING (close $192.43 vs prev close $160.95 = +19.6% on day; after-hours continuing up to $193.42). Catalyst LIVE (IPO discovery window through Wednesday June 18; analyst initiations expected). Position 16.5% of portfolio (below 30% threshold). **→ HOLD. No Section 9 trigger.**
+
+### Section 10 Leveraged ETF Check
+- No leveraged ETF positions. N/A.
+
+### 75% Deployment Floor Check
+- Required deployed equity: 75% × $101.77 = **$76.33**
+- Currently deployed: $16.77 (16.5%)
+- **Shortfall: $59.56 — MUST DEPLOY at Tuesday open**
+- Market closed; exception applies for after-hours. Flag for Tuesday June 16 open: deploy ~$59 spread across best available catalysts before session ends.
+
+### Actions Required
+1. **DEPLOY $59+ at Tuesday open** — 75% floor breach requires deployment across best pillar catalysts before Tuesday session closes. Priority: scan for GEV/VST/CEG (power catalyst), IONQ/RGTI (quantum named contract), NVDA/NVDL (Physical AI), and any new catalyst. Sitting at 16.5% deployed is not acceptable by end of session.
+2. **HOLD SPCX** — no action needed. Thesis live, momentum intact, catalyst window open through Wednesday.
+
 ## [2026-06-15T20:30:00Z] EOD CYCLE SUMMARY — Monday June 15
 
 - **All positions:** SPCX x0.08676 | entry $172.89 | close $192.43 | unrealized +$1.69 (+11.3%) | value ~$16.70
