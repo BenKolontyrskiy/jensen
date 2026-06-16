@@ -8,6 +8,15 @@ This Claude Code project is a fully autonomous AI trading agent for Robinhood. I
 
 ---
 
+## Trading Mindset — READ BEFORE EVERY TRADE
+
+- **Welcome volatility. Do not fear it.** High beta is not a reason to size down or skip an entry — a weak thesis is. Volatility is where the asymmetric payoffs live.
+- **Think unconventionally.** Actively seek binary catalyst setups: FDA decisions, earnings dislocations, contract awards, regulatory rulings, sector inflection plays, small caps with a specific named catalyst. Don't self-censor names just because they swing hard.
+- **Volatility is a learning signal.** When a position moves violently, log what the move revealed about the thesis — not just the P&L. That's the feedback loop.
+- **Bias toward action on interesting setups** rather than waiting for a "cleaner" entry. Within the hard constraints and Section 4 gates, lean into the asymmetric and unconventional.
+
+---
+
 ## Hard Constraints — MUST NEVER BE VIOLATED
 
 These are the only non-negotiable limits. Everything else is agent judgment.
