@@ -81,6 +81,41 @@ Append-only log of all agent activity. Never edit past entries.
 
 <!-- Entries are prepended here by the agent -->
 
+## [2026-06-17T21:16:13Z] WATCHLIST — Catalyst Scan (Social Discovery + Pillar Sweep, Post-EOD)
+
+- **Reason:** Full /scan cycle run after EOD close. Step 0 social discovery via last30days (Reddit/HN/Polymarket — X/YouTube unconfigured) surfaced two names that passed Gates 1-3; full pillar sweep found no other fresh actionable catalysts beyond existing holdings.
+
+**WOLF (Wolfspeed) — Pillar 1 (grid hardware / SiC power semiconductors) — [social] [cross-platform convergence: predicted on Reddit, confirmed by news]**
+- Catalyst: GE Aerospace MOU (June 15) to co-develop high-voltage SiC power modules for AI/aerospace/defense; new Gen5 SiC MOSFETs (+27% efficiency vs. competing parts) and 3.3kV SiC modules targeting AI datacenters and grid-scale renewables; building dedicated AI-datacenter solutions team. Stock +13.8% June 16, +16.1% June 17 — momentum accelerating, not fading.
+- Thesis gate summary: Gate 1 ✓ (SiC power delivery is a real, underpriced layer of the AI-power bottleneck — adjacent to but distinct from the grid-hardware names already held); Gate 2 marginal (two days of a sizable run already; repricing may be substantially underway, but momentum still accelerating rather than exhausting); Gate 3 ✓ (named, dated GE MOU + product launches).
+- Social Signal: Early discovery → now Crowd-in. r/wallstreetbets DD post (May 30, pre-move) framed it as "the ex-meme that went bankrupt and now holds the key to AI's grid connection problem" — flagged the thesis 2+ weeks before the GE Aerospace news confirmed it.
+- Named bear case: company is burning cash, posting operating losses, carrying meaningful debt — a high-beta, balance-sheet-fragile name; this is a momentum/catalyst trade on the SiC narrative, not a balance-sheet thesis.
+- Conviction level: Medium-High (Gate 2 marginal caps it below Very High despite clean Gate 1/3).
+- Suggested size: $5-8 if entered (smaller given two-day run already, debt/cash-burn bear case, and not yet validated against today's live price action).
+- Next check: Confirm price hasn't round-tripped from today's highs at next cycle open; if momentum is still accelerating and above 5-day MA, eligible for entry next session.
+
+**VRDN (Viridian Therapeutics) — Wildcard / Biotech (Pillar 3 adjacent — binary FDA catalyst) — [social] [discovered via r/pennystocks penny-stock-catalyst-calendar post]**
+- Catalyst: PDUFA target action date for veligrotug (thyroid eye disease) BLA is June 30, 2026 (Priority Review) — a clean, dated, binary FDA decision 13 days out.
+- Thesis gate summary: Gate 1 ✓ (FDA approval catalyst — Section 3 Wildcard category explicitly permits this); Gate 2 ✓ (decision hasn't happened yet — genuinely not priced, repricing has not started); Gate 3 ✓ (named, dated PDUFA date, verifiable via SEC filings).
+- Social Signal: Early discovery. r/pennystocks "Upcoming penny stock catalysts for June/July 2026" post (June 15, 96pts/30cmt) — one commenter specifically called VRDN "the cleanest setup," citing the Phase 3 hits across both REVEAL trials plus cash runway into the PDUFA.
+- Named bear case: binary FDA outcome — a Complete Response Letter or rejection would reprice sharply downward; standard biotech-binary risk.
+- Conviction level: Low/speculative for now (13 days out, no position-specific price action checked yet) — graduates toward Medium/High as PDUFA date approaches if thesis holds.
+- Suggested size: $2-5 lottery-ticket size if entered now; reassess sizing up as June 30 approaches.
+- Next check: Re-verify PDUFA date hasn't shifted; check VRDN price/volume at next cycle open before any entry.
+
+- **Portfolio context:** No overlap with current holdings (ASTS, CEG, VST, GEV, FRMI) — both are net-new "add" candidates, not rotation decisions. Deployment floor was already met (76.97%) at today's EOD close; these are watchlist items for the next live cycle, not executed now (scan-only, no execution authority in this step).
+- **Next check:** Market Open cycle (June 18, 09:30 ET) — re-validate both names' price/volume/momentum before any entry; full filter must re-pass at time of execution.
+
+## [2026-06-17T21:16:13Z] NO-ACTION — Pillar Scan: Discoveries Rejected / No Fresh Catalyst
+
+- **Castellum (CTM)** — Navy $250M IDIQ joint-venture contract win (June 15) already fired and fully priced: stock +51% premarket / +23% same day two sessions ago. Gate 2 fails — crowd is already in, repricing complete. Thesis gate that failed: Gate 2 (not yet priced). Next check: only re-enter on a fresh, distinct catalyst (e.g., a specific task-order award under the IDIQ).
+- **OKLO** — Reddit thread ("Why does $OKLO keep dipping even with all the AI + nuclear hype?") is sentiment/price-action commentary, not a new catalyst. No dated, specific event found today. Thesis gate that failed: Gate 3 (specific catalyst). Next check: watch for an OKLO-specific SMR permit, DOE deal, or hyperscaler PPA announcement.
+- **SEALSQ (LAES) / WISeKey (WKEY)** — developing a "Quantum Spatial Orbital Cloud" PQC platform with a hardware payload slated for a 2026 SpaceX launch (per Quantum Insider). Real Pillar 3 bottleneck (post-quantum crypto) but no specific launch date found — timing too vague to clear Gate 3 cleanly. Thesis gate that failed: Gate 3 (marginal — no date). Next check: watch for a firm launch date or contract announcement; flagging as a name to track, not yet actionable.
+- **Pillar 1 (Power/Grid):** Amazon/Talen Susquehanna nuclear expansion (June 11) and Meta's nuclear deals (January) are both >5 days to >5 months stale relative to today — already priced. No fresh dated Pillar 1 catalyst today beyond WOLF (above). Existing holdings (CEG, VST, GEV) — no new thesis-relevant news found beyond yesterday's EOD review; hold thesis unchanged.
+- **Pillar 2 (Physical AI/Robotics):** Heavy news flow today (Foxconn European humanoid debut at VivaTech with NVIDIA/Bull; Figure AI's BotQ hitting 1 robot/hour; Boston Dynamics Atlas units shipping to Hyundai/DeepMind) — all real and exciting, but the named entities (Foxconn, Figure AI, Boston Dynamics) are not Robinhood-tradable tickers, and NVDA's role is ecosystem-partner news rather than an NVDA-specific dated catalyst. Gate 3 fails for a direct trade. NVDL remains on watch, still no NVDA-specific fire (now 7th consecutive session).
+- **Pillar 4 (Space):** SpaceX market-cap/share-allocation news is not tradeable (private company; underlying retail chatter, not a catalyst). Rocket Lab's $816M Space Force contract and the SDA's $3.5B award are from December 2025/late May — stale relative to today. Tonight's Rocket Lab Electron/StriX launch (Synspective payload) is routine, not a binary catalyst. No fresh Pillar 4 name found today; ASTS (held) unaffected.
+- **Reason (overall):** /scan run after EOD close per operator request — output is a watchlist for the next live cycle, not an execution. No trades placed.
+
 ## [2026-06-17T19:36:06Z] EOD CYCLE SUMMARY — Wednesday June 17 2026 (~3:36 PM ET, ~24 min to close)
 
 - **All open positions:**
