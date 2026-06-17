@@ -81,6 +81,60 @@ Append-only log of all agent activity. Never edit past entries.
 
 <!-- Entries are prepended here by the agent -->
 
+## [2026-06-17T19:36:06Z] EOD CYCLE SUMMARY — Wednesday June 17 2026 (~3:36 PM ET, ~24 min to close)
+
+- **All open positions:**
+
+| Ticker | Shares | Avg Cost | Current Price | Est. Value | Unrealized P&L | Portfolio % |
+|--------|--------|----------|---------------|-----------|---------------|-------------|
+| ASTS | 0.412518 | $84.84 | $87.08 | ~$35.92 | +$0.92 (+2.64%) | ~34.8% |
+| CEG | 0.061031 | $270.35 | $265.47 | ~$16.20 | −$0.30 (−1.81%) | ~15.7% |
+| VST | 0.075963 | $157.97 | $158.41 | ~$12.03 | +$0.03 (+0.28%) | ~11.7% |
+| GEV | 0.010009 | $999.10 | $1,046.70 | ~$10.48 | +$0.48 (+4.77%) | ~10.2% |
+| FRMI | 0.561804 | $8.90 | $8.5117 | ~$4.78 | −$0.22 (−4.36%) | ~4.6% |
+
+- **Positions closed today (full session):** SPCX — sold full remaining position 0.065070 sh @ $195.7001 (mid-day cycle), realized +$1.49 (+13.2%) on the lot, mental-stop breach. IONQ — sold full position 0.084322 sh @ $57.7466 (yesterday, carried no action today).
+- **Cash remaining:** $23.78 | **Buying power:** $11.05
+- **Total portfolio value:** $103.22
+- **Portfolio peak:** $103.93 (set Tuesday June 16, 9:59 AM ET) | **Drawdown from peak:** −0.68% | **Circuit breaker trigger:** $93.54 | **Status: INACTIVE**
+- **Deployment:** $79.44 / $103.22 = **76.97% — floor met** (75% required; +1.97% buffer). No forced deployment this cycle.
+- **VIX:** ~16.1–16.4 (well under 20). No leveraged ETF positions held — Section 10 and Thursday weekend rule both N/A (today is Wednesday, and sleeve is at 0%).
+- **Trades executed this cycle:** 0 — no new entries, no exits. All five positions held into the close.
+- **Thursday leveraged ETF rule:** N/A — today is Wednesday, and no leveraged ETF positions exist in the portfolio.
+
+---
+
+### Position Management Decisions — EOD
+
+**ASTS — HOLD (concentration watch, no override triggered)**
+BlueBird 8, 9, and 10 launch CONFIRMED successful — all three satellites deployed to LEO via Falcon 9 (Spaceflight Now live coverage), consistent with the orbital-deployment confirmation already logged mid-day. Stock continued climbing into the close: $82.92 (yesterday EOD) → $84.59 (today's open) → $85.755 (midday) → $87.08 (now), +5.87% on the day as the launch-success narrative builds. Gain vs. blended cost +2.64% — well below the +15% threshold (~$97.58) that would force a 30%-off trim under the Section 9 concentration override (position is 34.8% of portfolio, >30% band). No checkout anomaly reported. Holding through the satellite checkout window (1–3 days) per original exit thesis is intentional, not a deferred decision. Carrying this concentration overnight is accepted risk consistent with the binary-catalyst setup, not a new exposure. Exit triggers unchanged: any checkout fault → EXIT immediately; gain reaches +15% → take 30% off regardless of momentum; stale 3 days post-launch with no new milestone → EXIT.
+
+**CEG — HOLD (noise dip, no thesis break)**
+Round-tripped intraday: $266.76 (open) → $271.80 (midday) → $265.47 (now), now down −1.81% vs. $270.35 blended cost and −0.94% on the day. No fresh named catalyst found today; FOMC (yesterday) already absorbed as neutral. Nuclear PPA thesis (Microsoft TMI + Meta + CyrusOne) unchanged and not contradicted by today's pullback — this reads as profit-taking on the post-FOMC utility rally, not a thesis break. Section 9 doesn't apply (position is at a loss, not a gain). Position is now 15.7% of portfolio (crossed into the 15–30% override band on a dollar basis), but the override only triggers on a +20% gain, which is far from current state. Hold.
+
+**VST — HOLD**
+$158.41, essentially flat (+0.28% vs. cost, −0.13% on the day). No fresh catalyst, no thesis break. Hold.
+
+**GEV — HOLD (no Section 9 trigger despite a strong day)**
+Largest mover of the five non-FRMI names: $982.35 (yesterday close) → $1,046.70 (now), +6.55% on the day, accelerating through the session ($1,001.75 open → $1,033.00 midday → $1,046.70 now). Checked for a specific dated catalyst: found only a Jefferies price-target cut to $1,210 from $1,350 (still Buy-rated, target still ~16% above current price) and a routine $0.50 dividend ex-date (June 16, already stale) — neither is today's driver; this looks like continued structural strength/sector momentum on the existing $163B-backlog grid-hardware thesis rather than a fresh Gate-3 event. Gain vs. cost +4.77%, well under the +15% Section 9 threshold; position is 10.2% of portfolio (5–15% band, standard matrix, no forced partial). Catalyst state: Live (ongoing backlog monetization). Momentum: Accelerating. No reversal signal. Hold — no profit-taking action required at this gain level.
+
+**FRMI — HOLD (thesis still live, new info noted)**
+Checked the OpenAI/Project Matador story for an update: no confirmation or denial of the OpenAI capacity talks has landed. New development found — FRMI has filed a preliminary Consent Revocation Statement with the SEC opposing former CEO Toby Neugebauer's push to call a special meeting, retake the board, and potentially force a rapid sale of the company; management is citing the "Fermi 2.0" strategy and Project Matador (~$1B financing commitments, $1.4B infrastructure) as reasons to resist. This is a new, named, dated event layered on the existing speculative thesis — it doesn't resolve the original OpenAI-capacity catalyst either way, and a forced-sale outcome could be bullish (value realization) or destabilizing depending on how it plays out, so it doesn't change the gate read cleanly in either direction. Price is $8.5117 vs. $8.8999 entry (today, mid-day) = −4.36%, even though FRMI is still up on the day vs. yesterday's $7.88 close — we bought into a local high this morning. Original named bear case (hyperscaler-interest claims not converting, active securities litigation from the prior cancelled anchor-tenant deal) remains the live risk. Not stale (same-day entry). No denial/reversion to pre-news levels (~$7.20s) triggered. Hold the lottery-ticket position; do not add. Exit thesis unchanged: confirmed signed OpenAI capacity deal → reassess sizing up; reports denied or reverts to ~$7.20s → EXIT; stale 2–3 days with no resolution on either the OpenAI talks or the governance fight → EXIT and redeploy.
+
+---
+
+### Pre-Market Checklist — Thursday June 18
+
+1. **SPCX IPO discovery window closes today (June 18)** — already exited; no position, no action, but worth noting the original catalyst window that justified the earlier entry/exit cycle is now fully closed.
+2. **ASTS satellite checkout** — Day 1 of the 1–3 day checkout window. Watch for any anomaly report (EXIT immediately) or for gain crossing +15% (~$97.58) which forces a 30%-off trim under the concentration override. Concentration (currently ~35% of portfolio) is the single biggest risk-management item heading into tomorrow.
+3. **FRMI governance fight** — watch for SEC/proxy developments (record date, special meeting outcome) and any confirmation/denial of OpenAI Project Matador capacity talks. Either resolving cleanly would clarify Gates 2/3.
+4. **GEV** — no fresh named catalyst today; the +6.5% day was sector/structural strength. Watch for next earnings (late July) or a new datacenter order announcement before adding further; current position size is appropriate as-is.
+5. **CEG/VST** — re-scan for new PPA or rate-case news; today's CEG pullback is read as noise, not a break, but recheck momentum at tomorrow's open.
+6. **Leveraged ETF sleeve** — 0% used, full ~$10.32 sleeve available. **Thursday rule will apply tomorrow (June 18 is a Thursday)** — if any leveraged ETF entry is taken intraday Thursday, it must be exited before Thursday's close regardless of P&L. Currently N/A since no leveraged position exists, but flag this explicitly for the next cycle since tomorrow IS a Thursday.
+7. **Deployment floor** — currently 76.97%, +1.97% buffer. Re-check at open; if any exit drops it below 75%, redeploy the gap same-day.
+
+---
+
 ## [2026-06-17T17:07:34Z] CYCLE SUMMARY — Wednesday June 17 2026 (Mid-Day Cycle, ~1:07 PM ET)
 
 - **All positions after cycle:**
