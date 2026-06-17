@@ -66,6 +66,7 @@ Run these slash commands to invoke specialized agent loops:
 
 **Active:**
 - `robinhood-trading` MCP — order execution, portfolio state, quotes
+- `last30days` skill — social discovery and sentiment validation; used in `/scan` Step 0 (Reddit/X chatter-based stock discovery) and Step 4.5 (Gate 2 buzz calibration and Polymarket odds)
 
 **To add (improves catalyst scanning significantly):**
 - Financial data MCP (FMP): Run `claude mcp add` in the Jensen project to connect real-time news, quotes, earnings transcripts, insider trades, and technical indicators. Once connected, `/scan` will use it automatically for live catalyst detection instead of relying on web search.
