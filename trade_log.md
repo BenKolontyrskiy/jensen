@@ -4,6 +4,69 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-06-18T19:40:00Z] EOD CYCLE SUMMARY — Thursday June 18 2026 (~3:40 PM ET, ~20 min to close)
+
+- **All open positions after cycle:**
+
+| Ticker | Shares | Avg Cost | Current Price | Est. Value | Unrealized P&L | Portfolio % |
+|--------|--------|----------|---------------|-----------|---------------|-------------|
+| CEG | 0.080862 | $272.07 | $274.65 | ~$22.21 | +$0.21 (+0.95%) | ~21.9% |
+| VST | 0.106052 | $160.30 | $163.535 | ~$17.34 | +$0.34 (+2.02%) | ~17.1% |
+| GEV | 0.010009 | $999.10 | $1,103.76 | ~$11.05 | +$1.05 (+10.47%) | ~10.9% |
+| INTC | 0.074707 | $133.86 | $133.815 | ~$10.00 | −$0.00 (−0.03%) | ~9.85% |
+| VRDN | 0.176264 | $17.02 | $16.665 | ~$2.94 | −$0.06 (−2.09%) | ~2.89% |
+
+- **Closed today (full session):** ASTS — sold mid-day, full position 0.412518 sh @ $78.4801, avg cost $84.84, realized −$2.62 (−7.5%), catalyst-resolved exit. FRMI — sold this cycle, full position 0.561804 sh @ $9.2132, avg cost $8.90, realized +$0.18 (+3.52%), Section 9 momentum-reversal exit (detail below).
+- **Trades executed this cycle:** 1 — FRMI SELL (full, $5.18)
+- **Cash remaining:** $37.83 | **Buying power:** $0.28 (remainder is unsettled T+1 proceeds — ASTS mid-day sale + FRMI sale just executed)
+- **Total portfolio value:** ~$101.50
+- **Portfolio peak:** $103.93 (set Tuesday June 16, 9:59 AM ET) | **Drawdown from peak:** −2.34% | **Circuit breaker trigger:** $93.54 | **Status: INACTIVE**
+- **Deployment:** ~$63.67 / ~$101.50 = **62.7% — BELOW the 75% floor** (shortfall ~$12.45). Cause: the FRMI exit (Section 9 hard rule, see below) removed equity exposure on top of the already-below-floor state from this morning's ASTS exit, and buying power is $0.28 — essentially all $37.83 of cash is unsettled T+1 proceeds. **This is a hard buying-power constraint, not a discretionary gap** — CLAUDE.md Hard Constraint 1 (never exceed available buying power) overrides Hard Constraint 5 (75% floor) when the two conflict; there is no executable way to deploy $12+ with $0.28 of settled cash in the 20 minutes remaining before close. Flagging as the top pre-market priority for Friday — deploy aggressively across pillar catalysts the moment settled buying power updates.
+- **Leveraged ETF sleeve:** 0% used — no leveraged ETF positions held. **Thursday weekend rule: N/A** (nothing to exit).
+- **VIX:** Not re-checked this cycle (no leveraged exposure to gate). Will pull at next leveraged-ETF entry consideration.
+- **Watchlist candidates identified but not acted on:** None — no new pillar scan run this cycle given the binding buying-power constraint; full four-pillar scan deferred to Friday open when capital is actually deployable.
+
+---
+
+### Position Management Decisions — EOD
+
+**FRMI — SOLD full position (Section 9 momentum-reversal hard rule)**
+Confirmed via search: the OpenAI/Project Matador capacity story is still exactly where it was at this morning's cycle — JMP Citizens analyst commentary describing OpenAI as one of multiple parties "evaluating" capacity, no signed lease, and Fermi's own Q1 filing explicitly states no tenant agreements exist. No new confirmed information today despite a large price move. Intraday action: opened ~$8.10, spiked to a $10.14 high on continued speculative OpenAI/Nvidia-datacenter chatter (now the 7th+ consecutive session of pure buzz with zero confirmation), then gave back the majority of that move to $9.155–$9.213 by the time of this check — a classic blow-off-top reversal on stale, unconfirmed news, not a fresh catalyst leg. Per Section 9: "Momentum reversing at any gain level → EXIT immediately — lock the gain, redeploy later." This hard rule overrides the gain-size trigger matrix; the position's modest +2.87–3.52% gain vs. blended cost was almost secondary to the reversal signal itself. Named bear case unchanged and still live (prior cancelled anchor-tenant deal, active securities litigation) — another reason not to hold through a no-confirmation reversal. Exiting locks a small gain instead of risking a slide back toward or through breakeven on a name with no new information to justify holding through the pullback.
+- **Gain % at exit:** +3.52% ($8.90 avg cost → $9.2132 fill)
+- **Momentum state:** Reversing — intraday round-trip from $10.14 high back to ~$9.21, no new news to support the spike or explain the giveback
+- **Catalyst state:** Live but unconfirmed (unchanged from entry — still "evaluating," no signed deal, no new information this session)
+- **Exit type:** Full
+- **Order ID:** 6a344898-ff7b-413c-8857-ba6bb4c06b10 | **Status:** FILLED at $9.2132
+
+**GEV — HOLD, Section 9 watch zone tightening further**
+$1,103.76, +10.47% vs. cost — continued acceleration (was +10.11% at mid-day, +9.33% at this morning's open — third consecutive cycle of acceleration). Confirmed the guidance-raise thesis remains the driver: no fresh single dated catalyst found today beyond continued digestion of the 2026 revenue guidance raise ($44.5–45.5B) and the $163B backlog / 29 GW gas turbine backlog. Momentum: Accelerating, not reversing — no checklist signal (no lower highs, no volume dry-up, no sector rollover) triggered. Position is 10.9% of portfolio (5–15% band, standard matrix). Still under the +15% Section 9 threshold (~$1,148.97 from blended cost), but this is now the third straight cycle flagged as the closest holding to that line. Hard instruction for Friday: if it crosses +15% pre-market or at open, take 30% off immediately per the position-size override regardless of momentum — do not wait for a fourth check.
+
+**CEG — HOLD**
+$274.65, up +2.83% on the day, +0.95% vs. blended cost. Continued nuclear PPA thesis strength (Microsoft TMI + Meta + CyrusOne) amid a broad market recovery off yesterday's hawkish-FOMC selloff. No fresh single named catalyst today beyond ongoing sector strength and the post-Fed relief rally. No thesis break, gain far under Section 9 thresholds. Hold into the close.
+
+**VST — HOLD**
+$163.535, up +2.97% on the day, +2.02% vs. blended cost. Same Meta/Vistra 2,600 MW nuclear PPA thesis, riding the same post-Fed relief rally as CEG. No fresh catalyst today, no thesis break. Hold into the close.
+
+**INTC — HOLD, deal still informally sourced**
+$133.815, essentially flat vs. $133.86 entry (−0.03%) — confirms no fresh repricing leg happened today on top of yesterday's pop. Searched for an update: multiple outlets ran "Trump confirms Apple-Intel chip deal" headlines today, but this is still Trump restating the same Truth Social claim from yesterday — neither Apple nor Intel has issued a joint corporate press release confirming deal terms. Reporting suggests the scope (if real) is limited to older/lower-end chips (iPad Pro, MacBook Air), not flagship silicon. Gate read unchanged: still single-source/presidential-statement risk, not a confirmed joint announcement. Flat price action today is itself informative — the move is not re-rating further on today's restatement, consistent with the market already having priced the headline risk in yesterday. Not yet stale (2nd session, within the "1–2 sessions of silence" exit window). Exit triggers unchanged: official joint confirmation → reassess sizing up; denial or 2–3 sessions of continued silence → EXIT; reversion toward pre-announcement ~$121 → EXIT.
+
+**VRDN — HOLD**
+$16.665, −2.09% vs. cost, roughly flat on the day. No new information on the June 30 PDUFA date (12 days out, unchanged). Small day-to-day noise on a 12-day-out binary catalyst doesn't move the thesis. Hold the lottery-ticket position; do not add.
+
+---
+
+### Pre-Market Checklist — Friday June 19
+
+1. **Settlement / deployment floor (top priority):** ~$37.55 of unsettled T+1 proceeds (ASTS + FRMI) should clear overnight. The moment settled buying power updates, deploy aggressively across the best available pillar catalysts to close the ~$12.45 shortfall (deployment was 62.7% at Thursday close) — this is a carry-over obligation from today's binding buying-power constraint, not a fresh discretionary decision.
+2. **GEV** — now +10.47% and accelerating for the third straight cycle, closest position to the +15% Section 9 threshold. Check first thing at open; if crossed, take 30% off immediately regardless of momentum.
+3. **INTC** — watch for an actual joint Apple/Intel press release or a denial. Today was the 2nd session of restated-but-unconfirmed headlines with no further repricing. If a 3rd session passes with no formal confirmation, treat as stale and exit.
+4. **VRDN** — PDUFA June 30, now 12 days out. No change expected; recheck for any early signal.
+5. **CEG/VST** — both up on today's broad post-FOMC relief rally; recheck momentum and scan for a fresh PPA/rate-case catalyst at Friday's open.
+6. **Full four-pillar scan at open** — with a larger-than-usual cash position becoming available on settlement, this is also an opportunity to evaluate fresh, higher-conviction names rather than just topping up existing holdings.
+7. **Leveraged ETF sleeve** — 0% used, no positions held, Thursday weekend rule satisfied trivially. Full ~10% sleeve available Friday for any High+ conviction directional catalyst with VIX confirmed under threshold.
+
+---
+
 ## [2026-06-18T17:10:00Z] CYCLE SUMMARY — Thursday June 18 2026 (Mid-Day Cycle, ~1:10 PM ET)
 
 - **All open positions after cycle:**
