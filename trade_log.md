@@ -4,6 +4,74 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-06-18T13:45:00Z] CYCLE SUMMARY — Thursday June 18 2026 (Market Open Cycle, ~9:45 AM ET)
+
+- **All open positions:**
+
+| Ticker | Shares | Avg Cost | Current Price | Est. Value | Unrealized P&L | Portfolio % |
+|--------|--------|----------|---------------|-----------|---------------|-------------|
+| ASTS | 0.412518 | $84.84 | $81.63 | ~$33.68 | −$1.32 (−3.78%) | ~32.9% |
+| CEG | 0.061031 | $270.35 | $272.13 | ~$16.61 | +$0.11 (+0.66%) | ~16.2% |
+| VST | 0.075963 | $157.97 | $162.745 | ~$12.36 | +$0.36 (+3.02%) | ~12.1% |
+| GEV | 0.010009 | $999.10 | $1092.36 | ~$10.93 | +$0.93 (+9.33%) | ~10.7% |
+| FRMI | 0.561804 | $8.90 | $9.32 | ~$5.24 | +$0.24 (+4.72%) | ~5.1% |
+| INTC | 0.074707 | $133.86 | $132.89 | ~$9.93 | −$0.07 (−0.72%) | ~9.7% |
+| VRDN | 0.176264 | $17.02 | $16.935 | ~$2.99 | −$0.01 (−0.50%) | ~2.9% |
+
+- **Trades executed this cycle:** 2 — INTC BUY (new, $10.00) | VRDN BUY (new, $3.00)
+- **Cash remaining:** $10.78 | **Buying power:** $10.78
+- **Total portfolio value:** ~$102.52
+- **Portfolio peak:** $103.93 (set Tuesday June 16, 9:59 AM ET) | **Drawdown from peak:** −1.36% | **Circuit breaker trigger:** $93.54 | **Status: INACTIVE**
+- **Deployment:** ~$91.74 / ~$102.52 = **89.5% — floor well exceeded** (75% required; was already 76.97% pre-cycle, no forced deployment needed; two new positions added on a genuine fresh catalyst, not a floor-driven add)
+- **VIX:** ~16.2–17.2 at open (< 20). 3x ETFs eligible (max 3-day hold), 2x ETFs eligible (max 5-day hold). No leveraged ETF positions held — sleeve 0% used, full ~$10.25 available. Thursday weekend rule N/A (no leveraged positions).
+- **Watchlist candidates identified but not acted on:** WOLF (Wolfspeed) — see NO-ACTION below, Gate 2 now fails after 3-day +30%+ run plus a fresh 24M-share dilution filing.
+
+---
+
+### Position Management Decisions — Market Open
+
+**ASTS — HOLD.** Down −3.78% vs. blended cost ($84.84 → $81.63), continuing the "sell the news" unwind that began yesterday after BlueBird 8/9/10's successful launch and orbital deployment. No anomaly reported in the satellite checkout window (now day 2 of 1–3). Thesis not broken — binary launch catalyst already resolved positively; this is profit-taking on a fully-priced event, not a new bear catalyst. Section 9 not triggered (position at a loss). Concentration still elevated (~32.9% of portfolio) but override only activates on a +15% gain, which is far from current state. Exit triggers unchanged: any checkout anomaly → EXIT immediately; stale 3 days post-launch with no new milestone → EXIT and redeploy.
+
+**GEV — HOLD, approaching Section 9 watch zone.** $1092.36, +9.33% vs. cost — no fresh dated catalyst found today, continuing yesterday's Bernstein Outperform initiation ($1,206 PT) and the structural $163B-backlog grid-hardware thesis. Momentum: accelerating (third straight strong session). Position is 10.7% of portfolio (5–15% band, standard matrix — no forced partial yet, but flagging: at +9.33% this is the closest of any holding to the +15% Section 9 threshold; re-check at next cycle).
+
+**CEG / VST — HOLD.** Both up modestly (+0.66%, +3.02%) on continued sector strength; no fresh single named catalyst today found for either beyond the ongoing nuclear/gas PPA theses already priced into the position. No thesis break. Hold.
+
+**FRMI — HOLD.** +4.72% vs. cost, up again today (+7.6% on the day) on continued OpenAI Project Matador buzz — still reported/speculative, no signed deal confirmed. Original named bear case (hyperscaler-interest claims not converting historically, active securities litigation) unchanged. Exit thesis unchanged: confirmed signed capacity deal → reassess sizing up; denial or reversion toward ~$7.20s → EXIT; stale with no resolution → EXIT and redeploy.
+
+---
+
+## [2026-06-18T13:36:30Z] BUY VRDN x0.176264 @ $17.0199 | $3.00
+
+- **Catalyst:** Viridian Therapeutics PDUFA target action date for veligrotug (thyroid eye disease BLA, Priority Review) is June 30, 2026 — 12 days out. Carried over from the June 17 EOD watchlist scan; re-validated today before entry.
+- **Thesis gate summary:** Gate 1 ✓ (binary FDA approval catalyst — Section 3 Wildcard category explicitly permits this); Gate 2 ✓ (decision has not happened yet; genuinely not priced, no repricing underway); Gate 3 ✓ (named, dated, verifiable PDUFA date via SEC filings — date unchanged from yesterday's scan).
+- **Conviction level:** Low / lottery-ticket
+- **Sizing rationale:** $3 (~2.9% of portfolio). 12 days out from a binary, dated FDA decision with positive Phase 3 (REVEAL trials) data already in hand. Named bear case: a Complete Response Letter or rejection reprices sharply downward — standard binary biotech risk, sized as a bounded-loss lottery ticket accordingly.
+- **Exit thesis:** As PDUFA date (June 30) approaches with no negative signal, reassess sizing up toward Medium/High. Any negative FDA signal, advisory committee scheduling that suggests delay, or unfavorable competitor readout → EXIT. Stale with no new information for 5+ days → hold through to the binary date regardless, since lottery-ticket sizing already prices in the binary risk.
+- **Order ID:** 6a33f45e-0f9f-4ddd-a3e5-acde7130fbf3
+- **Status:** FILLED at $17.0199
+
+---
+
+## [2026-06-18T13:36:29Z] BUY INTC x0.074707 @ $133.8561 | $10.00
+
+- **Catalyst:** President Trump posted on Truth Social this morning (June 18) that Apple has agreed to work with Intel to design and build chips in the US — a direct follow-through on the US government's existing 10% equity stake in Intel (taken earlier in 2026) and the broader domestic semiconductor-manufacturing reshoring push. Stock opened the session up ~11% premarket/at-open ($121.10 close → ~$134 at entry).
+- **Thesis gate summary:** Gate 1 ✓ (domestic advanced-chip manufacturing capacity is a real, named structural bottleneck — US foundry self-reliance, not a theme); Gate 2 marginal (a large repricing leg has already happened intraday — entered near the top of the morning's move, not at the start of it — but the announcement is unconfirmed by either named company as of entry, leaving room for a second leg up on formal confirmation/analyst reaction through the day, or a reversal if walked back); Gate 3 marginal (specific, named, dated — Apple + Intel, June 18 — but sourced from a presidential social-media post, not a joint company press release; official confirmation is pending).
+- **Conviction level:** Medium-High
+- **Sizing rationale:** $10 (~9.7% of portfolio). Sized meaningfully given the real structural bottleneck and the magnitude of the move, but moderated (not High/Very High sizing) specifically because neither Apple nor Intel has confirmed the deal yet — this is headline risk on a single unconfirmed source, the same risk pattern that capped FRMI's OpenAI-buzz sizing at Low conviction, except here the move has already partially priced and the source (a sitting president, with the government holding equity in one of the two companies) carries more weight than an analyst rumor.
+- **Exit thesis:** Apple/Intel issue a joint confirmation with deal specifics → reassess sizing up (would clear Gate 2/3 cleanly). Either company denies, downplays, or stays silent for 1–2 sessions → EXIT, thesis was headline-only. Stock reverts back toward the pre-announcement $121 level → EXIT, repricing failed. Stale 2–3 days with no confirmation → EXIT and redeploy.
+- **Order ID:** 6a33f45d-896c-4a77-ae7d-5e5d523d448b
+- **Status:** FILLED at $133.8561
+
+---
+
+## [2026-06-18T13:30:00Z] NO-ACTION — WOLF (Wolfspeed): Gate 2 Now Fails
+
+- **Reason:** Carried over from the June 17 EOD watchlist (logged as Medium-High, Gate 2 already marginal at that time). Re-checked at today's open: WOLF is now up three consecutive sessions (+13.8% June 16, +11.57% June 17, +1.3% at today's open) on the same GE Aerospace SiC MOU first reported June 15 — no new dated catalyst layer today. A 24-million-share sale filing was also found, a fresh dilution risk not present in yesterday's read. Average analyst 12-month price target ($40) now sits well below the current price (~$49), and the only rating on record is Neutral/Sell, not Buy — consistent with a name the market has already substantially repriced, not one still catching up.
+- **Thesis gate that failed:** Gate 2 (not yet priced) — three-day cumulative run plus analyst targets below spot indicate the repricing is complete or overdone, not still underway.
+- **Next check:** Only re-enter on a fresh, distinct catalyst (a signed supply agreement, an earnings beat with new backlog detail, or a specific new design win) — not a continuation of the June 15 MOU.
+
+---
+
 ## [2026-06-14T16:00:00Z] WATCHLIST / PRE-MARKET PLAN — Monday June 16 Open
 
 - **Reason:** Saturday pre-market planning cycle. No trades executed. Market closed. $100 cash, no positions, no open orders. Circuit breaker peak set at $100.00 (initial capital).
