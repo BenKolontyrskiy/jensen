@@ -661,7 +661,7 @@ None.
 - **Circuit breaker status:** INACTIVE — trigger at $93.35 (−10% from $103.72)
 - **VIX at cycle:** 16.02 (< 20 — 3x ETFs eligible max 3-day hold; 2x ETFs max 5-day hold)
 - **Deployment status:** 13.5% — CRITICAL FLOOR BREACH. 75% floor requires $77.79 deployed. Currently ~$14.04. Shortfall: ~$63.75. Cannot deploy until investor profile completed.
-- **Blocking issue:** Robinhood investor profile not completed for agentic account 990344046. All buy orders rejected. Complete at: https://applink.robinhood.com/investment_profile?account_number=990344046&context=second_trade
+- **Blocking issue:** Robinhood investor profile not completed for agentic account [REDACTED]. All buy orders rejected. Complete at: https://applink.robinhood.com/investment_profile?account_number=[REDACTED]&context=second_trade
 - **Pending watchlist (execute immediately on unblock):** ASTS $25 | CEG $13 | VST $12 | GEV $10 | IONQ $5
 - **Pre-market checklist for Wednesday June 17:**
   1. Complete investor profile — execute all 5 pending buys immediately
@@ -673,7 +673,7 @@ None.
 
 ---
 
-## [2026-06-16T13:47:49Z] ALERT — BUY ORDERS BLOCKED: Investor Profile Required (Account 990344046)
+## [2026-06-16T13:47:49Z] ALERT — BUY ORDERS BLOCKED: Investor Profile Required (Account [REDACTED])
 
 - **Reason:** Robinhood requires investor profile completion before placing any buy orders beyond the first trade on a new agentic account. All 5 planned buy orders were rejected with error: "We're required to have you answer some questions about your investing goals before we can allow you to continue using Robinhood."
 - **Attempted orders (all BLOCKED):**
@@ -682,7 +682,7 @@ None.
   - VST — $12 buy — BLOCKED
   - GEV — $10 buy — BLOCKED
   - IONQ — $5 buy — BLOCKED
-- **Action required:** Complete investor profile at https://applink.robinhood.com/investment_profile?account_number=990344046&context=second_trade
+- **Action required:** Complete investor profile at https://applink.robinhood.com/investment_profile?account_number=[REDACTED]&context=second_trade
 - **Impact:** Portfolio deployment at ~13.5%, far below the 75% floor (shortfall ~$63.75). All intended buys are filter-gate-approved and previewed clean — ready to execute the instant the profile is completed.
 - **Per CLAUDE.md constraint #7:** HALT all new buy entries until blockage resolved. SPCX partial sell was already submitted and filled before the blockage was discovered.
 
