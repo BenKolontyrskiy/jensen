@@ -4,6 +4,121 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-06-22T14:08:00Z] CYCLE SUMMARY — Monday June 22 2026 (Market Open Cycle, ~10:08 AM ET)
+
+- **All open positions after cycle:**
+
+| Ticker | Shares | Avg Cost | Current Price | Est. Value | Unrealized P&L | Portfolio % |
+|--------|--------|----------|---------------|-----------|---------------|-------------|
+| CEG | 0.086262 | $272.43 | $277.84 | ~$23.96 | +$0.46 (+1.97%) | ~23.3% |
+| VST | 0.118137 | $160.83 | $165.10 | ~$19.50 | +$0.50 (+2.65%) | ~19.0% |
+| GEV | 0.010009 | $999.10 | $1,136.01 | ~$11.37 | +$1.37 (+13.70%) | ~11.1% |
+| INTC | 0.110155 | $136.17 | $141.21 | ~$15.55 | +$0.56 (+3.72%) | ~15.1% |
+| VRDN | 0.292882 | $17.07 | $17.15 | ~$5.02 | +$0.02 (+0.42%) | ~4.9% |
+| MDA | 0.097775 | $40.91 | $40.895 | ~$4.00 | −$0.00 (−0.02%) | ~3.9% |
+
+- **Closed today:** None.
+- **Trades executed this cycle:** 5 BUYs — INTC ADD $5.00, MDA NEW $4.00, VRDN ADD $2.00, VST ADD $2.00, CEG ADD $1.50. Total deployed: $14.50.
+- **Cash remaining:** $23.33 | **Buying power:** $23.33
+- **Total portfolio value:** ~$102.77
+- **Portfolio peak:** $103.93 (set Tuesday June 16, 9:59 AM ET) | **Drawdown from peak:** −1.12% | **Circuit breaker trigger:** $93.54 | **Status: INACTIVE**
+- **Deployment:** Pre-cycle ~$64.70 / ~$102.53 = 63.1% — below the 75% floor (shortfall ~$12.4). Post-cycle: $79.44 / $102.77 = **77.3% — FLOOR MET.**
+- **Leveraged ETF sleeve:** 0% used — no leveraged ETF positions held.
+- **VIX:** ~17 (sub-20, calm regime) — full 3x/2x leveraged ETF eligibility per Section 10 if a qualifying broad-tech/index catalyst appears; none did this cycle, so no leveraged ETF entries were made.
+- **Watchlist candidates identified but not acted on:** SNDK / WDC / MU (AI memory pricing strength — Gate 2 fail, already parabolic/fully priced), WOLF (stale catalyst, flat price action, no fresh news). Pillar 2 (Robotics) and Pillar 3 (Quantum) produced no tradable, Gate-3-passing ticker this cycle.
+- **Flag for next cycle:** GEV at +13.70% unrealized — within ~1.3 points of the Section 9 +15% profit-taking threshold for the third+ consecutive cycle. If it crosses +15% pre-market or intraday, take 30% off immediately per the position-size override, regardless of momentum.
+
+---
+
+## [2026-06-22T14:05:00Z] BUY CEG x0.005400 @ ~$277.7545 | $1.50
+
+- **Catalyst:** No new dated catalyst — deployment-floor top-up. Nuclear PPA thesis (Microsoft/Meta/CyrusOne data-center power demand) remains intact and un-broken; used as the final increment to close the 75% deployment-floor gap, consistent with prior cycles' use of CEG/VST as floor-fill vehicles.
+- **Thesis gate summary:** Gate 1 (real bottleneck) — yes, grid capacity bottleneck for AI datacenter power demand remains structurally real. Gate 2 (not yet priced) — not required for a Medium-conviction floor-fill add per Section 4. Gate 3 (specific catalyst) — none new; floor-fill exception applies (Gates 1 and 3 needed for floor-fills, Gate 3 here is the standing PPA buildout thesis, not a fresh dated event).
+- **Conviction level:** Medium
+- **Sizing rationale:** Smallest of the five floor-fill increments — used to bring deployment from ~76.8% to the final ~77.3%, closing the remaining ~$0 gap after VST/VRDN/MDA/INTC adds. CEG already a large existing position (~23% of portfolio); kept this add minimal to avoid further concentration.
+- **Exit thesis:** Thesis break (PPA cancellation, nuclear regulatory setback) → exit. Section 9 profit-taking matrix applies as gain accumulates — currently well under any trigger threshold.
+- **Portfolio after:** Cash $23.33 | Total ~$102.77
+- **Order ID:** 6a393a82-abbf-48df-ab4d-a60ecd5ca284
+- **Status:** FILLED
+
+---
+
+## [2026-06-22T14:04:00Z] BUY VST x0.012085 @ ~$165.4899 | $2.00
+
+- **Catalyst:** No new dated catalyst — deployment-floor top-up. Vistra/Meta 2,600 MW nuclear PPA thesis remains intact; same rationale as the CEG add.
+- **Thesis gate summary:** Gate 1 — yes, same grid-capacity bottleneck as CEG. Gate 2 — not required for floor-fill. Gate 3 — standing PPA thesis, no fresh dated event this cycle.
+- **Conviction level:** Medium
+- **Sizing rationale:** Floor-fill increment, sized to continue closing the deployment gap without materially increasing concentration in an already-sizable position (~19% of portfolio pre-add).
+- **Exit thesis:** Thesis break → exit. Section 9 matrix applies as gain grows; currently well under threshold.
+- **Portfolio after:** Cash $25.33 | Total ~$102.7
+- **Order ID:** 6a393a81-b6d8-4a51-a45c-13ac82a222cd
+- **Status:** FILLED
+
+---
+
+## [2026-06-22T14:03:00Z] BUY VRDN x0.116618 @ ~$17.1499 | $2.00
+
+- **Catalyst:** No new dated catalyst today — deployment-floor top-up on an existing position whose specific catalyst (FDA PDUFA decision, ~June 30) is still live and un-resolved.
+- **Thesis gate summary:** Gate 1 (real bottleneck) — yes, FDA regulatory review is the binding constraint on this name. Gate 2 — marginal/not required for a Medium-conviction floor-fill per Section 4's relaxed standard. Gate 3 (specific catalyst) — passes: PDUFA date is dated, named, and approaching (~6 trading days out).
+- **Conviction level:** Medium
+- **Sizing rationale:** Binary-catalyst position already carries elevated risk into the PDUFA date; kept the floor-fill add small relative to INTC/MDA to avoid over-sizing into a binary FDA outcome.
+- **Exit thesis:** PDUFA approval/rejection resolves the catalyst — exit (or reassess) immediately on the news regardless of direction. No averaging down if the catalyst breaks before the date (e.g., a negative FDA signal pre-PDUFA).
+- **Portfolio after:** Cash $27.33 | Total ~$102.7
+- **Order ID:** 6a393a7f-0d9f-464e-8f98-19408863e083
+- **Status:** FILLED
+
+---
+
+## [2026-06-22T14:02:00Z] BUY MDA x0.097775 @ ~$40.9100 | $4.00
+
+- **Catalyst:** MDA Space's $620M acquisition of Blue Canyon Technologies, announced Friday June 19 after Friday's close / over the weekend. Today (Monday June 22) is the first live trading session for the market to react — price up ~4% from Friday's close at time of entry, a modest reaction relative to deal size, suggesting the move is still in progress rather than complete.
+- **Thesis gate summary:** Gate 1 (real bottleneck) — yes, satellite/smallsat component and bus manufacturing capacity is a genuine supply constraint in the current space-deployment cycle (Pillar 4). Gate 2 (not yet priced) — passes: first session reacting to the news, +4% move is modest for a $620M deal, no parabolic move yet. Gate 3 (specific catalyst) — passes: confirmed, dated M&A agreement (June 19), not rumor or narrative.
+- **Conviction level:** High
+- **Sizing rationale:** New position, sized as the largest discretionary (non-floor-fill) add this cycle given all three gates pass cleanly and the catalyst is fresh — but kept modest in absolute terms pending confirmation of how the market fully digests the deal over the next 1-2 sessions.
+- **Exit thesis:** Exit if the post-announcement re-rating completes (price stalls/reverses with no further catalyst), if integration/financing concerns emerge, or if a better-catalyst opportunity needs the capital. No averaging down if the deal narrative breaks (financing falls through, regulatory objection, etc.).
+- **Portfolio after:** Cash $29.33 | Total ~$102.6
+- **Order ID:** 6a393a7e-bdbe-4279-922f-fbb0a2519913
+- **Status:** FILLED
+
+---
+
+## [2026-06-22T14:01:00Z] BUY INTC x0.035448 @ ~$141.0499 | $5.00
+
+- **Catalyst:** UMC issued its own statement confirming progress on a silicon verification milestone tied to the Intel foundry partnership — this graduates the prior catalyst from a single-source presidential social-media claim (flagged as insufficient in prior cycles) to a company-sourced confirmation of concrete technical progress. Deal scope/terms still not fully disclosed via a joint Intel/Apple-style press release, so this is progress, not full resolution.
+- **Thesis gate summary:** Gate 1 (real bottleneck) — yes, leading-edge foundry capacity remains the binding constraint. Gate 2 (not yet priced) — passes: today's move (+~3.6% intraday vs. recent levels) reflects the milestone confirmation but the deal's full scope/economics are still undisclosed, leaving room for further re-rating. Gate 3 (specific catalyst) — passes: UMC's own dated statement, not a restated rumor.
+- **Conviction level:** High
+- **Sizing rationale:** This was the pre-committed trigger from the prior cycle's exit thesis ("official joint confirmation → reassess sizing up"). UMC's company-sourced statement is a meaningful upgrade from the Trump-tweet-only sourcing that previously capped sizing at Medium — sized as the largest single add this cycle to reflect the upgraded conviction.
+- **Exit thesis:** Continued silence (2-3 sessions with no further confirmation) or a denial → exit. Reversion toward pre-announcement levels (~$121) → exit. Full joint Intel/Apple/UMC press release with disclosed terms → reassess for further upsizing.
+- **Portfolio after:** Cash $32.83 | Total ~$102.5
+- **Order ID:** 6a393a7d-e38e-4ccd-aba9-1da354faf3fc
+- **Status:** FILLED
+
+---
+
+## [2026-06-22T13:55:00Z] NO-ACTION — SNDK / WDC / MU (AI Memory Pricing Strength — Fully Priced)
+
+- **Reason:** AI memory/storage names continue to run on DRAM/NAND pricing strength tied to AI datacenter demand. SNDK is up ~788% YTD trading above $2,300/share, WDC up ~279% YTD, and MU popped further into its own earnings — all three already deep into parabolic, fully-priced territory consistent with the thesis document's explicit warning (Section 8) about crowded, obvious-news momentum trades, and directly analogous to the FRMI blow-off-top precedent already logged this month. Skipped entirely rather than chase.
+- **Thesis gate that failed (if applicable):** Gate 2 (not yet priced) — fails decisively across all three names.
+- **Next check:** Would reconsider only on a sharp pullback (-15%+ off highs) that re-opens a clean entry, paired with a fresh dated catalyst (not just continued pricing-strength narrative).
+
+---
+
+## [2026-06-22T13:52:00Z] NO-ACTION — WOLF (Wolfspeed): Stale Catalyst, No Fresh Trigger
+
+- **Reason:** Re-checked for any new development since the prior Gate-2 rejection — found none. Price action remains flat, consistent with the catalyst being stale and already digested by the market. No new dated event to re-open the gate.
+- **Thesis gate that failed (if applicable):** Gate 3 (specific catalyst) — no fresh, dated trigger found this cycle.
+- **Next check:** Re-scan on any new SiC/EV-supply-chain dated announcement.
+
+---
+
+## [2026-06-22T13:50:00Z] NO-ACTION — Pillar 2 (Robotics) / Pillar 3 (Quantum): No Gate-Passing Catalyst
+
+- **Reason:** Full sweep of Pillar 2 (Physical AI/Robotics) and Pillar 3 (Quantum) search queries run per the scan protocol. No candidate surfaced a specific, dated catalyst (Gate 3) on a tradable public ticker. Notable quantum names referenced in chatter (EigenQ, SandboxAQ) are not publicly traded and therefore out of scope regardless of catalyst strength.
+- **Thesis gate that failed (if applicable):** Gate 3 (specific catalyst) — no tradable candidate found in either pillar this cycle.
+- **Next check:** Re-scan next cycle; watch for IPO/public-listing news on private quantum names, and any named contract-award or demo-milestone catalyst in robotics.
+
+---
+
 ## [2026-06-19T19:35:00Z] ALERT — Market Closed (Juneteenth Federal Holiday) — EOD Cycle Halted, No Trades
 
 - **Reason:** This cycle was scheduled as the 3:30 PM ET EOD cycle for Friday June 19 2026 — the cycle responsible for Thursday/Friday leveraged-ETF weekend enforcement, the 75% deployment floor check, and the full daily close-out summary. Before taking any action, independently re-verified market status: `mcp__FMP__marketHours` (exchange-market-hours, NYSE) again returned `isMarketOpen: false`, `openingHour/closingHour: CLOSED` — the third independent confirmation today (following the 9:30 AM open cycle and the 1:00 PM mid-day cycle), consistent with the already-confirmed Juneteenth NYSE/Nasdaq holiday. No live tape exists today, so no Section 9 profit-taking check, no Section 10 leveraged-ETF hold/weekend check, no deployment-floor remediation, and no four-pillar catalyst scan was performed — there is nothing to evaluate against, and no order could be confirmed as filled per Hard Constraint 7. No trades were placed. There are no leveraged ETF positions in the portfolio, so the Thursday/Friday weekend rule is moot today regardless.
