@@ -4,6 +4,76 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-06-23T19:40:00Z] EOD CYCLE SUMMARY — Tuesday June 23 2026 (~3:40 PM ET, ~20 min to close)
+
+- **All open positions at close:**
+
+| Ticker | Shares | Avg Cost | Current Price | Est. Value | Unrealized P&L | Portfolio % |
+|--------|--------|----------|---------------|-----------|---------------|-------------|
+| CEG | 0.100994 | $272.29 | $271.51 | ~$27.42 | −$0.08 (−0.29%) | ~27.5% |
+| VST | 0.142747 | $161.12 | $162.53 | ~$23.20 | +$0.20 (+0.88%) | ~23.3% |
+| GEV | 0.012887 | $1,008.77 | $1,042.28 | ~$13.43 | +$0.43 (+3.32%) | ~13.5% |
+| VRDN | 0.292882 | $17.07 | $17.355 | ~$5.08 | +$0.08 (+1.67%) | ~5.1% |
+| MDA | 0.149083 | $40.25 | $38.98 | ~$5.81 | −$0.19 (−3.16%) | ~5.8% |
+
+- **Positions closed today:**
+
+| Ticker | Entry | Exit | Realized P&L | Note |
+|--------|-------|------|--------------|------|
+| RGTI | $22.0250 (13:39 UTC) | $21.2701 (17:04 UTC) | −$0.10 (−3.45%) | Sold same-day; not logged contemporaneously — see ALERT below |
+| QBTS | $26.3400 (13:39 UTC) | $25.3301 (17:04 UTC) | −$0.12 (−3.84%) | Sold same-day; not logged contemporaneously — see ALERT below |
+| IONQ | $60.7799 (13:39 UTC) | $57.5701 (17:04 UTC) | −$0.16 (−5.27%) | Sold same-day; not logged contemporaneously — see ALERT below |
+| INTC | $136.17 blended | $133.45 (19:36 UTC) | −$0.29 (−2.00%) | EOD staleness exit — see entry below |
+
+- **Trades executed this cycle (EOD, ~19:36–19:37 UTC):** 1 SELL (INTC, full position, $14.70) + 4 BUYs (CEG $4.00, VST $4.00, GEV $3.00, MDA $2.00 — $13.00 total floor-fill redeployment)
+- **Cash remaining:** $24.65 | **Buying power:** $1.33 (remainder is unsettled T+1 proceeds from today's INTC and earlier RGTI/QBTS/IONQ sales)
+- **Total portfolio value:** ~$99.56
+- **Portfolio peak:** $103.93 (set Tuesday June 16, 9:59 AM ET) | **Drawdown from peak:** −4.21% | **Circuit breaker trigger:** $93.54 | **Status: INACTIVE**
+- **Deployment:** $74.91 / $99.56 = **75.25% — FLOOR MET** (75% required, +0.25% buffer). Pre-EOD-trade deployment was 76.94%; selling INTC dropped it to ~62.2%, requiring the $13.00 redeployment executed this cycle to restore the floor before close.
+- **Leveraged ETF sleeve:** 0% used — no leveraged ETF positions held. Today is Tuesday — Thursday/Friday weekend rule N/A regardless.
+- **VIX:** 19.37 (intraday high 20.54, low 18.61), up sharply from yesterday's close of 17.28 (+12.1%) — broad macro de-risking continued from this morning. Still sub-20 at the print checked; informational only, no leveraged exposure to gate.
+- **Macro context:** Same broad AI-capex/semiconductor de-risking flagged at this morning's cycle continued into the close — Nasdaq-listed semis (NVDA, MU, TSM, SMH) extended losses, South Korea's KOSPI fell ~10% overnight on Samsung/SK Hynix weakness. This explains the continued (if moderated) red across CEG/VST/GEV/MDA today — confirmed via web search to be sector/macro-wide, not name-specific thesis breaks.
+- **Watchlist candidates identified but not acted on:** No fresh, dated, single-name catalyst cleared Gate 3 in this cycle's scan (FMP news access is gated behind a paid tier not currently available — flagged as a tooling gap, see Pre-Market Checklist below). Floor redeployment used existing intact-thesis names (CEG/VST/GEV/MDA — "thesis intact, price dipped on macro noise → hold or add" per Section 5) rather than a fresh entry, given the ~20-minute window to close and no FMP-sourced catalyst feed available today.
+
+---
+
+### Position Management Decisions — EOD
+
+**INTC — SOLD full position (staleness exit, standing 3-session trigger)**
+This is the 3rd live trading session since the original Apple/Intel catalyst chain began (June 18 → June 19 holiday → June 22 → June 23). The June 18 and June 22 EOD logs both explicitly committed to this trigger: "if there is still no official joint confirmation by tomorrow's close (or a denial lands), treat as stale and exit." Re-verified via web search this cycle: neither Apple nor Intel has issued a joint press release or confirmation; Intel continues to decline comment ("won't comment about a potential Apple–Intel agreement"); no denial either — pure continued silence, third session running. Price has round-tripped from the June 22 high above $141 back to $133.45, essentially erasing the second add's gain and sitting near the original June 18 entry level — "reversion toward pre-announcement levels" was one of the three original exit conditions and this is the leading edge of that pattern. Today's price action is also confounded by the broad semiconductor selloff (SMH −6.5%, MU −11.4%, TSM −5.2% per market reports), so the move itself isn't deal-specific, but the *absence of confirmation* — the actual gate this position was held on — is now unchanged for three full sessions, which is the trigger condition, not the day's price move. Exiting per the standing rule rather than re-extending the window a fourth time; capital redeployed into the floor-fill below.
+- **Gain % at exit:** −2.00% ($136.17 blended avg cost → $133.45 fill)
+- **Momentum state:** Reversing — price has given back the entire June 22 second-add gain
+- **Catalyst state:** Unresolved/stale — three sessions of pure silence, no confirmation, no denial
+- **Exit type:** Full
+- **Order ID:** 6a3ae051-af06-415d-9981-58a8168b9d80 | **Status:** FILLED at $133.45
+
+**CEG / VST / GEV / MDA — ADD (deployment-floor redeployment into intact theses)**
+Selling INTC dropped deployment to ~62.2%, below the 75% floor with ~20 minutes to close and no time for a fresh four-pillar scan (FMP news endpoint is gated behind a paid tier this session — see checklist below). Per CLAUDE.md Section 6/Hard Constraint 5, redeployed the $12.78 shortfall (sized $13.00 across the four names) into the existing power/grid and space positions already validated this morning as "thesis intact, macro-driven dip, no name-specific negative catalyst" — consistent with Section 5's "thesis intact, price dipped on noise → hold or add." All four already passed Gate 1 (real structural bottleneck) and Gate 3 (standing dated catalysts: nuclear PPA buildout for CEG/VST, Project Kilby turbine backlog for GEV, Blue Canyon integration for MDA) in this morning's and prior cycles' scans; Gate 2 is not required for a floor-fill per Section 4's relaxed standard, consistent with prior floor-fill precedent (June 18, June 22).
+- **Conviction level:** Medium (floor-fill, not fresh-catalyst conviction)
+- **Sizing rationale:** Weighted toward the two largest, most liquid existing positions (CEG/VST $4 each) with smaller increments to GEV ($3, already higher-priced/concentrated) and MDA ($2, smallest existing position, helps reduce relative underweight).
+- **Exit thesis:** Unchanged from original entries on each name — nuclear/gas PPA thesis break, Project Kilby backlog disruption, or Blue Canyon integration problems would trigger exit on the respective name; Section 9 profit-taking matrix applies as gains rebuild.
+- **Portfolio after all four:** Cash $24.65 | Buying power $1.33 | Total ~$99.56
+- **Order IDs:** CEG 6a3ae065-9204-465a-b95f-fc68ae5d6301 ($4.00 @ $271.51 avg) | VST 6a3ae066-469f-4577-8d4e-39391c5b70d0 ($4.00 @ $162.53 avg) | GEV 6a3ae067-70d3-4d8d-8084-479fdab17fb2 ($3.00 @ $1,042.28 avg) | MDA 6a3ae068-067e-4e6e-ba7f-308403a62c83 ($2.00 @ $38.98 avg)
+- **Status:** All FILLED
+
+**VRDN — HOLD**
++1.67% vs. cost. PDUFA target action date June 30 is now 5 trading days out, unchanged. No new signal found this cycle. Hold the lottery-ticket position into the binary date; not used for floor-fill given the binary-risk profile already capped at lottery-ticket sizing.
+
+---
+
+### ALERT — Retroactive Log Entry: RGTI/QBTS/IONQ Exited Mid-Day, Not Logged Contemporaneously (Hard Constraint 6 Gap)
+
+- **Reason:** While pulling today's order history for this EOD cycle, discovered that all three quantum positions bought at this morning's 13:39 UTC cycle (RGTI, QBTS, IONQ — $3.00 each, the EO-driven PQC/quantum-initiative momentum trade) were already sold in full at 17:04–17:05 UTC (~1:04 PM ET), roughly 3.5 hours after entry. **No trade_log.md entry was written for these exits at the time they occurred.** This is a direct violation of CLAUDE.md Hard Constraint 6 ("Log every action... If it isn't logged, it didn't happen.") Per the broker's order history, all three were market sells, full position, placed_agent "agentic":
+  - RGTI: sold 0.136208 sh @ $21.2701 (bought @ $22.0250) — realized −$0.1034 (−3.45%)
+  - QBTS: sold 0.113895 sh @ $25.3301 (bought @ $26.3400) — realized −$0.1151 (−3.84%)
+  - IONQ: sold 0.049358 sh @ $57.5701 (bought @ $60.7799) — realized −$0.1581 (−5.27%)
+  - Combined realized loss: −$0.3766 on $9.00 deployed (−4.18% blended)
+- **Inferred rationale (reconstructed, not contemporaneous):** All three were logged at entry as explicit 1–3 day momentum/mandate trades on Trump's June 22–23 quantum executive orders, with an exit thesis of "momentum fading/reversing... no averaging down if it reverses." A same-day round-trip to a uniform 3–5% loss across all three names is consistent with that exact scenario — a quick mid-day momentum fade — but this is an inference from price action, not a verified record of what was actually observed or decided at 17:04 UTC. The true reasoning, whatever it was, was not captured.
+- **Thesis gate that failed (if applicable):** N/A to the exit decision itself — the failure here is procedural (Hard Constraint 6), not a thesis gate.
+- **Next check:** Flagging for the operator: this cycle ran without a logged mid-day check between the 13:39 UTC open cycle and this 19:36 UTC EOD cycle, yet trades clearly executed in between. Going forward, every cycle that places an order — scheduled or not — must write its log entry in the same session as execution, before moving to the next task. If a mid-day cycle is being run by a separate process/session, it needs the same logging discipline as the open and EOD cycles.
+
+---
+
 ## [2026-06-23T13:39:37Z] CYCLE SUMMARY — Tuesday June 23 2026 (Market Open Cycle, ~9:39 AM ET)
 
 - **All open positions after cycle:**
