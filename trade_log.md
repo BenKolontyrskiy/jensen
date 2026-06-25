@@ -4,6 +4,67 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-06-25T19:35:00Z] EOD CYCLE SUMMARY — Thursday June 25 2026 (~3:35 PM ET, ~25 min to close)
+
+### Leveraged ETF / Thursday weekend rule check (run first)
+No leveraged ETF positions held — sleeve at 0% of the 10% cap (confirmed via live get_equity_positions; only CEG/VST/GEV/VRDN/MDA on the book). Today is Thursday, so the weekend-exit rule is the first check required by CLAUDE.md, but there is nothing to exit. No action needed, no violation.
+
+### All open positions at close — no trades executed this cycle
+
+| Ticker | Shares | Avg Cost | Current Price | Est. Value | Unrealized P&L | Day Change | Portfolio % | Days Held |
+|--------|--------|----------|---------------|------------|----------------|-----------|--------------|-----------|
+| CEG | 0.100994 | $272.29 | $269.42 | ~$27.21 | −1.05% (~−$2.87 total) | +0.54% | ~27.3% | Structural position, held since on/before June 16 |
+| VST | 0.142747 | $161.12 | $167.86 | ~$23.95 | +4.18% | +3.06% | ~24.0% | Structural position, held since on/before June 16 |
+| GEV | 0.012887 | $1,008.77 | $1,083.68 | ~$13.96 | +7.43% | +2.46% | ~14.0% | Structural position, held since on/before June 16 |
+| VRDN | 0.292882 | $17.07 | $17.495 | ~$5.12 | +2.49% | +1.01% | ~5.1% | Binary catalyst hold; PDUFA June 30 |
+| MDA | 0.572788 | $38.41 (blended) | $36.37 | ~$20.83 | −5.31% | −3.27% | ~20.9% | 2 sessions since CSA contract entry (June 24); 4 adds across June 24–25 on confirmed dated catalysts |
+
+### Positions closed today
+None.
+
+### Position management decisions — EOD
+
+**CEG / VST / GEV — HOLD, no thesis break, no Section 9 trigger**
+All three remain structural Pillar 1 positions on the standing nuclear/gas PPA and turbine-backlog theses. Day moves (CEG +0.54%, VST +3.06%, GEV +2.46%) track continued broad power/AI-infra sector strength, not fresh name-specific catalysts. GEV's unrealized gain ticked down from +8.50% at the mid-day cycle to +7.43% at the close (price pulled back from an intraday high of ~$1,094.55 to $1,083.68) — read as normal intraday cooling, not a reversal: still up sharply on the day, well under the Section 9 +15% threshold, and momentum is Sustained, not Reversing. No trim warranted. CEG/VST show no Section 9 relevance (CEG is at a small unrealized loss, VST's +4.18% is far under threshold).
+
+**VRDN — HOLD into the binary date**
++2.49% vs. cost. No new pre-PDUFA signal since mid-day. PDUFA (veligrotug, thyroid eye disease) is now 3 trading days out (Fri 6/26, Mon 6/29, Tue 6/30). Holding the lottery-ticket position into the ruling; will reassess immediately regardless of direction once the decision lands.
+
+**MDA — HOLD, no further add this cycle (concentration pause)**
+−5.31% vs. blended cost, −3.27% on the day, continuing a multi-session decline. Independently re-verified via web search at EOD: no new company-specific negative news — the renewed weakness is the same SpaceX-IPO-driven space-sector rotation already identified at the open and mid-day cycles (SpaceX now ~23% off its post-IPO high as of this week per multiple outlets), and today's Mitsubishi Electric/Japan MoD satellite contract (confirmed real, dated, adds to backlog) remains unpriced — textbook Gate 2 "good news, price down" setup, thesis still intact. However, this position has already been added to four times across June 24–25 (now ~20.9% of portfolio, the second-largest position in the book) while continuing to fall on each add. Per Section 5's averaging-down caution and basic concentration discipline, pausing further adds this cycle even though the filter still technically passes — four same-direction adds in two sessions is enough exposure to this thesis for now. No exit either: the thesis has not broken (no contract risk, no Blue Canyon financing issue, no analyst downgrade), so this is a HOLD, not a SELL. Will reassess for a possible trim if a third consecutive session of pure sector-drag arrives tomorrow with zero stabilization or analyst follow-through on either the CSA or Mitsubishi contracts.
+
+### Stale position audit
+No position exceeds the 2–3 day stale-with-no-catalyst threshold: CEG/VST/GEV are intentionally held structural multi-week theses with catalysts arriving periodically; VRDN is held to a specific binary date (3 trading days out); MDA had a fresh, dated, named catalyst land today (Mitsubishi Electric/Japan MoD), so it is not stale by definition even though price action is negative. No staleness exits this cycle.
+
+### Cash & buying power
+Cash: $8.67 | Buying power: $8.67 | Total: $99.79
+
+### Deployment
+Equity $91.08 / Total $99.79 = **91.3% — FLOOR WELL EXCEEDED** (75% required, +16.3% buffer). No deployment action needed; Step 6 deployment search skipped per CLAUDE.md (only required when under the floor).
+
+### Circuit breaker status
+**INACTIVE.** Portfolio peak: $103.93 (set 2026-06-16). Current: $99.79. Drawdown: −3.98%. Trigger: $93.54 (−10% from peak).
+
+### VIX / leveraged ETF sleeve
+VIX ~18.6 as of 3:40 PM ET (down ~4.4% on the day, sub-20 regime, easing). Full 3x/2x leveraged ETF eligibility would apply if a qualifying High+ conviction directional catalyst existed, but none does — no leveraged ETF positions held, sleeve at 0% of the 10% cap. Thursday weekend rule confirmed N/A (nothing to exit).
+
+### Trades executed this cycle
+0.
+
+### Pre-market checklist for tomorrow (Friday June 26)
+1. **VRDN** — PDUFA (veligrotug) is now 2 trading days out after tomorrow's session (Mon 6/29, then Tue 6/30's ruling). Watch for any pre-PDUFA signal (adcomm change, competitor readout, analyst note) at the open.
+2. **GEV** — re-check at the open; if the +15% Section 9 threshold (≈$1,160/share) is crossed, take 30% off immediately regardless of momentum — do not wait for a confirming cycle.
+3. **MDA** — re-scan for a stabilization signal or delayed analyst follow-through on the CSA/Mitsubishi contracts. If price falls further tomorrow with zero positive follow-through, that becomes the third consecutive negative session — open the question of a partial trim to reduce concentration (currently ~20.9% of portfolio) rather than another add.
+4. **CEG/VST** — re-scan for a fresh dated PPA, rate-case, or grid-hardware catalyst; today's strength was broad sector tailwind, not name-specific news.
+5. **Deployment floor** — currently 91.3%, well-buffered; re-check at open regardless.
+6. **Leveraged ETF sleeve** — 0% used; VIX sub-20 and easing, full sleeve eligibility available if a qualifying High+ conviction directional catalyst appears tomorrow.
+7. Continue the four-pillar scan at the open for any overnight or pre-market catalyst across Power/Grid, Robotics, Quantum, and Space that would clear Section 4 Gates 1–3.
+
+### Thesis notes
+No trades this cycle — the EOD review confirmed every open position is either intentionally held to a structural multi-week thesis (CEG/VST/GEV), held to a specific binary date (VRDN), or sitting on a genuinely fresh, unpriced catalyst (MDA, Mitsubishi Electric contract today). The one judgment call was pausing further MDA adds despite the filter still passing — four same-thesis adds in two sessions while the stock keeps falling on sector-wide (not company-specific) pressure is enough concentration for one day; the next move on that name should come from either a stabilization signal or a third straight session of pure sector drag, not a fifth consecutive buy.
+
+---
+
 ## [2026-06-25T17:10:00Z] CYCLE SUMMARY — Thursday June 25 2026 (Mid-Day Cycle, ~1:10 PM ET)
 
 ### All positions after cycle
