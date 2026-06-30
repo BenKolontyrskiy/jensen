@@ -4,6 +4,65 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-06-30T19:35:00Z] EOD CYCLE SUMMARY — Tuesday June 30 2026 (~3:35 PM ET, ~25 min to close)
+
+### Leveraged ETF / Thursday-Friday weekend rule check (run first)
+Today is Tuesday, June 30 — not Thursday or Friday, so the weekend-exit rule does not apply this cycle. Confirmed via live get_equity_positions: only CEG/VST/MDA held, no leveraged ETF positions — sleeve at 0% of the ~$9.83 (10%) cap. Section 10 hold-check is moot.
+
+### All open positions at close — no trades executed this cycle
+
+| Ticker | Shares | Avg Cost | Current Price | Est. Value | Unrealized P&L | Day Change | Portfolio % |
+|--------|--------|----------|---------------|------------|----------------|-----------|--------------|
+| CEG | 0.128564 | $268.35 | $246.23 | ~$31.66 | −8.24% | −5.05% | ~32.2% |
+| VST | 0.167485 | $161.21 | $157.21 | ~$26.33 | −2.48% | −3.18% | ~26.8% |
+| MDA | 0.450001 | $37.76 | $41.37 | ~$18.62 | +9.56% | +8.64% | ~18.9% |
+
+### Positions closed today
+None.
+
+### Cash & buying power
+Cash: $21.69 | Buying power: $7.40 (remainder of GEV sale proceeds still settling T+1, expected to clear ~July 1) | Total: $98.31 (live, via get_portfolio)
+
+### Deployment
+Equity $76.62 / Total $98.31 = **77.94% — FLOOR MET** (75% required, +2.94% buffer). No deployment action needed; Step 6 skipped.
+
+### Circuit breaker status
+**INACTIVE.** Portfolio peak: $103.93 (set 2026-06-16). Current: $98.31. Drawdown: −5.41%. Trigger: $93.54 (−10% from peak). No new entries halted.
+
+### VIX / leveraged ETF sleeve
+VIX live quote (FMP): **16.43** (−6.91% on the day) — sub-20 regime, calm, falling. Full 3x ETF eligibility (max 3-day hold) and 2x eligibility (max 5-day hold) per Section 10 if a qualifying setup existed. No leveraged ETF positions held — sleeve at 0% of the ~$9.83 (10%) cap.
+
+### Position management decisions — EOD
+
+**CEG — HOLD, no thesis break identified; reads as quarter-end rotation, not a fundamental break.** Day move −5.05% (worst single-day move in recent memory), unrealized now −8.24% — both notably worse than the 1:04 PM mid-cycle reading (−2.58% day / −5.86% unrealized), meaning the bulk of today's decline happened in the final ~2.5 hours of the session. Ran three independent checks before concluding this isn't a thesis break: (1) Stock-specific news search (FMP search-stock-news, general-news) for CEG today returned zero negative catalysts — only a neutral Zacks "CEG vs. DUK" comparison piece. (2) Sector cross-check: XLU (Utilities SPDR) −1.08% and NLR (Nuclear/Uranium ETF) −1.07% today — CEG is underperforming its own sector by ~4 points, so this isn't pure sector beta, but there's no company-specific news to explain the gap either. (3) Macro cross-check: S&P 500 +0.83%, VIX −6.9% to 16.43 (risk-on), but TLT −0.98% / 10-year yield +1.0% to 4.417% (rates rising) and today's news flow is dominated by "chip stocks on track for best quarter ever" / "best quarter in 6 years" headlines — and today is the **last trading day of Q2**. The combination (rate-sensitive utility/yield-proxy names lagging hard while chips/tech post their best quarter, on the final session of the quarter) is consistent with mechanical quarter-end rotation/window-dressing flow out of laggards into winners, not a name-specific repricing. The underlying nuclear PPA / datacenter power thesis is unchanged — this week's actual news (Walmart Dresden PPA, Ginna/Nine Mile Point NRC license filings) was positive and still unpriced. Per CLAUDE.md Section 5, a price drop alone without a story change is not a thesis break ("do not average down on a broken thesis" cuts both ways — it also means don't panic-sell on an unexplained drop with no identified bad catalyst). HOLD. No add this cycle: CEG is already the largest position (~32.2%) and adding into an unexplained, possibly-technical flush would be averaging down without a confirming catalyst. Top watch item for tomorrow (July 1, new quarter) — if the rotation thesis is correct, weakness should stabilize/reverse at the open; continued unexplained deterioration with no quarter-end excuse left would meaningfully raise the case for an exit.
+
+**VST — HOLD, same quarter-end rotation read as CEG, smaller magnitude.** Day move −3.18% (worst day in the recent log), unrealized −2.48% — flipped from a small unrealized gain (+0.45%) at mid-day to a loss. No CEG/VST-specific news found in any search. NLR (nuclear ETF) only down −1.07%, so VST is also underperforming its sector, consistent with the same rate-sensitive/quarter-end-rotation dynamic rather than a name-specific catalyst. Thesis (gas/nuclear PPA exposure, datacenter power demand) unchanged. HOLD, no action.
+
+**MDA — HOLD per Section 9 matrix; gain still below threshold despite a third strong session.** Day move +8.64% (in line with mid-day's +8.38%, not accelerating further but not reversing either), unrealized now +9.56%, still climbing toward but below the Section 9 +15% trigger. No fresh dated catalyst found today — continues to read as digestion of the known Blue Canyon Technologies acquisition (Jun 19), Mitsubishi/CSA contracts (Jun 24), and the recent cluster of analyst price-target hikes (CIBC, Scotiabank, BMO, Morgan Stanley). Catalyst state: Partially resolved. Momentum: Accelerating/Sustained (no reversal signal — day change roughly flat vs. mid-day, still a green day). Position size ~18.9% of portfolio falls in the 15–30% band, whose override threshold (take 25% off at +20% gain) has not been reached. Matrix row (<15% gain, Live/Partially resolved → HOLD) governs — no trim executed. This is now the third consecutive outsized up-day on no new news; flagging again, more urgently, as the top watch item — the next +15% print or any reversal signal should trigger immediate action per Section 9, intraday if needed, not held for the next scheduled cycle.
+
+### Pillar scan
+Not run this cycle — EOD priority was the position-management review above given the unusual CEG/VST price action; deployment floor is already met (77.94%) so no forced redeployment search was required. Four-pillar scan resumes at tomorrow's open per the pre-market checklist below.
+
+### Watchlist for next session
+| Ticker/Event | Catalyst | Conviction | Trigger condition |
+|---|---|---|---|
+| CEG | Sharp unexplained −5.05% day / −8.24% unrealized; read as Q2-end rotation out of rate-sensitive utility names, sector ETFs (XLU/NLR) down far less | Monitor closely | If weakness persists/extends at tomorrow's open (new quarter, rotation excuse gone) with still no negative catalyst → re-open the thesis-break/exit case; a stabilization or bounce confirms the rotation read and reopens the add-on-dip case |
+| VST | Same rotation read as CEG, smaller magnitude (−3.18% day, −2.48% unrealized) | Monitor | Same trigger logic as CEG |
+| MDA | Third consecutive outsized up-day (+6.8%, +8.38%, +8.64%), unrealized +9.56%, approaching Section 9 +15% threshold | Monitor closely, act intraday if needed | Crossing +15% → apply Section 9 trigger matrix immediately; any momentum reversal → exit per Section 9 reversal rule even below +15% |
+| Q2 close / Q3 open | Quarter-end rotation flows should reset at tomorrow's (July 1) open | Monitor | Confirms or denies the rotation thesis behind today's CEG/VST weakness |
+
+### Thesis notes
+The defining event this cycle was CEG and VST both posting their worst single-day moves in the recent log (−5.05% and −3.18%) with zero identifiable company-specific catalyst behind either move, on a day when the broad market rallied (S&P +0.83%, VIX −6.9%) and chip/tech stocks posted their best quarter in six years. Cross-checking against sector ETFs (XLU −1.08%, NLR −1.07%) confirmed CEG and VST underperformed their own sector by several points — not pure sector beta — but the timing (last trading day of Q2, rates rising, capital visibly rotating into the quarter's winners) supports a mechanical quarter-end rotation/window-dressing explanation over a fundamental thesis break. Per the framework's explicit guidance that a price drop alone, without a changed story, is not grounds to sell a structurally intact thesis, both positions were held rather than liquidated into an unexplained flush — but this is now flagged as the most uncomfortable judgment call in the book, and tomorrow's open (a new quarter, with the rotation excuse expired) is the key test: continued unexplained weakness with still no negative catalyst would meaningfully shift the read toward an exit. MDA's third consecutive outsized up-day on stale news is the mirror-image risk — still correctly held under the Section 9 matrix (gain <15%), but now urgent enough to warrant intraday action tomorrow rather than waiting for the next scheduled cycle if it crosses the threshold or reverses. Deployment (77.94%) and circuit breaker (−5.41% from the $103.93 peak, more than half-way to the 10% trigger for the first time since this cycle's tracking began) are both within bounds but worth watching given today's broad weakness in the book.
+
+### Pre-market checklist for tomorrow (July 1)
+1. **CEG / VST — top priority.** Check the open for stabilization vs. continued unexplained weakness now that Q2-end rotation flows should have reset. No excuse left if the drag continues — re-run a full news/SEC-filing search and seriously weigh the thesis-break/exit case if so.
+2. **MDA — second priority.** Re-check Section 9 status first thing; act immediately (not wait for a scheduled cycle) if gain has crossed +15% or momentum has reversed overnight/pre-market.
+3. **Deployment floor** — currently 77.94%, re-check at the open; GEV sale proceeds (~$14.28) should have settled by then, increasing usable buying power.
+4. **Circuit breaker** — currently −5.41% from peak, the deepest drawdown logged this cycle; recheck immediately at the open and watch for any acceleration toward the −10% / $93.54 trigger.
+5. Resume the full four-pillar scan (Power/Grid, Robotics, Quantum, Space) for any fresh overnight or pre-market catalyst — not run this cycle due to EOD time constraints.
+
+---
+
 ## [2026-06-30T17:04:00Z] CYCLE SUMMARY — Tuesday June 30 2026 (Mid-Day Cycle, ~1:04 PM ET)
 
 ### All positions after cycle (no trades executed)
