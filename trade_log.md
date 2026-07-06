@@ -4,6 +4,127 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-07-06T14:00:00Z] CYCLE SUMMARY — Monday July 6 2026 (9:30 AM ET Open)
+
+### Session context
+First full session after July 4 Independence Day holiday weekend. AVAV proceeds ($17.79) settled — full buying power $40.34 now deployable. Circuit breaker in recovery mode; portfolio recovered from $93.541 (July 3 close) to $95.68 at open (Robinhood live). CB margin now $2.14 above trigger vs. $0.004 on Friday — meaningful improvement.
+
+### Circuit Breaker Status
+**RECOVERY MODE — improving.** Peak: $103.93 (set 2026-06-16). Trigger: $93.537. Portfolio at open: $95.68. Post-trade estimate: ~$96.17. Margin above trigger: ~$2.63. Drawdown from peak: ~7.47% — below the 10% halt threshold. Reset requires reaching $103.93 (+8.1% from current). All new entries re-validated per Section 6. No halt event this cycle.
+
+### VIX
+**15.78** at open. VIX < 20 regime. 3x ETFs eligible (max 3 days hold), 2x ETFs eligible (max 5 days hold). Leveraged ETF entries considered but blocked this cycle by Section 10 conviction requirement — see NO-ACTION log below.
+
+### Trades executed this cycle
+1. **BUY VST $10** — 0.064300 shares @ $155.5199 — FILLED
+2. **BUY VRT $6.50** — 0.019993 shares @ $325.105 — FILLED
+
+### All open positions post-trade
+
+| Ticker | Shares | New Avg Cost | Fill / Last Price | Est. Value | Unrealized P&L | Portfolio % |
+|--------|--------|--------------|-------------------|------------|----------------|-------------|
+| VST | 0.231785 | $159.61 | $155.52 | $36.04 | −2.57% | ~37.5% |
+| VRT | 0.090390 | $315.32 | $325.10 | $29.39 | +3.10% | ~30.6% |
+| ETN | 0.016728 | $418.46 | $412.32 | $6.90 | −1.47% | ~7.2% |
+
+### Cash & buying power
+Cash: **$23.84** | Buying power: ~$23.84 (both orders settled intraday)
+
+### Total portfolio value (estimated)
+**~$96.17** (equity ~$72.33 + cash ~$23.84)
+
+### Deployment
+Equity ~$72.33 / Total ~$96.17 = **~75.2%** — MEETS 75% FLOOR. ✓
+
+### Position management decisions
+- **VST — HOLD + ADD.** Heat wave extending into the full July 6 session (ERCOT/PJM spot prices elevated). Q2 earnings August 6 is the next formal catalyst checkpoint. Wells Fargo Buy reaffirmed June 29. No adverse catalyst. Added $10.
+- **VRT — HOLD + ADD.** NVIDIA 800 VDC platform names Vertiv as primary power partner — analyst note driving today's +6.8% session rally. Q2 earnings July 29. No adverse catalyst. Added $6.50.
+- **ETN — HOLD.** Sector lift (+3.5% today) on AI infra rotation. Solid-state transformer H2 2026 guidance intact. No named ETN-specific adverse catalyst. No exit trigger.
+
+### Circuit breaker / recovery path
+Need $103.93 to reset. Current ~$96.17. Gap: +$7.76 (+8.1%). VST and VRT are the primary drivers. No new deterioration. CB in recovery, all new entries re-validated.
+
+### Leveraged ETF sleeve
+**0%** — no leveraged ETF positions. SOXL +12.2% intraday today (AI/semi sector rotation) — considered but blocked: no specific named catalyst for the semiconductor sector move (broad sector lift only), conviction level Medium, Section 10 requires High+. Not entered.
+
+### Watchlist for next cycle
+| Watch item | Catalyst | Trigger |
+|---|---|---|
+| VST | Q2 earnings August 6 | HOLD into earnings; exit if PJM cap advances formally |
+| VRT | Q2 earnings July 29 | HOLD into earnings; exit if hyperscaler capex cut or cooling market share disruption |
+| ETN | Solid-state transformer H2 orders | HOLD; exit on demand normalization or major order cancellation |
+| TSLA | Miami robotaxi expansion beyond Miami | Gate 2 check only if additional city launch drives fresh repricing; today's Gate 2 FAILED |
+| CCXI | Agility Robotics SPAC close 4Q 2026 | Re-evaluate on deal confirmation/vote news; today fading |
+| Post-quantum names | PQC contractor compliance wave | Fresh named contract award for specific PQC security vendor would be Gate 3 pass |
+
+---
+
+## [2026-07-06T13:43:55Z] BUY VST x0.064300 @ ~$155.52 | $10.00
+
+- **Catalyst:** Heat wave continuing through the July 4 holiday weekend — ERCOT/PJM wholesale electricity spot prices remain elevated, directly benefiting Vistra's merchant generation portfolio. Q2 earnings August 6 is the next formal thesis validation checkpoint. Wells Fargo maintained Buy rating June 29. Sector broadly rallying (+2.3% today on AI infra sentiment).
+- **Thesis gate summary:** Gate 1 (real bottleneck — power constraint for AI datacenter demand + summer heat wave driving merchant generation revenue): PASS. Gate 2 (not yet priced — stock still -4.2% below prior avg cost of $161.21 despite 2.3% rally today; heat wave continuing into the week, not yet fully absorbed): MARGINAL PASS. Gate 3 (specific catalyst — ERCOT/PJM spot price elevation from ongoing heat wave, confirmed CNBC July 3; Q2 earnings Aug 6 imminent): PASS.
+- **Conviction level:** Medium
+- **Sizing rationale:** $10 ADD to existing position; primary purpose is meeting 75% deployment floor with a thesis-consistent name. VST is the clearest heat wave play in the portfolio. New blended avg cost $159.61 — tightens the return-to-breakeven target.
+- **Exit thesis:** Exit if PJM electricity price-cap advances to formal FERC rulemaking. Exit if heat wave abates with no replacement catalyst before Q2 earnings. Hold through Q2 earnings (Aug 6); exit if earnings miss or guidance cut. Price-break below $140 on high volume with company-specific adverse news would signal thesis break.
+- **Portfolio after:** cash ~$23.84 | total ~$96.17
+- **Order ID:** 6a4bb11b-b396-4602-b33c-77374ecbea0b
+- **Status:** FILLED — 0.064300 shares @ $155.5199
+
+---
+
+## [2026-07-06T13:43:55Z] BUY VRT x0.019993 @ ~$325.11 | $6.50
+
+- **Catalyst:** NVIDIA 800 VDC platform names Vertiv, Eaton, and Schneider Electric as the three primary power systems collaborators — analyst note (referenced in AI infra coverage today). Vertiv expected to see "accelerated order momentum in late 2026" compared to competitors lacking 800 VDC capabilities. Stock surging +6.8% today ($300.53 → $325.10) on this catalyst. VRT is already a portfolio holding; ADD on the fresh naming catalyst.
+- **Thesis gate summary:** Gate 1 (real bottleneck — liquid cooling and power systems for AI datacenter racks; 800 VDC platform is a specific new constraint layer Vertiv owns): PASS. Gate 2 (not yet priced — stock gapping up +6.8% today, repricing still in progress in early session; multi-month commercial impact from accelerated order momentum not yet reflected): MARGINAL PASS. Gate 3 (specific catalyst — NVIDIA 800 VDC platform naming Vertiv as primary partner, driving today's session move): PASS.
+- **Conviction level:** Medium
+- **Sizing rationale:** Small ADD ($6.50) to an existing position now showing unrealized gains (+3.1% post-add). Adds to a winning thesis name on a named catalyst without concentrating excessive new capital into a stock that just moved +6.8%.
+- **Exit thesis:** Exit if NVIDIA 800 VDC collaboration is clarified as non-exclusive or a competitor is substituted. Exit if Q2 earnings (July 29) misses on revenue or backlog. Exit if AI hyperscaler capex cut announced. Hold through Q2 earnings as the primary validation checkpoint. Momentum reversal or sustained break below $300 on volume with company-specific news triggers immediate exit.
+- **Portfolio after:** cash ~$23.84 | total ~$96.17
+- **Order ID:** 6a4bb11b-5d8f-4cde-8408-eff94be81660
+- **Status:** FILLED — 0.019993 shares @ $325.105
+
+---
+
+## [2026-07-06T13:35:00Z] NO-ACTION — TSLA: Gate 2 FAIL (Miami Robotaxi Already Priced Negatively; Continuing Drift)
+
+- **Reason:** TSLA Miami robotaxi launch (July 3) was confirmed — Gates 1 and 3 pass. Gate 2 FAILS: TSLA closed DOWN 7.49% on the announcement day ($393.45) and is drifting further lower today ($391.49, −0.50%). The market repriced TSLA negatively on the Miami launch — "sell the news" event. The expected Gate 2 assessment at Monday open (from Friday watchlist) concluded the repricing window is closed and adverse. No valid entry.
+- **Thesis gate that failed:** Gate 2 — market has fully repriced (negatively) the Miami robotaxi catalyst. Buying into a post-announcement drift-down is not the thesis.
+- **Next check:** TSLA only re-qualifies if: (a) a new autonomous vehicle city expansion or FSD software milestone is announced creating a fresh Gate 3 catalyst; and (b) momentum is not reversing at the time of the announcement.
+
+---
+
+## [2026-07-06T13:35:00Z] NO-ACTION — RKLB: Gate 2 FAIL (Space Force Contract December 2025 — Stale Catalyst)
+
+- **Reason:** Rocket Lab $816M Space Force prime contract for SDA Tranche 3 missile-tracking satellite constellation — announced December 19, 2025. This is 6+ months old. RKLB is DOWN 2.4% today ($98.08 vs. $100.46 prev close). Gate 2 FAILS: the contract has been fully priced for months; today's price action is a sell-off, not a repricing event. No fresh catalyst identified for RKLB today.
+- **Thesis gate that failed:** Gate 2 — catalyst is stale (December 2025), fully absorbed. Active sell-off today is a negative signal.
+- **Next check:** RKLB qualifies if a fresh named catalyst appears: new contract award, Neutron launch milestone, or SDA follow-on order. Current weakness not a buy signal without a new Gate 3 event.
+
+---
+
+## [2026-07-06T13:35:00Z] NO-ACTION — CCXI: Gate 2 FAIL (Agility Robotics SPAC Fading; June 24 Announcement Already Priced)
+
+- **Reason:** Churchill Capital Corp XI (CCXI) announced merger with Agility Robotics on June 24, 2026. CCXI surged on announcement; today at $17.76, DOWN 7.0% from $19.10 (Friday close). The announcement was 12 days ago and the initial premium has already been baked in and is now fading. Gate 2 FAILS: the repricing is complete (and fading). CCXI at $17.76 vs. SPAC NAV ~$10 is a 77% premium; deal closes 4Q 2026 with no near-term catalyst to rerate higher. Not entering into a declining SPAC with no fresh named catalyst.
+- **Thesis gate that failed:** Gate 2 — announcement fully priced June 24; today's 7% fade confirms. Gate 3 marginal — no new news beyond the 12-day-old announcement.
+- **Next check:** CCXI qualifies if deal structure improves, PIPE upsized, or Agility announces a commercial deployment contract that re-rates the business value. Monitor for deal close 4Q 2026.
+
+---
+
+## [2026-07-06T13:35:00Z] NO-ACTION — SOXL: Section 10 BLOCKED (Medium Conviction Only; No Named Semiconductor Catalyst)
+
+- **Reason:** SOXL (3x Semiconductors) up +12.2% today ($181.47 → $203.65) — significant move. VIX 15.78 → 3x ETFs eligible structurally (max 3-day hold). However, Section 10 requires High or Very High conviction for leveraged ETF entries. The SOXL rally appears to be a broad AI/tech sector rotation on the first full session post-July 4 holiday, NOT a specific named semiconductor catalyst. No semiconductor-specific earnings beat, contract win, or supply announcement identified that would drive Gate 3 to a High conviction pass. Medium conviction only → Section 10 blocks leveraged ETF entry. Additionally, buying into a leveraged product that has already moved +12% intraday risks catching the peak of the daily move.
+- **Thesis gate that failed:** Section 10 conviction gate — Medium conviction only (broad sector rally, no specific named semiconductor catalyst). Section 10 requires High or Very High conviction for leveraged ETF entry.
+- **Next check:** SOXL eligible if a specific named semiconductor catalyst emerges (e.g., NVDA earnings beat, TSMC supply announcement, HBM shortage news) that drives High+ conviction AND VIX remains < 20 AND leveraged sleeve < 10% of portfolio.
+
+---
+
+## [2026-07-06T13:30:00Z] NO-ACTION — ETN: Hold Confirmed (Sector Rally; Thesis Intact; No New ADD Catalyst)
+
+- **Reason:** ETN up +3.47% today ($398.52 → $412.32) on general AI infrastructure sector rotation. Thesis intact — solid-state transformer orders guided for H2 2026, Texas manufacturing facility $100M expansion, grid hardware backlogs 80–210 weeks. However, no ETN-specific named catalyst today (the sector lift is not a Gate 3 event for a new ADD). Existing position at −1.47% unrealized from $418.46 avg cost. Section 9: no profit-taking trigger. HOLD.
+- **Thesis gate that failed:** Gate 3 marginal — sector lift is not a specific named catalyst; ADD requires a fresh named ETN catalyst.
+- **Next check:** ETN-specific named catalyst (Q2 earnings TBD, solid-state transformer order announcement, major grid contract win). Exit on earnings miss, major order cancellation, or confirmed demand normalization.
+
+---
+
 ## [2026-07-03T19:30:00Z] EOD CYCLE SUMMARY — Friday July 3 2026 (3:30 PM ET — Post-Holiday-Close)
 
 ### Session context
