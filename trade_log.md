@@ -4,6 +4,126 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-07-07T19:30:00Z] HOLD — VST (EOD Tuesday July 7 2026)
+
+- **Reason:** Live price $156.525, avg cost $159.63 → −1.94% unrealized. Down −0.44% from yesterday's close ($157.22). Thesis fully intact: July 4 heat dome drove U.S. grid to all-time peak demand; ERCOT/PJM merchant generation revenues elevated. Schaeffers Research published bullish long-term technical signal this afternoon ("Long-Term Utility Stock Signal Has Never Been Wrong") — editorial confirmation, not a Gate 3 catalyst, but directionally consistent with thesis. No adverse VST-specific news found. Q2 earnings August 7 remains the next hard catalyst checkpoint. No Section 9 trigger (unrealized loss, no gain to protect). No position concentration override (38.5% of portfolio but gain > +15% required for 30%-off rule — not applicable here).
+- **Thesis gate that failed:** N/A — not a new entry evaluation.
+- **Next check:** Wednesday July 8 open: ERCOT/PJM overnight demand signals, any VST-specific news, heat wave continuation. Q2 earnings August 7 is the primary hold thesis. Exit if: heat abates with no replacement demand catalyst; PJM price-cap advances to formal FERC rulemaking; Q2 earnings misses revenue or FCF guidance.
+
+---
+
+## [2026-07-07T19:30:00Z] HOLD — VRT (EOD Tuesday July 7 2026)
+
+- **Reason:** Live price $303.47, avg cost $315.30 → −3.75% unrealized. Down −4.71% from yesterday's close ($318.47). AI infrastructure trade unwind continued into close — broad sector rotation, not VRT-specific. Zacks "Solid Growth Stock" and "Trending Stock" pieces published today are editorial only, no new Gate 3 catalyst. No adverse VRT-specific news found — no NVDA partnership clarification, no hyperscaler capex cut announcement, no competitor substitution event. Core thesis (NVDA 800 VDC primary power partner — first financial confirmation pending Q2 earnings July 29) remains live and un-invalidated. DeepSeek chip thesis risk noted Monday remains bounded: datacenter critical power is chip-agnostic; VRT serves any high-density compute deployment. No Section 9 trigger (unrealized loss).
+- **Thesis gate that failed:** N/A — not a new entry evaluation.
+- **Next check:** Wednesday July 8 open: any overnight hyperscaler capex news, NVDA-related news, VRT-specific analyst commentary. Q2 earnings July 29 is the primary checkpoint. Exit if: Q2 misses revenue or backlog growth; NVDA 800 VDC collaboration clarified as non-exclusive or VRT substituted; hyperscaler announces specific capex freeze/cut that would reduce total datacenter buildout.
+
+---
+
+## [2026-07-07T19:30:00Z] HOLD — ETN (EOD Tuesday July 7 2026 — Final Stale Watch Day, Reassess Wednesday Open)
+
+- **Reason:** Live price $393.32, avg cost $418.46 → −6.00% unrealized. Down −4.86% from yesterday's close ($413.42). This is Day 2 and the final stale watch day per the plan established at Monday EOD and reaffirmed at both morning and mid-day cycles today. No ETN-specific named catalyst found in today's session. Zacks published "Why Investors Need to Take Advantage of These 2 Industrial Products Stocks Now" (9:56 AM ET) referencing ETN via their Earnings ESP model — this signals Zacks' model expects an earnings beat, which is a mild positive, but it is a systematic model output with no specific named event/date. It does not constitute a Gate 3 catalyst and does not extend the stale hold window. ETN is caught in the same AI infrastructure rotation that hit VRT. Structural thesis (grid hardware backlog 80–210 weeks) remains intact, but no fresh named catalyst has arrived in two consecutive trading days. Holding through Tuesday close as planned. **DECISION: HOLD through today's close. This is the final hold day. At Wednesday open, if no ETN-specific catalyst has emerged overnight or in pre-market, EXIT and redeploy into the best available active catalyst.**
+- **Thesis gate that failed:** Gate 3 — no fresh named ETN catalyst for a new entry or hold extension beyond Wednesday.
+- **Next check:** **Wednesday July 8 open — mandatory rotation decision.** If no overnight ETN-specific news (earnings date announcement, major contract, analyst upgrade with new thesis), EXIT. Small position ($6.58, 7.0% of portfolio) frees capital for redeployment into an active catalyst. CB buffer at $0.589 — confirm CB conditions allow redeployment before executing rotation.
+
+---
+
+## [2026-07-07T19:30:00Z] HOLD — VERA (EOD Tuesday July 7 2026 — Hold Overnight for Investor Call)
+
+- **Reason:** Live price $43.24, avg cost $42.98 → +0.60% unrealized. Up +7.75% from yesterday's close ($40.13). FDA accelerated approval catalyst confirmed live: Reuters coverage at 12:42 PM ET confirms approval, stock up ~6–7% in afternoon trading. Investor call scheduled 4:30 PM EDT tonight (30 minutes after market close) — this is an explicit live catalyst that makes tonight's investor call and tomorrow's pre-market the primary repricing window. Exit thesis check: "exit before or at 4:30 PM investor call if momentum stalls" — momentum has NOT stalled, stock has sustained its +7.75% gain into close. "If momentum holds into close and investor call is bullish, reassess hold vs. exit at EOD cycle" — momentum is holding, decision is HOLD overnight. Typical FDA accelerated approval on a first-in-class drug drives a 15–30% initial move; VERA is up only ~7–8% on the day, suggesting the repricing may be incomplete. Investor call may unlock additional leg if management confirms commercialization timeline, pricing, or partnership deals. Position is tiny ($2.01, 2.1% of portfolio) — bounded maximum downside; no forced management required. No Section 9 triggers (gain only +0.60% from fill; +15% threshold not reached).
+- **Thesis gate that failed:** N/A — holding live catalyst position overnight.
+- **Next check:** **Wednesday July 8 pre-market:** check investor call recap/headlines for any adverse reveals (e.g., REMS requirement, label narrower than expected, Black Box Warning, or management lowered commercial expectations). If call was bullish and stock gaps up, evaluate Section 9 trigger (if gain >+15% from $42.98 fill, apply trigger matrix). If adverse call reveals or stock gives back >50% of today's gain (breakeven floor: $40.13 + 50% × ($43.24 - $40.13) = $41.685), EXIT immediately at open.
+
+---
+
+## [2026-07-07T19:30:00Z] EOD CYCLE SUMMARY — Tuesday July 7 2026 (3:30 PM ET Close)
+
+### Session context
+Post-July 4 holiday week, Day 2. AI infrastructure trade unwind continued from the Q3 open — broad rotation out of datacenter/compute multiples. VST outperformed as utility/power revenues are tied to physical electricity consumption, not AI capex multiples. VRT and ETN continued to compress on AI multiple derating. VERA added mid-session on FDA accelerated approval of TRUTAKNA for IgAN. Investor call for VERA at 4:30 PM EDT tonight.
+
+### Circuit Breaker Status
+**NOT ACTIVE.** Peak: $103.93 (set 2026-06-16). Trigger: $93.537 (−10% from peak). Current total: **$94.126** (API live). Drawdown from peak: **−9.43%** — below 10% halt threshold. Margin above CB trigger: **$0.589**. CB was triggered at morning open ($93.43), recovered mid-session, and has remained above trigger since (~1:00 PM ET). CB full reset requires portfolio to recover above $103.93 (+10.4% from current).
+
+**Warning:** CB buffer remains thin at $0.589. Any broad market selloff overnight or at Wednesday open that drives portfolio below $93.537 will re-trigger the halt. Monitor pre-market.
+
+### Thursday Leveraged ETF Rule
+**NOT THURSDAY (Tuesday).** Rule does not apply.
+
+### Section 10 Leveraged ETF Hold Check
+**No leveraged ETF positions held.** Sleeve: 0%. No Section 10 action required.
+
+### VIX
+~15.67 at mid-day (slightly elevated from Monday's 15.57 but well within VIX < 20 regime). No leveraged ETF positions — VIX check is informational only. Leveraged ETFs structurally eligible but no High+ conviction catalyst identified today.
+
+### Trades executed this EOD cycle
+**None.** All positions held. Deployment met at 76.8%.
+
+### All open positions at EOD close (~3:30 PM ET live quotes)
+
+| Ticker | Shares | Avg Cost | EOD Price | Est. Value | Unrealized P&L % | Portfolio % |
+|--------|--------|----------|-----------|------------|------------------|-------------|
+| VST | 0.231785 | $159.63 | $156.525 | $36.27 | −1.94% | 38.5% |
+| VRT | 0.090390 | $315.30 | $303.47 | $27.44 | −3.75% | 29.2% |
+| ETN | 0.016728 | $418.46 | $393.32 | $6.58 | −6.00% | 7.0% |
+| VERA | 0.046533 | $42.98 | $43.24 | $2.01 | +0.60% | 2.1% |
+
+Cash: **$21.84** | Total equity: **~$72.30** | Total portfolio: **~$94.13**
+
+### Positions closed today
+**None.** No exits executed.
+
+### Realized P&L today
+**$0.00** — no closures.
+
+### Section 9 Profit-Taking Check — all positions
+- VST −1.94%: no gain → no trigger
+- VRT −3.75%: no gain → no trigger
+- ETN −6.00%: no gain → no trigger
+- VERA +0.60%: gain below +15% threshold → no trigger; position < 5% of portfolio → hold to full catalyst resolution
+
+**No Section 9 action required.**
+
+### Position management decisions (EOD)
+
+**VST — HOLD.**
+$156.525 (−1.94% unrealized). Thesis: heat dome / all-time peak U.S. grid demand → elevated ERCOT/PJM merchant generation revenue. Q2 earnings August 7 is the next catalyst checkpoint. Schaeffers Research long-term technical signal bullish. No adverse news. Hold with high conviction.
+
+**VRT — HOLD.**
+$303.47 (−3.75% unrealized). Thesis: NVDA 800 VDC primary power partner — commercial ramp financial confirmation pending Q2 earnings July 29. AI trade unwind pressure continues but no thesis break (no hyperscaler capex freeze, no NVDA partnership clarification). Hold to Q2 earnings.
+
+**ETN — HOLD through close; mandatory rotation decision at Wednesday open.**
+$393.32 (−6.00% unrealized). Day 2 / final stale watch day. No ETN-specific named catalyst in two consecutive sessions. Zacks Earnings ESP positive signal (model expects beat) is insufficient for Gate 3. If no overnight catalyst, EXIT Wednesday open and redeploy into active catalyst. CB conditions must be confirmed before rotation.
+
+**VERA — HOLD overnight.**
+$43.24 (+0.60% unrealized from fill). FDA accelerated approval catalyst live. Investor call at 4:30 PM EDT tonight. Momentum sustained. Position tiny ($2.01). Assess Wednesday pre-market after investor call recap.
+
+### Deployment check
+Equity: **$72.30** / Total: **$94.13** = **76.8%** — MEETS 75% floor ✓
+No deployment gap. No new buys required. Cash: $21.84.
+
+### Leveraged ETF sleeve
+**0%** — no positions held.
+
+### Cash & buying power
+Cash: **$21.84** | Buying power: **$21.84** | Total portfolio: **~$94.13**
+
+### Portfolio peak and drawdown
+Peak: **$103.93** (set 2026-06-16) | Current: **$94.13** | Drawdown: **−9.43%** | CB buffer: **$0.589** above trigger
+
+### Pre-market checklist for Wednesday July 8
+
+| Item | What to check | Action trigger |
+|------|--------------|----------------|
+| **VERA investor call** | 4:30 PM EDT tonight recap: commercialization timeline, pricing, partnerships, REMS/label details | If bullish → assess hold/partial exit on gap-up; if adverse → EXIT at open |
+| **ETN catalyst check** | Any overnight ETN-specific news (earnings date, major contract, analyst upgrade with thesis) | No catalyst → EXIT at open and redeploy |
+| **VRT** | Any overnight hyperscaler capex news, NVDA-related developments | Adverse event → EXIT; clean → HOLD to Q2 July 29 |
+| **VST** | ERCOT/PJM overnight demand data; heat wave continuation signal | Heat abates with no replacement catalyst → reassess; Q2 Aug 7 is anchor |
+| **CB buffer** | Pre-market portfolio estimate vs. $93.537 trigger | If portfolio at risk of re-triggering → plan defensively; if ETN rotation raises cash, no equity-value change |
+| **VIX** | VIX direction at open | VIX > 25 → no leveraged ETF entries; VIX 20–25 → reduced hold windows |
+| **Fed Minutes** | Release expected this week | Hawkish surprise → macro negative for all four positions; reassess VRT/ETN holds |
+
+---
+
 ## [2026-07-07T17:15:00Z] BUY VERA x0.046533 @ ~$42.98 | $2.00
 
 - **Catalyst:** FDA accelerated approval of TRUTAKNA™ (atacicept) for adult patients with primary IgA Nephropathy — first and only therapy targeting both BAFF and APRIL immunological drivers of IgAN. Press release published 12:37 PM ET, Reuters coverage 12:42 PM ET. Investor call 4:30 PM EDT. ~33 minutes into repricing at order execution.
