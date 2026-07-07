@@ -4,6 +4,97 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-07-07T13:45:00Z] CIRCUIT BREAKER — Portfolio breached −10% drawdown from peak
+
+- **Reason:** Total portfolio value $93.43 fell below circuit breaker trigger of $93.537 (−10.0% from peak of $103.93 set 2026-06-16). Drawdown from peak: **−10.1%**. All new entries HALTED immediately per Hard Constraint #4.
+- **Trigger math:** $103.93 × 0.90 = $93.537. Current total: $93.43. Shortfall: $0.11 below trigger.
+- **Primary driver:** Broad AI trade unwind at Q3 open. No position-specific adverse catalyst found. VRT −7.0% (sector rotation — AI infrastructure multiples compressing), ETN −4.6% (same), VST ~flat (utility/power buffered the selloff). Nasdaq −1.3%, global chip selloff.
+- **Macro context:** Reuters — DeepSeek developing own AI chip, reducing NVDA/Huawei chip reliance (bearish for AI compute complex, debatable for power/grid infra). SA: "AI trade dancing with the devil" — profit-taking and valuation concerns growing after historic Q2 rally. Trade deficit widened to $77.6B in May (record goods imports). 10-yr Treasury 4.498%, 30-yr 5.012%. Evercore: Fed not moving in 2026.
+- **Action:** HALT all new entries. Review all open positions. Rebuy permitted only after portfolio recovers above $93.537 and re-entry passes Section 4 filter.
+- **CB reset level:** Portfolio must recover above $103.93 to fully reset the circuit breaker.
+
+---
+
+## [2026-07-07T13:45:00Z] CYCLE SUMMARY — Tuesday July 7 2026, 9:30 AM ET Open
+
+### Circuit Breaker Status
+**ACTIVE.** Peak: $103.93 (set 2026-06-16). Trigger: $93.537 (−10% from peak). Current total: **$93.43**. Drawdown: **−10.1%**. All new entries HALTED. CB exception suspends the 75% deployment floor — no forced deployment while CB active.
+
+### VIX
+**15.97** (up +2.6% from yesterday's 15.57). VIX < 20 regime — leveraged ETF hold parameters unchanged, but moot given CB halt on new entries.
+
+### Trades executed this cycle
+**None.** Circuit breaker active. No new entries permitted.
+
+### All open positions — live quotes at session open (~9:36 AM ET)
+
+| Ticker | Shares | Avg Cost | Live Price | Est. Value | Unrealized P&L | Portfolio % |
+|--------|--------|----------|------------|------------|----------------|-------------|
+| VST | 0.231785 | $159.63 | $156.57 | $36.28 | −1.9% | ~38.8% |
+| VRT | 0.090390 | $315.30 | $296.04 | $26.76 | −6.1% | ~28.6% |
+| ETN | 0.016728 | $418.46 | $394.47 | $6.60 | −5.6% | ~7.1% |
+
+Cash: $23.84 | Total equity: $69.64 | Total portfolio: $93.43
+
+### Section 9 profit-taking check
+No position carries an unrealized gain. No Section 9 trigger fires on any position.
+
+### Section 10 leveraged ETF hold check
+No leveraged ETF positions held. Sleeve: 0%. No action required.
+
+### Position management decisions
+
+**VST — HOLD.**
+- Live $156.57 vs. avg cost $159.63 → −1.9% unrealized. Essentially flat vs. yesterday's close ($157.22). VST held up well — utility/power exposure buffered the AI chip rotation.
+- SA piece today "Vistra vs Talen" notes VST has "major catalysts from Meta, Helix, and a robust buyback program." No adverse VST-specific news found.
+- AI trade unwind primarily hits compute/chip/datacenter infrastructure multiples. VST generates real FCF from electricity sales to AI datacenters — its revenues are tied to physical power consumption, not AI chip valuations.
+- Heat wave / all-time peak grid demand thesis: Intact. No heat abatement signal. ERCOT/PJM merchant generation thesis unchanged.
+- Q2 earnings: **August 7, 2026** — next hard catalyst checkpoint.
+- Section 9: −1.9% → no trigger.
+- **HOLD.** Exit thesis: exit if heat wave abates with no replacement power demand catalyst; exit if PJM price cap advances to formal FERC rulemaking; exit if Q2 earnings misses revenue or FCF guidance.
+
+**VRT — HOLD.**
+- Live $296.04 vs. avg cost $315.30 → −6.1% unrealized. Down −7.0% from yesterday's close $318.47.
+- Cause: Broad AI trade rotation/profit-taking at Q3 open. No VRT-specific adverse news found across FMP, general news, press releases. Reuters "chip dip" and DeepSeek chip development drove broad AI infrastructure selloff.
+- Thesis gate re-check at CB: Gate 1 (real bottleneck — datacenter critical power and thermal management) → PASS. Gate 2 (not yet priced — Q2 earnings July 29 has not yet confirmed the NVDA 800 VDC commercial pipeline; multi-quarter revenue ramp not yet visible) → PASS. Gate 3 (NVDA 800 VDC primary power partner announcement — specific, named, dated) → STILL LIVE.
+- DeepSeek chip risk assessment: If DeepSeek reduces NVDA chip usage, it could reduce NVDA-paired Vertiv deployments. However, all large AI datacenter builds require critical power management regardless of which chips are deployed. VRT's market is datacenter power density — not NVDA specifically.
+- Section 9: −6.1% → no trigger.
+- **HOLD.** Exit thesis: exit if Q2 earnings (July 29) miss revenue or backlog growth; exit if NVDA 800 VDC collaboration clarified as non-exclusive or VRT is substituted; exit if hyperscaler capex is cut or DeepSeek demonstrably reduces total AI datacenter buildout (not just chip mix).
+
+**ETN — HOLD (stale flag Day 2 of 2; final watch day).**
+- Live $394.47 vs. avg cost $418.46 → −5.6% unrealized. Down −4.6% from yesterday's close $413.42.
+- No ETN-specific news today. Caught in broad AI/infrastructure selloff.
+- Stale position watch: Entered stale window Monday July 6. Today is Day 2 — still no ETN-specific named catalyst. **Reassess Wednesday July 8** — if no ETN catalyst emerges by Wednesday open, rotate into fresher name (subject to CB conditions).
+- Small position ($6.60, ~7% of portfolio). Thesis structurally intact (grid hardware backlog 80–210 weeks, no demand normalization signal, no adverse ETN news). Hold today; the $6.60 position doesn't justify a forced rotation during CB.
+- Section 9: −5.6% → no trigger.
+- **HOLD.** Exit thesis: rotate out if no ETN-specific catalyst by Wednesday July 8 and CB conditions allow; exit if Q2 earnings miss or backlog shrinks; exit if clearly superior active catalyst requires the capital.
+
+### WATCHLIST — ONDS (carryover from Monday plan)
+- ONDS at $7.65 (−2.2% from Monday's $7.82 close). DZYNE Technologies acquisition announced July 6 (Ondas M&A call transcript published July 6, Seeking Alpha).
+- **Cannot enter during circuit breaker.** Watchlist only.
+- Re-evaluate when CB resolves: check Gate 2 freshness (how much of the DZYNE repricing has occurred), Gate 3 (acquisition still live catalyst?), liquidity and volume.
+
+### New catalyst scans
+All new-entry catalyst scans deferred — circuit breaker halts all new entries. No new names evaluated for entry this cycle.
+
+### Deployment check
+Equity: $69.64 / Total: $93.43 = **74.5%** — below 75% floor.
+**CB exception applies.** 75% deployment floor suspended during active circuit breaker per Hard Constraint #5. No forced deployment required or permitted.
+
+### Leveraged ETF sleeve
+**0%** — no positions.
+
+### Cash & buying power
+Cash: **$23.84** | Buying power: **$23.84** | Total portfolio: **$93.43**
+
+### CB recovery path
+- **Re-entry gate:** Portfolio must clear $93.537 before new positions permitted. That requires +$0.10 from current level — modest recovery in any one position suffices.
+- **CB full reset:** Portfolio must recover above $103.93 (+11.2% from $93.43).
+- Recovery drivers: VST heat wave + Q2 earnings (Aug 7), VRT Q2 earnings (July 29), AI infrastructure re-rating if macro stabilizes or hyperscaler capex holds.
+- On re-entry: every new position must re-pass the full Section 4 filter (Gates 1–3) at that time.
+
+---
+
 ## [2026-07-06T19:30:00Z] EOD CYCLE SUMMARY — Monday July 6 2026 (3:30 PM ET Close)
 
 ### Session context
