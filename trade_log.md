@@ -4,6 +4,141 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-07-08T13:50:00Z] CYCLE SUMMARY — Wednesday July 8 2026, 9:30 AM ET Open Cycle
+
+### Session context
+Macro shock at open: Trump declared Iran ceasefire "over," U.S. and Iran exchanged strikes. WTI crude +6.2% to $74.79, Brent +6.1% to $78.66. Nasdaq futures tumbling; NVDA −1.7%, broad tech down premarket. VIX rising toward ~18–19 (from 15.67 Tuesday; headline: "VIX Creeps Toward 20 as Iran Fears and Tesla's Whipsaw Rattle Nerves"). Fed minutes release due later today. Key pre-market plan: ETN mandatory rotation if no overnight catalyst; VERA post-investor-call assessment. VRT surprised to the upside at open (+3.19% vs prior close $305.58), countertrend to broad tech selloff.
+
+### Circuit Breaker Status
+**NOT ACTIVE.** Peak: $103.93 (set 2026-06-16). Trigger: $93.537 (−10% from peak). Current total: **$94.947** (API live, post-trades). Drawdown from peak: **−8.64%** — below 10% halt threshold. CB buffer: **$1.41** above trigger (improved from $0.589 yesterday as VRT rallied).
+
+### VIX
+**~18–19** estimated at open (search: "VIX Creeps Toward 20 as Iran Fears"). VIX < 20 regime technically, but borderline elevated. No leveraged ETF positions held. No leveraged ETF entry this cycle — no qualifying High+ conviction catalyst that wouldn't be opposed by rising VIX and gap-up positioning.
+
+### Trades executed this cycle
+1. **SELL ETN $6.65** — 0.016728 shares @ $397.5301 — FILLED (mandatory stale exit, Day 3, no catalyst)
+2. **SELL VERA $1.95** — 0.046533 shares @ $41.96 — FILLED (catalyst resolved, no next catalyst until Q3)
+3. **BUY VRT $7.00** — 0.022177 shares @ $315.639 — FILLED (AI infra add; Q2 earnings July 29 live catalyst; deployment floor redeployment)
+
+### All open positions — live quotes at cycle execution (~9:44 AM ET)
+
+| Ticker | Shares | Avg Cost | Live Price | Est. Value | Unrealized P&L | Portfolio % |
+|--------|--------|----------|------------|------------|----------------|-------------|
+| VST | 0.231785 | $159.63 | $155.525 | $36.04 | −2.57% | 38.0% |
+| VRT | 0.112567 | $315.34 | $315.285 | $35.50 | −0.02% | 37.4% |
+
+Cash: **$23.44** | Equity: **~$71.51** | Total portfolio: **~$94.95**
+
+### Positions closed today
+- **ETN**: Sold 0.016728 sh @ $397.5301. Realized loss: −$0.35 (−4.99% from avg cost $418.46). Mandatory stale exit — no new catalyst in Day 3 of watch window.
+- **VERA**: Sold 0.046533 sh @ $41.96. Realized loss: −$0.047 (−2.37% from avg cost $42.98). Investor call completed July 7 at 4:30 PM ET; FDA approval catalyst fully priced; no next catalyst until Q3 ORIGIN 3 confirmatory eGFR data. Sold below prior close of $42.96 ($41.96 fill) — risk-off environment weighing on biotech.
+
+### Realized P&L today
+- ETN: −$0.350
+- VERA: −$0.047
+- **Total realized loss: −$0.397**
+
+### Section 9 Profit-Taking Check — all positions
+- VST −2.57%: no gain → no trigger
+- VRT −0.02%: effectively flat → no trigger
+
+**No Section 9 action required.**
+
+### Section 10 Leveraged ETF Hold Check
+**No leveraged ETF positions held.** Sleeve: 0%. No action required.
+
+### Deployment check
+Equity: **$71.51** / Total: **$94.95** = **75.3%** — MEETS 75% floor ✓
+Deployment gap from ETN/VERA exits was filled by $7.00 VRT add.
+
+### Catalyst scan results — no new entries taken
+
+**Pillar 1 (AI Infrastructure Power/Grid):** No fresh July 8 power/grid/nuclear contract catalyst found. Valar Atomics/NVDA nuclear deal (July 1) and Meta 6.6GW nuclear commitments (Jan 2026) continue to underpin the thesis but are prior catalysts. VRT's Malaysia factory expansion confirms backlog execution capability — used as supporting Gate 3 for today's VRT add.
+
+**Pillar 2 (Physical AI/Robotics):** No specific July 8 deployment/volume-order catalyst found. NVDA Isaac GR00T N1.6 ecosystem partnership announcements are ongoing but no single dated event today.
+
+**Pillar 3 (Quantum):** White House EOs on Quantum Innovation and PQC (June 22, 2026) set mandatory contractor migration deadlines to 2030. DOC $2B equity stakes in 9 quantum companies. These are real catalysts — but 16 days old as of today, and no fresh July 8 quantum announcement found. Gate 3 fails for a new entry today. Watchlist: IONQ, QBTS for any contract awards or PQC certification announcements.
+
+**Pillar 4 (Space):** SpaceX $2.29B USSF Space Data Network Backbone contract (announced May 27), Rocket Lab $816M missile-defense satellite constellation (U.S. Space Force). Iran conflict directly validates the strategic urgency of low-latency sensor-to-shooter satellite architecture — but these contracts are pre-existing. No fresh July 8 space catalyst. Watchlist: RKLB (Rocket Lab) if additional SDA Tranche 3 contract details emerge.
+
+**Wildcards — Defense:** LMT/RTX/NOC up 5–7% premarket on Iran/U.S. strikes. Evaluated and passed on — see NO-ACTION entry. Defense stocks historically did NOT sustain on prior Iran escalation (March 2026 Forbes: "Defense Stocks Stumble As Iran Conflict Escalates"). Gate 2 marginal given large premarket gap; ceasefire reversal risk is real (search results confirm ceasefire eventually happens). With thin CB buffer ($1.41), buying into a 6% gap-up on Day 1 of conflict is not the right entry.
+
+**Wildcards — Energy:** WTI +6.2% to $74.79 on Strait of Hormuz threat. Gate 1 PASS (supply constraint). Gate 3 PASS (specific military exchange). Gate 2 marginal — oil already moved 6.2% premarket; energy equities lag but catching up fast. Did not enter: ceasefire reversal risk is same-session or next-session; capital better deployed in VRT thesis at high conviction.
+
+### Cash & buying power
+Cash: **$23.44** | Buying power: **$14.84** (lower than cash due to sell settlement lag) | Total portfolio: **~$94.95**
+
+### Portfolio peak and drawdown
+Peak: **$103.93** (set 2026-06-16) | Current: **$94.95** | Drawdown: **−8.64%** | CB buffer: **$1.41** above trigger
+
+### Pre-market checklist for next cycle
+| Item | What to check | Action trigger |
+|------|--------------|----------------|
+| **Iran conflict** | Ceasefire headlines; Strait of Hormuz status | Ceasefire → energy trade reversal; VIX drop → leveraged ETF opportunity window opens |
+| **VRT** | Any intraday price action; NVDA/hyperscaler news | Hold to Q2 earnings July 29; exit if hyperscaler capex freeze or NVDA partnership adverse news |
+| **VST** | ERCOT overnight demand; heat wave extension into Texas/South | Heat abates = reassess; Q2 earnings Aug 7 is anchor |
+| **VIX** | Direction during session | If VIX spikes above 25 → HALT all new entries; if drops below 15 → leveraged ETF window opens |
+| **Fed minutes** | Hawkish vs dovish tone | Hawkish surprise = macro negative for VRT/VST holds |
+| **VRT Q2 earnings** | July 29 — 21 days away | Monitor pre-announcement news; Section 9 profit-taking rules apply if position gains +15% |
+| **Quantum** | IONQ, QBTS contract awards or PQC certification news | Fresh Gate 3 catalyst → evaluate for small position |
+| **RKLB** | Rocket Lab SDA or USSF follow-on contract | Iran conflict validates military satellite urgency → watch for new contract announcements |
+
+---
+
+## [2026-07-08T13:43:23Z] BUY VRT x0.022177 @ ~$315.64 | $7.00
+
+- **Catalyst:** (1) VRT rising +3.19% vs prior close $305.58 at open — countertrend to broad tech selloff (NVDA −1.7%), signaling rotation into physical AI infrastructure from pure tech multiples. (2) 236,000 sq-ft Malaysia manufacturing facility opened to address $15B+ backlog — confirms execution capability on the bottleneck constraint. (3) Q2 earnings July 29 is 21 days away; no financial confirmation of NVDA 800 VDC commercial ramp yet — repricing for that catalyst has not yet started.
+- **Thesis gate summary:**
+  - Gate 1 (Bottleneck real?): AI datacenter power delivery and thermal management is THE primary infrastructure constraint in mid-2026; VRT's backlog >$15B directly monetizes this constraint — PASS
+  - Gate 2 (Not yet priced?): VRT was caught in the AI trade unwind last week (down to $305.58 from ~$318+ levels); today's +3.19% move while broader tech is down suggests rotation into physical AI infra is in progress but repricing from the unwind is not yet complete; Q2 earnings catalyst (July 29) has not yet been priced — MARGINAL PASS
+  - Gate 3 (Specific catalyst?): Q2 earnings July 29 = specific, named, 21 days away; Malaysia factory expansion directly addresses backlog constraint; today's relative strength vs tech sector suggests market is repricing VRT specifically — PASS
+- **Conviction level:** Medium-High
+- **Sizing rationale:** $7.00 — needed to meet 75% deployment floor after ETN/VERA exits; brings VRT position to $35.50 (37.4% of portfolio); sized at deployment-floor minimum to maintain meaningful cash buffer given thin CB headroom
+- **Exit thesis:** Exit if: Q2 July 29 misses revenue or backlog growth (thesis break); NVDA partnership clarified as non-exclusive or VRT substituted in 800 VDC; hyperscaler announces specific capex freeze targeting power delivery. Per Section 9: VRT now at 37.4% of portfolio — take 30% off at any +15% gain from any lot (position-concentration override). Hold until Q2 earnings resolves the NVDA commercial ramp thesis.
+- **Portfolio after:** Cash $23.44 | Equity ~$71.51 | Total ~$94.95 | Deployment: 75.3% ✓
+- **Order ID:** 6a4e53fb-ece4-4777-8644-1d4668ef1603
+- **Status:** FILLED @ $315.6399 (0.022177 shares)
+
+---
+
+## [2026-07-08T13:43:06Z] SELL VERA x0.046533 @ ~$41.96 | $1.95
+
+- **Catalyst resolved:** FDA accelerated approval of TRUTAKNA™ (atacicept) for IgAN announced July 7. Investor call July 7 at 4:30 PM EDT confirmed clinical data (46% proteinuria reduction from baseline, 42% vs placebo, p<0.0001 at 36 weeks) — strong data but only on surrogate endpoint. No adverse reveals: no Black Box Warning, no REMS requirement flagged in search results. However, next named catalyst is not until Q3 2026 (ORIGIN 3 confirmatory eGFR outcomes). No additional repricing catalyst is live. Stock at $41.96 fill (below $42.96 prior close) — risk-off environment weighing on biotech.
+- **Thesis gate that failed (for continued hold):** Gate 3 — no next named catalyst until Q3 ORIGIN 3 eGFR data. Accelerated approval + investor call = catalyst fully resolved. Exit is thesis-correct, not stop-loss.
+- **Next check:** VERA re-qualifies if: ORIGIN 3 confirmatory eGFR data released (Q3 2026); a partnership or commercial agreement is announced; or a comparable first-in-class competitor catalyst creates a relative value rotation.
+- **Realized P&L:** −$0.047 (−2.37% from avg cost $42.98). Fill at $41.96 vs $42.96 prior close = −2.33% on the day; broader biotech risk-off sell pressure.
+- **Order ID:** 6a4e53ea-fb0b-48a3-b071-a068af9991b8
+- **Status:** FILLED @ $41.96 (0.046533 shares)
+
+---
+
+## [2026-07-08T13:43:05Z] SELL ETN x0.016728 @ ~$397.53 | $6.65
+
+- **Catalyst:** No overnight ETN-specific catalyst found. Wednesday July 8 search returned no named ETN event — no earnings date announcement, no major contract, no analyst upgrade with a new thesis. Mandatory rotation decision per EOD Tuesday plan: "At Wednesday open, if no overnight ETN-specific news, EXIT." Day 3 of the stale-position window exceeded. ETN opened +0.58% on the day (better than expected), but the absence of a Gate 3 catalyst means holding further would extend a stale position beyond the framework's bounds.
+- **Thesis gate that failed:** Gate 3 — no new named ETN catalyst (earnings date, major contract, analyst upgrade with specific thesis) found overnight or in pre-market.
+- **Next check:** ETN re-qualifies when: Q2 earnings date is formally announced (becomes a Gate 3 catalyst — record backlog of data center orders at +240% YoY makes this a high-conviction setup); a major grid equipment contract win is reported; or a PJM/ERCOT grid buildout award is specifically naming ETN equipment. Re-enter at that point.
+- **Realized P&L:** −$0.350 (−4.99% from avg cost $418.46). ETN structural thesis (80–210 week backlog, data center orders +240%) is intact — this is a stale exit, not a thesis break. Exit preserves capital for active catalysts.
+- **Order ID:** 6a4e53e9-0044-4da2-9ebf-0efb084671df
+- **Status:** FILLED @ $397.5301 (0.016728 shares)
+
+---
+
+## [2026-07-08T13:40:00Z] NO-ACTION — LMT / RTX / NOC / KTOS (Defense — Iran/U.S. Strikes)
+
+- **Reason:** U.S.-Iran exchange of strikes July 8 after Trump called ceasefire "over" → defense stocks surging premarket: LMT +6.67%, RTX +6.58%, NOC +5.20%, KTOS +10%+. Gates 1 and 3 pass (real constraint in precision munitions + air defense resupply; specific dated catalyst — U.S. military strikes on Iran July 8, 2026). Gate 2 is the blocking concern: (a) stocks already up 5–10% premarket — buying a 6% gap-up at the open means entering after the initial repricing; (b) historical precedent is adverse — March 2026 Forbes headline "Defense Stocks Stumble As Iran Conflict Escalates: Lockheed Martin, Palantir, RTX Down" confirms defense stocks did NOT sustain on prior Iran escalation, and search results show a ceasefire eventually occurs; (c) thin CB buffer ($1.41) makes a false gap-up entry into a reversal particularly costly.
+- **Thesis gate that failed:** Gate 2 — repricing is partially complete (large premarket move), reversal risk from ceasefire is elevated and same-day or next-day, historical pattern unfavorable.
+- **Next check:** Defense re-qualifies if: (a) conflict escalates beyond initial exchange (sustained Strait of Hormuz closure, Iranian missile strikes on U.S. assets); (b) ceasefire fails and stocks pull back to lower entry points; or (c) specific procurement contract for precision munitions restocking is announced.
+
+---
+
+## [2026-07-08T13:40:00Z] NO-ACTION — VST ADD
+
+- **Reason:** VST essentially flat at open ($155.525, −0.13% from prior close $155.73). Thesis intact: heat dome, ERCOT/PJM merchant revenues, Q2 earnings August 7. No overnight VST-specific news found. Gate 3 fails for a new add — no fresh named catalyst. VST already at 38.0% of portfolio; adding further without a catalyst would be averaging down on narrative alone and increasing concentration beyond an already-outsized position.
+- **Thesis gate that failed:** Gate 3 — no new named VST-specific catalyst today.
+- **Next check:** VST add re-qualifies on: new ERCOT all-time demand record; July heat dome extension announcement; FERC favorable ruling for merchant generators; or Q2 earnings preview/guidance.
+
+---
+
 ## [2026-07-07T19:30:00Z] HOLD — VST (EOD Tuesday July 7 2026)
 
 - **Reason:** Live price $156.525, avg cost $159.63 → −1.94% unrealized. Down −0.44% from yesterday's close ($157.22). Thesis fully intact: July 4 heat dome drove U.S. grid to all-time peak demand; ERCOT/PJM merchant generation revenues elevated. Schaeffers Research published bullish long-term technical signal this afternoon ("Long-Term Utility Stock Signal Has Never Been Wrong") — editorial confirmation, not a Gate 3 catalyst, but directionally consistent with thesis. No adverse VST-specific news found. Q2 earnings August 7 remains the next hard catalyst checkpoint. No Section 9 trigger (unrealized loss, no gain to protect). No position concentration override (38.5% of portfolio but gain > +15% required for 30%-off rule — not applicable here).
