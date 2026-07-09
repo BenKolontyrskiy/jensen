@@ -4,6 +4,106 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-07-09T13:50:00Z] CYCLE SUMMARY — Thursday July 9 2026, 9:30 AM ET Open
+
+### Session context
+AI trade rebounding broadly on Thursday despite continued U.S.-Iran strikes. S&P 500 futures were +85% probability higher open (Polymarket). VIX 16.67 — sub-20 regime, no leveraged ETF constraints beyond the Thursday weekend rule (no leveraged ETFs held at any point today). Major movers at open: VRT +5.93% (Johor Malaysia factory opening + AI capex momentum), VST +2.80% (general market recovery), MRVL +8.31% (Nvidia Kyber NVL144 delay catalyst — already fully repriced by open). SpaceX (SPCX) in two-day slide after Nasdaq-100 inclusion fade, but receiving fresh analyst coverage: BofA $235 initiation July 8, ARK $27M purchase today, Grok 4.5 launch today.
+
+### Circuit Breaker Status
+**NOT ACTIVE.** Peak: $103.93 (set 2026-06-16). Trigger: $93.537 (−10%). Session total: ~$99.20. Drawdown from peak: **−4.55%**. CB buffer: $5.66 above trigger.
+
+### VIX
+**16.67** — sub-20. 3x ETFs eligible (max 3 days hold); 2x ETFs eligible (max 5 days hold). **THURSDAY RULE active**: any leveraged ETF entered today must be exited by close. No leveraged ETF positions held or entered this cycle.
+
+### Trades executed this cycle
+1. **BUY SPCX $7.50** — 0.049933 shares @ $150.20 — FILLED (BofA $235 initiation + ARK $27M buy + Grok 4.5 launch; Pillar 4 re-entry below prior June exits at $195-216)
+
+### All open positions — live quotes at 9:42 AM ET
+
+| Ticker | Shares | Avg Cost | Price | Est. Value | Unrealized P&L | Portfolio % |
+|--------|--------|----------|-------|------------|----------------|-------------|
+| VST | 0.231785 | $159.63 | $159.16 | $36.89 | −0.29% | 37.2% |
+| VRT | 0.159535 | $315.54 | $336.66 | $53.71 | +6.69% | 54.1% |
+| SPCX | 0.049933 | $150.20 | $150.20 | $7.50 | 0.00% | 7.6% |
+
+Cash: **$1.10** | Buying Power: **$1.10** | Equity: **$98.10** | Total: **~$99.20**
+
+### Section 9 Profit-Taking Check — all positions
+- VST −0.29%: no gain → no trigger
+- VRT +6.69%: below 15% threshold → no trigger; position >30% of portfolio → **take 30% off when VRT reaches ~$363 (+15% from avg cost $315.54)**
+- SPCX 0.00%: just entered → no trigger
+
+**No Section 9 action required this cycle.**
+
+### Section 10 Leveraged ETF Hold Check
+**No leveraged ETF positions held.** Sleeve: 0%. No action required. Thursday rule noted — no leveraged ETF entered.
+
+### Deployment check
+Equity: **$98.10** / Total: **$99.20** = **98.9%** — well above 75% floor ✓
+
+### Portfolio peak and drawdown
+Peak: **$103.93** (set 2026-06-16) | Session total: **~$99.20** | Drawdown: **−4.55%** | CB buffer: **$5.66** above $93.537 trigger
+
+### Watchlist / Forward-Looking Catalysts
+
+| Item | What to watch | Action trigger |
+|------|--------------|----------------|
+| **VRT** | Q2 earnings July 29; +15% gain (~$363) triggers 30% trim per Section 9 concentration rule | Hyperscaler capex freeze targeting power delivery → exit; VRT reaching ~$363 → take 30% off |
+| **VST** | Q2 earnings August 6; ERCOT heat dome demand records; Cogentrix acquisition H2 close | Heat dome abatement → reassess; Iran ceasefire oil drop → monitor ERCOT revenue impact |
+| **SPCX** | BofA $235 target; analyst initiation cycle; lock-up expiration timeline; Grok AI narrative | Lock-up selling accelerates below $135 IPO price → exit; continued analyst initiations → hold/add |
+| **MRVL** | Post-consolidation catalyst (Q3 guidance, contract win); Nvidia delay ripple effects | Re-evaluate after 1-2 day consolidation; fresh specific catalyst needed for Gate 2 re-pass |
+| **Quantum (IONQ/QBTS/RGTI)** | All below 50-day MAs; no fresh catalyst today | Re-enter only on named government contract or partnership specific to these names |
+| **Iran conflict** | Ceasefire vs. Strait of Hormuz formal closure | Formal closure → XOP/energy play; ceasefire → energy reversal risk, reassess VST |
+
+---
+
+## [2026-07-09T13:47:00Z] NO-ACTION — IONQ / QBTS / RGTI (Pillar 3 — Quantum)
+
+- **Reason:** White House Quantum Summit held July 7 (2 days ago). $2B CHIPS Act quantum funding went primarily to IBM ($1B) and GlobalFoundries ($375M) foundries — not to IonQ, D-Wave, or Rigetti. All three pure-play quantum stocks are in downtrends below their 50-day MAs: IONQ $45.81 vs. MA $55.07 (−17%), QBTS $21.04 vs. $23.49 (−10%), RGTI $17.18 vs. $20.15 (−15%). Today's +1.5-2% moves are within normal noise. Jensen previously held and exited all three on June 23 at better prices ($57.57, $25.33, $21.27 respectively).
+- **Thesis gate that failed:** Gate 2 (stocks in confirmed downtrend below 50-day MAs; summit catalyst 2 days old with no active repricing underway). Gate 3 WEAK (no fresh specific catalyst announced today for these names).
+- **Next check:** Re-enter only on named government contract award or qubit milestone that reverses the trend above the 50-day MA. Post-quantum cryptography contract for one of these names would be Gate 3 PASS.
+
+---
+
+## [2026-07-09T13:46:00Z] NO-ACTION — MRVL (Pillar 1/2 — AI Custom Silicon)
+
+- **Reason:** Marvell Technology +8.31% today on Nvidia Kyber NVL144 architecture delay (pushed back >1 year per reports), opening a competitive window for MRVL custom ASIC and optical interconnect business. Gate 1 PASS (optical interconnects and custom silicon are genuine AI datacenter bottlenecks). Gate 3 PASS (Nvidia delay reports are specific and dated). Gate 2 FAIL — the move originated Monday and is well advanced by today's open (+8.31% at time of scan). Entering at this stage would be chasing a completed repricing, not an incomplete one.
+- **Thesis gate that failed:** Gate 2 (repricing appears complete — Monday catalyst already embedded in the +8.31% move).
+- **Next check:** If MRVL consolidates over 1-2 days with a fresh specific catalyst (Q3 earnings guidance update, named hyperscaler contract win), Gate 2 may reopen. Current price ~$251 with $228 50-day MA — above the MA and trending.
+
+---
+
+## [2026-07-09T13:45:00Z] HOLD — VST (Morning cycle July 9 2026)
+
+- **Reason:** VST +2.80% from yesterday's close ($154.82 → $159.16). Cogentrix acquisition (5,500 MW natural gas capacity in PJM/ISO-NE/ERCOT, expected close H2 2026) and ERCOT heat dome summer thesis remain intact. Q2 earnings August 6. WTI oil edged lower today ($73.37, −0.20%) — mild ERCOT revenue noise, not a thesis change. Position at $159.16 vs. avg cost $159.63 → −0.29% unrealized; effectively flat.
+- **Section 9 check:** −0.29% unrealized. No gain, no trigger.
+- **Exit thesis (unchanged):** Hold to Q2 August 6 earnings. Exit if: ERCOT summer heat dome abates with no replacement demand catalyst; PJM price cap reaches adverse FERC formal rulemaking; or VST-specific adverse news surfaces (not market-wide AI correlation). Yesterday's session confirmed: AI sector derating is not a VST thesis break.
+- **Next check:** ERCOT daily demand records. Iran escalation/ceasefire update. Cogentrix close timeline.
+
+---
+
+## [2026-07-09T13:44:00Z] HOLD — VRT (Morning cycle July 9 2026)
+
+- **Reason:** VRT surging +5.93% from yesterday's close ($317.81 → $336.66) at time of scan. Catalyst today: Vertiv officially opened its 236,000 sq ft manufacturing facility in Johor, Malaysia producing liquid cooling equipment, prefabricated power modules, and integrated overhead systems for AI and high-density computing — direct capacity expansion for the Pillar 1 power/thermal constraint. AI trade broadly rebounding. VRT's cleanest expression of the AI power-delivery bottleneck is working exactly as expected: physical hardware, physical scarcity, expanding into the Asia-Pacific AI datacenter buildout.
+- **Section 9 check:** Avg cost $315.54, current $336.66 → +6.69% unrealized. Below 15% threshold — no trigger. Position size: $53.71 / $99.20 = 54.1% of portfolio (>30% concentration override active). **30% trim rule: take 30% off at +15% gain, which equals ~$363.** This is a live alert level.
+- **Exit thesis (updated):** Q2 earnings July 29 is 20 days away — maintain conviction. Exit triggers: Q2 revenue or backlog guidance miss; hyperscaler announces capex freeze targeting power delivery or thermal management; VRT price reaches ~$363 (+15%) → take 30% off regardless of momentum (concentration override). If VRT exceeds $363 without delivering Q2 earnings, the concentration risk is too high to ride into print.
+- **Next check:** Any hyperscaler capex news. Watch VRT daily for approach toward $363 trim trigger.
+
+---
+
+## [2026-07-09T13:42:10Z] BUY SPCX x0.049933 @ ~$150.20 | $7.50
+
+- **Catalyst:** Multi-layered Pillar 4 re-entry: (1) Bank of America initiated SPCX coverage at $235 price target on July 8 — first major Wall Street initiation; (2) Cathie Wood/ARK purchased $27M of SPCX on July 9; (3) SpaceXAI launched Grok 4.5 on July 9 (sovereign AI narrative expanding); (4) Stock down 35% from post-Nasdaq-100-inclusion high of $225.64, rebasing at $150 after index-fund inclusion-fade. SpaceX joined Nasdaq-100 on July 7, driving a temporary inclusion surge followed by a rapid normalization — creating the entry opportunity.
+- **Thesis gate summary:** Gate 1 PASS (Starlink broadband and launch cost-curve are real Pillar 4 bottlenecks — SpaceX owns the dominant low-earth-orbit constellation with recurring revenue; launch capacity is a constraint for the space economy). Gate 2 MARGINAL PASS (35% off post-inclusion high of $225.64, now at $150.20 which is only 11% above IPO price — inclusion-fade is complete and new analyst coverage cycle is starting). Gate 3 PASS (BofA $235 initiation July 8 + ARK $27M purchase July 9 + Grok 4.5 launch July 9 — three same-week specific dated catalysts).
+- **Conviction level:** Medium
+- **Sizing rationale:** $7.50 of remaining buying power deployed (all available cash after deployment floor already satisfied at 91% pre-trade). Medium conviction = 5-15% sizing heuristic; $7.50/$99.17 = 7.6% of portfolio. Jensen previously traded SPCX in June (bought $15 at $172.89 on June 15, sold at $215.83 on June 16 and $195.70 on June 17). Re-entering at $150.20 — below both prior exit prices — is a lower-cost position on the same thesis.
+- **Exit thesis:** Exit if: (1) lock-up expiration selling accelerates and stock breaks below IPO price ($135) with no analyst floor; (2) SpaceX reports additional heavy losses without matching revenue growth; (3) momentum reverses materially pre-earnings on no new catalyst. Hold target: analyst initiation cycle convergence toward BofA $235; Starlink subscriber growth next quarterly data point; Grok AI narrative validation. This is a medium-term catalyst play, not a long-term hold — exit when catalyst cycle resolves or a better Pillar 4 opportunity appears.
+- **Portfolio after:** Cash $1.10 | Total est. ~$99.20
+- **Order ID:** 6a4fa531-3218-453c-add3-f659b7bfddd0
+- **Status:** FILLED @ $150.20
+
+---
+
 ## [2026-07-08T19:47:00Z] EOD CYCLE SUMMARY — Wednesday July 8 2026, 3:30 PM ET Close
 
 ### Session context
