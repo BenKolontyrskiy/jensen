@@ -4,6 +4,139 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-07-10T17:15:00Z] CYCLE SUMMARY — Friday July 10 2026, 1:00 PM ET Mid-Day
+
+### Session context
+Market: S&P at 3-week high (+20.5 pts to 7,564); Nasdaq +52 pts to 26,259; VIX at 15.30 (down from 16.58 at open) — very low vol, strongly risk-on. Iran ceasefire remains collapsed; US struck ~80 Iranian targets, Strait of Hormuz shipping attacks ongoing. Oil pulling back modestly as further talks are floated despite active conflict. Initial jobless claims 215K vs. 223K expected — labor market healthy, no recession signal. SKHYV (SK Hynix) IPO opened at $170 (+14.2% from $149 IPO price), Gate 2 FAIL; fractional trading still blocked. GEV (GE Vernova, Pillar 1 peer) up +1.25% today. S&P at 3-week high validates risk-on macro backdrop for all three core positions.
+
+**FRIDAY LEVERAGED ETF RULE: No leveraged ETFs held. No new leveraged ETF entries today. Rule satisfied. ✓**
+
+### Circuit Breaker Status
+**NOT ACTIVE.** Peak: $103.93 (set 2026-06-16). Trigger: $93.537 (−10%). Mid-day total: **~$96.68**. Drawdown from peak: **−6.98%**. CB buffer: **$3.14** above trigger.
+
+### VIX
+**~15.30** (down from 16.58 at open). Sub-20 regime, extremely low. Friday rule: no leveraged ETFs. Sleeve: 0%. ✓
+
+### All open positions — live quotes at ~1:10 PM ET
+
+| Ticker | Shares | Avg Cost | Price | Est. Value | Unrealized P&L | Portfolio % |
+|--------|--------|----------|-------|------------|----------------|-------------|
+| VRT | 0.159535 | $315.54 | $322.13 | $51.38 | +2.09% / +$1.05 | 53.1% |
+| VST | 0.231785 | $159.63 | $158.72 | $36.77 | −0.57% / −$0.21 | 38.0% |
+| SPCX | 0.049933 | $150.20 | $148.73 | $7.43 | −0.98% / −$0.07 | 7.7% |
+| CORT | 0.012086 | $91.01 | $91.01 | $1.10 | 0.00% (just filled) | 1.1% |
+
+Cash: **$0.00** | Buying Power: **$0.00** | Equity: **~$96.68** | Total: **~$96.68**
+
+### Trades executed this cycle
+**1 entry: BUY CORT $1.10 fractional market order.** Wildcard PDUFA binary — FDA decision on relacorilant in platinum-resistant ovarian cancer expected July 11 (tomorrow). All three required gates pass; $1.10 lottery-ticket size deploys all remaining cash. Full entry rationale in BUY entry below.
+
+### Section 9 Profit-Taking Check — all positions
+- **VRT +2.09%:** Below 15% threshold — no trigger. Position 53.1% of portfolio (>30% concentration override active). 30% trim trigger: **$362.87** (+15% from avg cost $315.54). Current $322.13 is $40.74 below trigger. No action.
+- **VST −0.57%:** No gain — no trigger.
+- **SPCX −0.98%:** No gain — no trigger.
+- **CORT 0.00%:** Just entered — no trigger.
+
+**No Section 9 action required.**
+
+### Section 10 Leveraged ETF Hold Check
+**No leveraged ETF positions held.** Sleeve: 0%. Friday rule confirmed satisfied. ✓
+
+### Deployment check
+Equity: **$96.68** / Total: **$96.68** = **100%** — well above 75% floor ✓ (all cash deployed into CORT wildcard)
+
+### Portfolio peak and drawdown
+Peak: **$103.93** (set 2026-06-16) | Mid-day total: **~$96.68** | Drawdown: **−6.98%** | CB buffer: **$3.14** above $93.537 trigger
+
+### Position thesis reviews — all HOLD
+
+**VRT — HOLD.** $322.13, +2.09% unrealized. Down −$1.79 from yesterday's EOD close ($323.92) but strongly recovered from this morning's open ($316.80 → $322.13, +1.68% intraday). Bernstein reiterates Buy, $416 PT (July 6). Pillar 1 thesis fully intact: PJM $28K/MWh grid stress confirmed, 13+ nuclear projects totaling 9.8 GW committed to AI infrastructure (Meta alone signed 6.6 GW with TerraPower, Oklo, Vistra, Constellation), nuclear revival article from Bloomberg (July 9) is direct macro tailwind for VRT's backlog. GE Vernova up +1.25% today confirms Pillar 1 grid hardware thesis is sector-wide, not VRT-idiosyncratic. Q2 earnings July 29 — 19 days out, catalyst live. No exit signal.
+
+**VST — HOLD.** $158.72, −0.57% unrealized. Up +$0.74 from yesterday's EOD close ($157.98). Iran ceasefire remains collapsed; US CENTCOM struck ~80 Iranian targets overnight July 8-9; Hormuz shipping attacks ongoing. Merchant power scarcity thesis intact. Oil pulling back slightly on further-talks language, but structural conflict and AI datacenter power demand remain the dominant thesis drivers. Motley Fool GEV vs. VST comparison article (July 10) is editorial context; Helix Digital Infrastructure ($10B KKR/Nvidia/Kuwait/Vistra venture) could not be confirmed with a today date — treated as background context. Q2 earnings August 6. No exit signal.
+
+**SPCX — HOLD with elevated watch.** $148.73, −0.98% unrealized. Down −$3.43 (−2.25%) from yesterday's EOD close; price below our avg cost $150.20 and near/below $150 IPO reference price per TradingKey. Blue Origin's $10B raise at $130B valuation is a longer-term competitive concern but does NOT represent current market share erosion — Blue Origin hasn't reached Falcon 9 cadence, SpaceX's manifest is booked years ahead, and fundraising capital is for future competition, not today's contracts. Exit thesis at $135 not triggered. CME SPCX futures July 27 (17 days) and August 6 earnings are structural catalysts still live. Position small (7.7%). Will exit on any acceleration below $140 or thesis break event (Blue Origin wins major Falcon 9 client, SpaceX H1 losses exceed revenue guidance). Current action: HOLD.
+
+### Afternoon catalyst scan — summary
+
+**Pillar 1 — AI/Grid:**
+- Nuclear revival Bloomberg (July 9): Trump admin boosting atomic power; 13+ nuclear projects 9.8 GW committed to AI datacenters. Thesis-confirming background for VRT/VST. Gate 2 FAIL for new entries (2-day-old news).
+- GEV: +1.25% today on same Pillar 1 thesis. No new entry catalyst surfaced that clears all three gates.
+
+**Pillar 2 — Physical AI/Robotics:**
+- Humanoid IPO (TechCrunch, July 5): Company went public with industrial-only focus. No today-dated deployment, volume order, or partnership announcement. Gate 3 FAIL. NO-ACTION.
+- Figure AI BMW / JAL Haneda deployments are ongoing — background context, no new catalyst today.
+
+**Pillar 3 — Quantum:**
+- White House Quantum Summit (July 8) — 2 days old, Gate 2 FAIL for new entries.
+- QTREX USA: US ticker and exchange listing still unconfirmed. NO-ACTION.
+- IONQ/QBTS/RGTI: no today-dated named catalyst. Gate 3 FAIL.
+
+**Pillar 4 — Space:**
+- SPCX held per above. No new space names surfaced with a valid Gate 2 today.
+
+**Wildcards:**
+- **CORT: BUY — see entry below.** PDUFA July 11 binary passes all three gates; stock down −2.38% today on CRL fear = Gate 2 valid.
+- SKHYV: +14.2% on debut → Gate 2 FAIL. Fractional still blocked. NO-ACTION.
+- CRNX (Crinetics): Up +99% this week on endocrine catalyst — confirms market rewarding biotech binary plays. No CRNX entry today; move already complete, Gate 2 FAIL.
+
+### Forward-looking watchlist
+
+| Item | What to watch | Action trigger |
+|------|--------------|----------------|
+| **CORT** | FDA decision relacorilant ovarian cancer July 11 (tomorrow pre-market) | Approval → sell at open, catalyst fully priced; CRL → sell at open, limit further loss from gap-down |
+| **SKHY** | Ticker conversion July 13; fractional trading enable check | If fractional enabled Monday and not >10% above $149 → Pillar 1 HBM entry with available cash |
+| **VRT** | Q2 earnings July 29; 30% trim trigger at $362.87 | Hyperscaler capex freeze targeting power delivery → exit; reaching $362.87 → take 30% off |
+| **VST** | Iran conflict resolution vs. escalation; ERCOT summer; Q2 August 6 | Formal Hormuz closure → maximum energy scarcity thesis; ceasefire + oil collapse → reassess |
+| **SPCX** | CME futures July 27; Blue Origin launch cadence; lock-up selling | Below $140 with acceleration → reassess exit; below $135 → exit per thesis; Blue Origin wins Falcon 9 client → exit |
+| **JPM Q2 earnings** | July 14 pre-market | Strong beat = risk-on signal for AI names; miss = multiple compression risk |
+
+---
+
+## [2026-07-10T17:11:25Z] BUY CORT x0.012086 @ ~$91.01 | $1.10
+
+- **Catalyst:** FDA PDUFA date July 11, 2026 (tomorrow) for relacorilant NDA in platinum-resistant ovarian cancer (ROSELLA Phase 3 trial). Stock selling off −2.38% today ($93.25 → $91.01) on CRL overhang from the December 30, 2025 Cushing's/hypercortisolism rejection — creating a discounted pre-binary-event entry as market prices in CRL fear rather than approval probability.
+- **Thesis gate summary:** G1 PASS — Platinum-resistant ovarian cancer is a real unmet need with no effective post-platinum therapies; relacorilant addresses GR-mediated chemotherapy resistance, a legitimate pharmacological bottleneck in a life-threatening indication. G2 PASS — Stock down −2.38% the day before PDUFA: market pricing in CRL fear from Cushing's rejection, not pricing in approval. Seeking Alpha article (12:06 PM today) maintains Buy despite "rejection aside" framing — confirms discounted expectations, Gate 2 valid. G3 PASS — FDA PDUFA date is tomorrow July 11, 2026: named, specific, dated, imminent catalyst. Bear case named (G6): another CRL from FDA, citing concerns similar to or beyond the Cushing's indication; loss bounded at 20–30% on CRL gap.
+- **Conviction level:** Low (binary wildcard — FDA decisions are inherently uncertain; prior CRL for same drug in different indication is a meaningful bear case)
+- **Sizing rationale:** $1.10 — full remaining cash deployed; lottery-ticket size per thesis Section 4 (Low conviction = $1–$5 fractional). Position is 1.1% of portfolio. Worst-case loss bounded to ~$0.25–$0.33 (−25% to −30% on CRL gap-down). Upside: +30–50%+ on approval = $0.33–$0.55 gain. Deploying the last dollar of buying power satisfies the 75% floor (now 100% deployed) and prevents idle cash sitting unused on a binary event overnight.
+- **Exit thesis:** Jensen's current read: EXIT at open July 11, regardless of direction. (1) If FDA approves (news released pre-market): sell at open — catalyst is fully priced at announcement, no case for holding past the binary resolution. (2) If FDA issues CRL: sell at open — limit further loss beyond the gap-down; the Cushing's CRL precedent means the bear case is more severe than a typical first-look rejection. Do not hold CORT past the July 11 open under any scenario. This is a single overnight hold, not a multi-day thesis.
+- **Portfolio after:** $0.00 cash | ~$96.68 total estimated value
+- **Order ID:** 6a5127bd-b92f-4989-823d-0ed52b654e93
+- **Status:** FILLED @ $91.01 avg (0.012086 shares, filled 1:11 PM ET)
+
+---
+
+## [2026-07-10T17:10:00Z] NO-ACTION — SKHYV (SK Hynix IPO Day 1)
+
+- **Reason:** SKHYV opened at $170, up +$21 (+14.2%) from the $149 IPO price on its Nasdaq debut. HBM bottleneck thesis remains valid (G1 PASS); IPO debut is a named catalyst (G3 PASS). Gate 2 FAILS definitively — the market repriced the HBM/advanced memory story immediately and massively in a single session, eliminating any underprice opportunity. Robinhood also continues to return EQUITY_FRACTIONALLY_UNTRADABLE for this ticker.
+- **Thesis gate that failed:** Gate 2 — not yet priced. Stock at $172.67 mid-day (+15.8% from IPO price); the entire day-1 pop has already happened. No discounted entry point available.
+- **Next check:** Monday July 14 (SKHY permanent ticker conversion). If fractional trading is enabled AND stock has returned to within 5–10% of the $149 IPO price, re-evaluate Gate 2 for a Pillar 1 HBM/advanced memory entry with available buying power.
+
+---
+
+## [2026-07-10T17:09:00Z] HOLD — VRT (Mid-Day July 10 2026)
+
+- **Reason:** VRT $322.13, +2.09% unrealized from avg cost $315.54. Down −$1.79 from yesterday's EOD close ($323.92) but recovering strongly from this morning's open ($316.80 → $322.13, +1.68% intraday). Bernstein reiterates Buy with $416 PT. Pillar 1 power/grid thesis reinforced by nuclear revival tailwinds (Bloomberg July 9), 13+ nuclear projects totaling 9.8 GW committed to AI infrastructure, and GE Vernova (Pillar 1 peer) up +1.25% today confirming sector-wide strength. VIX at 15.30 and S&P at 3-week high is supportive macro backdrop. Q2 earnings July 29 — catalyst fully live.
+- **Section 9 check:** +2.09% unrealized. Below 15% threshold — no trigger. Position 53.1% of portfolio (>30% concentration override active). 30% trim trigger: **$362.87**. Current $322.13 is $40.74 below trigger. No action.
+- **Exit thesis (current read):** 30% trim at $362.87 per Section 9 concentration rule. Exit if: Q2 July 29 revenue or backlog guidance misses; hyperscaler announces capex freeze specifically targeting power delivery or thermal management; momentum reverses materially pre-earnings on no recovery catalyst. Thesis is intact and strengthening.
+
+---
+
+## [2026-07-10T17:08:00Z] HOLD — VST (Mid-Day July 10 2026)
+
+- **Reason:** VST $158.72, −0.57% unrealized from avg cost $159.63. Up +$0.74 from yesterday's EOD close ($157.98). Iran ceasefire remains collapsed; US struck ~80 Iranian targets overnight July 8-9, Hormuz attacks ongoing, Kalshi 75% odds gas above $3.50 through November. Oil modestly pulling back on continued-talks language but the structural energy scarcity premium from the conflict and AI datacenter power demand remains intact. Motley Fool comparison piece (July 10) is editorial. Helix Digital Infrastructure ($10B KKR/Nvidia/Kuwait/Vistra venture) could not be date-confirmed as today's news. Q2 earnings August 6 — catalyst live.
+- **Section 9 check:** −0.57% unrealized. No gain, no trigger.
+- **Exit thesis (current read):** Ceasefire restoration AND sustained oil price reversal AND ERCOT heat abatement simultaneously needed to break the merchant power thesis. Q2 earnings August 6 is the primary catalyst date. Exit if: Iran formal ceasefire drops oil and eliminates the energy scarcity premium; ERCOT heat dome abates with no replacement demand; adverse FERC ruling on capacity pricing. No exit signal today.
+
+---
+
+## [2026-07-10T17:07:00Z] HOLD — SPCX (Mid-Day July 10 2026)
+
+- **Reason:** SPCX $148.73, −0.98% unrealized from avg cost $150.20. Down −$3.43 (−2.25%) from yesterday's EOD close. Price at/below the $150 IPO price reference per TradingKey. Blue Origin's $10B raise at $130B valuation is the primary narrative headwind: it represents the first well-funded competitive threat to Falcon 9 dominance. However, Blue Origin hasn't reached Falcon 9 launch cadence (New Glenn is ramping but nowhere near SpaceX's 2025 launch record of 130+ missions), SpaceX's manifest is booked years ahead, and a fundraise represents future competitive potential, not present market share erosion. CME SPCX futures launch July 27 (17 days) and August 6 earnings are structural catalysts still live. Nasdaq-100 passive rebalance demand ongoing. Exit thesis floor at $135 not triggered.
+- **Section 9 check:** −0.98% unrealized. No gain, no trigger.
+- **Exit thesis (current read):** Exit if: lock-up selling accelerates and SPCX breaks below $135 on volume; Blue Origin secures a major Falcon 9 customer in a publicly disclosed contract switch; SpaceX H1 financial losses materially exceed revenue growth in August 6 earnings; or price falls below $140 with accelerating volume (early warning signal to reassess before $135 trigger). No exit signal today, but monitoring closely given today's −2.25% move.
+
+---
+
 ## [2026-07-10T13:45:00Z] CYCLE SUMMARY — Friday July 10 2026, 9:30 AM ET Open
 
 ### Session context
