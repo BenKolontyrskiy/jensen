@@ -4,6 +4,104 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-07-10T13:45:00Z] CYCLE SUMMARY — Friday July 10 2026, 9:30 AM ET Open
+
+### Session context
+Friday July 10 open. Critical macro development since Thursday EOD: the Iran ceasefire was formally declared "over" by Trump on July 7. US military struck ~90 targets inside Iran; Strait of Hormuz shipping attacks continue; missiles targeting Kuwait and Qatar overnight. Oil surged 4%+. This is the strongest confirmation of the VST energy scarcity thesis to date. Day's main market event is the SK Hynix US IPO (SKHYV / SKHY from July 13) — $28B raise, largest foreign listing in US history, 7x oversubscribed. Chip stocks broadly lower ahead of the SKHYV debut; VRT's 2.2% morning drop has no VRT-specific negative catalyst. S&P roughly flat; Nasdaq slightly negative. VIX at 16.58 (range 15.89–17.27) — sub-20 regime intact.
+
+**FRIDAY LEVERAGED ETF RULE: No leveraged ETFs currently held. No new leveraged ETF entries permissible today — cannot hold overnight. Rule satisfied. ✓**
+
+### Circuit Breaker Status
+**NOT ACTIVE.** Peak: $103.93 (set 2026-06-16). Trigger: $93.537 (−10%). Open total: **~$96.09**. Drawdown from peak: **−7.54%**. CB buffer: **$2.55** above trigger (narrowed from $3.71 at Thursday EOD as all three positions opened slightly lower). No halt on new entries.
+
+### VIX
+**~16.58** at open (range today: 15.89–17.27). Sub-20 regime. 3x ETFs: eligible, max 3-day hold. 2x ETFs: eligible, max 5-day hold. **Friday rule overrides — no entries in leveraged ETFs today regardless of VIX.**
+
+### All open positions — live quotes at 9:37 AM ET
+
+| Ticker | Shares | Avg Cost | Open Price | Est. Value | Unrealized P&L | Portfolio % |
+|--------|--------|----------|-----------|------------|----------------|-------------|
+| VRT | 0.159535 | $315.54 | $316.80 | $50.54 | +0.40% | 52.6% |
+| VST | 0.231785 | $159.63 | $159.66 | $37.00 | +0.02% | 38.5% |
+| SPCX | 0.049933 | $150.20 | $149.15 | $7.45 | −0.70% | 7.8% |
+
+Cash: **$1.10** | Buying Power: **$1.10** | Equity: **~$94.99** | Total: **~$96.09**
+
+### Trades executed this cycle
+**None.** All three positions held. SKHYV entry blocked — Robinhood returns EQUITY_FRACTIONALLY_UNTRADABLE_ERROR_BUY for new IPO stocks. $1.10 buying power insufficient for a whole share ($149). No other name passed all three gates with available capital. Leveraged ETFs excluded by Friday rule.
+
+### Section 9 Profit-Taking Check
+- **VRT +0.40%:** Below 15% threshold — no trigger. Position 52.6% (>30% concentration override active). **30% trim trigger: $362.87** (+15% from avg cost). Current $316.80 is $46.07 below trim level. No action.
+- **VST +0.02%:** No meaningful gain — no trigger.
+- **SPCX −0.70%:** No gain — no trigger.
+
+**No Section 9 action required.**
+
+### Section 10 Leveraged ETF Hold Check
+**No leveraged ETF positions held.** Sleeve: 0%. Friday rule confirmed satisfied. ✓
+
+### Deployment check
+Equity: **~$94.99** / Total: **~$96.09** = **98.9%** — well above 75% floor ✓
+
+### Portfolio peak and drawdown
+Peak: **$103.93** (set 2026-06-16) | Open total: **~$96.09** | Drawdown: **−7.54%** | CB buffer: **$2.55** above $93.537 trigger
+
+### Catalyst scan — full pillar sweep
+
+**Pillar 1 — AI Infrastructure / Grid:**
+- **SKHYV (SK Hynix ADR):** G1 PASS — HBM is the binding memory bottleneck for AI GPU training; SK Hynix is Nvidia's primary HBM supplier. G2 PASS — first-ever day of US trading, market has never priced SKHYV as a US-listed equity; 7x oversubscribed. G3 PASS — IPO debut July 10, $28B largest foreign listing ever. Conviction: High. **BLOCKED: Robinhood EQUITY_FRACTIONALLY_UNTRADABLE_ERROR_BUY — fractional shares not supported for new IPO. $1.10 buying power cannot purchase whole share at $149.** See NO-ACTION entry below.
+- **VRT:** Down 2.2% ($323.92 → $316.80) on sector-wide AI infrastructure selling ahead of SKHYV debut. No VRT-specific news. PJM $28K/MWh grid stress + Iran oil shock = VRT thesis stronger than yesterday. Q2 earnings July 29. HOLD.
+- **GridMarket/Deployable Energy $22.5B nuclear pipeline** (July 7) — 3 days old. Gate 2 FAIL for new entry.
+
+**Pillar 2 — Physical AI / Robotics:**
+- Tesla Optimus Gen 3 Fremont ramp targeting late July–August. No named partnership or volume order today. Gate 3 FAIL.
+- Figure AI BMW deployment ongoing — no new catalyst. Gate 3 FAIL.
+- NO-ACTION — no specific deployable catalyst for July 10.
+
+**Pillar 3 — Quantum Computing:**
+- **QTREX USA:** QTREX Quantum Ltd. announced formation of QTREX USA subsidiary for US federal contracting July 10. Recent AME deployment at US government lab. G1 PASS (federal quantum computing is a real contract pipeline). G3 PASS (named today's announcement). G2 and ticker: UNRESOLVED — Manila Times publication suggests foreign-listed entity; cannot confirm US exchange listing or liquidity. **NO-ACTION pending US ticker confirmation.**
+- White House Quantum Summit July 8, $2B CHIPS Act quantum funding (May) — background context, not today's repricing catalyst.
+- IONQ / QBTS / RGTI: No specific fresh catalyst. Gate 3 FAIL.
+
+**Pillar 4 — Space:**
+- SPCX: Grok 4.5 launched July 8, Nvidia chip purchase confirmed. Blue Origin raised $10B at $130B valuation — validates sector; SpaceX still dominant. SpaceX $2.29B Space Force contract (May 26) — old news, Gate 2 FAIL. CME SPCX futures launch July 27 (17 days). HOLD.
+- RKLB: Flat/declining price action. Gate 2 FAIL as confirmed Thursday.
+
+**Wildcards:**
+- **Iran/Energy:** Ceasefire "over" as of July 7. Oil +4%+. Hormuz shipping attacks continuing. VST up 1.06% — partially repricing but Iran situation still escalating (missiles targeting Kuwait/Qatar overnight). Considered adding $1.10 fractionally to VST — valid thesis. Declined: $1.10 addition to a 38% portfolio position is noise and does not improve diversification. Cash held.
+- **CORT (Relacorilant):** FDA decision tomorrow (July 11). G1 PASS (unmet need in platinum-resistant ovarian cancer). G3 PASS (PDUFA July 11). G2 UNCERTAIN (pre-run unknown without price check). With $1.10 blocked on SKHYV, no capital remains for additional entries. **Watchlist for next cycle — check CORT price action early July 11 pre-market.**
+- **JPM Q2 earnings:** July 14 (not today). No action.
+
+### Existing position thesis review
+
+**VRT — HOLD.** Down 2.2% at open on sector rotation, not VRT-specific news. Grid hardware constraint thesis reinforced: Iran oil shock → energy scarcity → accelerated datacenter power buildout urgency → more VRT backlog pressure. Q2 earnings July 29 is 19 days out — catalyst live. Exit thesis: 30% trim at $362.87; capex freeze targeting power delivery/thermal; Q2 miss.
+
+**VST — HOLD.** Iran ceasefire collapse is the most significant bullish development for VST since the PJM $28K/MWh story. Trump declared ceasefire "over" July 7. Oil surged 4%+. Hormuz attacks ongoing. Missiles targeting Kuwait and Qatar. VST up 1.06% this morning — partially repricing but situation still actively escalating. Q2 earnings August 6. Exit thesis: Ceasefire restoration AND oil reversal AND ERCOT heat abatement simultaneously needed to break thesis.
+
+**SPCX — HOLD.** Down 2% ($152.16 → $149.15). Slight unrealized loss (−0.70%). Price well above $135 IPO exit threshold. CME SPCX futures launch July 27 (17 days) and Nasdaq-100 $4.3B passive rebalance are structural catalysts still ahead. Blue Origin $10B raise validates space investment thesis; SpaceX dominance intact. August 6 earnings. Exit thesis: Lock-up selling accelerates below $135; SpaceX H1 financial losses exceed revenue growth; momentum reversal.
+
+### Forward-looking watchlist
+
+| Item | What to watch | Action trigger |
+|------|--------------|----------------|
+| **SKHYV → SKHY** | Converts ticker July 13; fractional trading may enable after debut | If fractional enabled and not >10% above IPO price → deploy $1.10 into HBM play on Monday |
+| **CORT** | FDA decision on Relacorilant July 11 (tomorrow) | Check pre-market price action; if not yet repriced → wildcard entry with available buying power |
+| **VRT** | Q2 earnings July 29; approach toward $362.87 | Trim 30% at $362.87; exit if hyperscaler capex freeze targets power delivery |
+| **VST** | Iran escalation vs. ceasefire; ERCOT summer demand; Q2 August 6 | Hormuz formal closure → maximum energy scarcity thesis; ceasefire + oil reversal → reassess |
+| **SPCX** | CME SPCX futures July 27; August 6 earnings; Nasdaq-100 passive rebalance | Lock-up selling below $135 → exit |
+| **QTREX** | Confirm US ticker and exchange listing | If US-listed with adequate liquidity → Pillar 3 quantum entry |
+| **JPM Q2** | July 14 pre-market | Strong beat = risk-on signal for AI names; weak = multiple compression risk |
+
+---
+
+## [2026-07-10T13:44:00Z] NO-ACTION — SKHYV (SK Hynix US IPO)
+
+- **Reason:** SK Hynix (ticker SKHYV, converting to SKHY July 13) IPO debut today on Nasdaq. $28B raise, largest foreign listing in US history, 7x oversubscribed, priced at $149/ADS. All three required filter gates pass: G1 PASS — HBM is the real binding memory constraint for AI GPU training; SK Hynix is Nvidia's primary HBM supplier in a supply-constrained market. G2 PASS — first-ever day of US trading; market has literally never priced SKHYV as a publicly-accessible US equity. G3 PASS — IPO debut July 10, specific named event. Conviction: High. **Entry blocked: Robinhood returns EQUITY_FRACTIONALLY_UNTRADABLE_ERROR_BUY — fractional shares not supported for this newly-listed IPO stock. Available buying power $1.10 is insufficient to purchase a whole share at $149.**
+- **Thesis gate that failed (if applicable):** No gate failure — execution blocked by broker constraint (fractional trading not yet enabled for new IPO).
+- **Next check:** Monday July 14 — SKHY begins trading (permanent ticker). Robinhood typically enables fractional trading a few days after IPO debut. If fractional enabled AND stock not more than 10–15% above $149 IPO price (Gate 2 still passing), deploy available buying power into HBM/advanced memory play. If SKHY has gapped significantly above $149 on day 1 enthusiasm, Gate 2 may no longer pass — evaluate at open.
+
+---
+
 ## [2026-07-09T19:30:00Z] EOD CYCLE SUMMARY — Thursday July 9 2026, 3:30 PM ET Close
 
 ### Session context
