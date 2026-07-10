@@ -4,6 +4,96 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-07-10T19:30:00Z] EOD CYCLE SUMMARY — Friday July 10 2026, 3:30 PM ET Close
+
+### Session context
+Market: S&P closed at 3-week high, Nasdaq positive, VIX closed ~15.30 — very low vol, strongly risk-on. Iran ceasefire remains collapsed; US struck ~80 Iranian targets, Hormuz shipping attacks ongoing; oil modestly off intraday highs on continued-talks language. CORT filled at 1:11 PM ET (PDUFA binary, exit Monday at open). All four positions carried to close intact.
+
+**FRIDAY LEVERAGED ETF RULE: No leveraged ETFs held at any point today. No new leveraged ETF entries today. Weekend rule fully satisfied. ✓**
+
+### Circuit Breaker Status
+**NOT ACTIVE.** Peak: $103.93 (set 2026-06-16). Trigger: $93.537 (−10%). EOD total: **$96.54**. Drawdown from peak: **−7.11%**. CB buffer: **$3.00** above trigger.
+
+### VIX
+**~15.30** (closed sub-16). Sub-20 regime. Friday rule applied and satisfied. No leveraged ETFs entered or held. Sleeve: 0%. ✓
+
+### Friday Leveraged ETF Rule
+**COMPLIANT — no leveraged ETFs in portfolio at any point today.** VST, VRT, SPCX, CORT are all plain equity positions. No forced exits required. ✓
+
+### Trades executed this cycle (EOD 3:30 PM)
+**None.** All four positions held to close. No exits. No new entries — cash: $0.00, buying power: $0.00. Fully deployed.
+
+### All open positions — live quotes at 3:39 PM ET
+
+| Ticker | Shares | Avg Cost | EOD Price | Est. Value | Unrealized P&L | Day Change | Portfolio % |
+|--------|--------|----------|-----------|------------|----------------|-----------|-------------|
+| VRT | 0.159535 | $315.54 | $320.43 | $51.12 | +$0.78 / +1.55% | −1.08% | 52.9% |
+| VST | 0.231785 | $159.63 | $159.31 | $36.92 | −$0.07 / −0.20% | +0.84% | 38.2% |
+| SPCX | 0.049933 | $150.20 | $147.83 | $7.38 | −$0.12 / −1.58% | −2.85% | 7.6% |
+| CORT | 0.012086 | $91.01 | $91.76 | $1.11 | +$0.01 / +0.82% | −1.60% | 1.1% |
+
+Cash: **$0.00** | Buying Power: **$0.00** | Equity: **$96.53** | Total: **$96.54**
+
+### Positions closed today
+None. No exits this session.
+
+### Section 9 Profit-Taking Check — all positions EOD
+
+- **VRT +1.55%:** Below 15% threshold — no standard trigger. Position 52.9% of portfolio (>30% concentration override active). **30% trim trigger: $362.87** (+15% from avg cost $315.54). Current $320.43 is $42.44 below trim level. No action.
+- **VST −0.20%:** No gain — no trigger.
+- **SPCX −1.58%:** No gain — no trigger.
+- **CORT +0.82%:** Below 15% threshold; position 1.1% of portfolio — hold to catalyst resolution (Monday open). No trigger.
+
+**No Section 9 action required.**
+
+### Section 10 Leveraged ETF Hold Check
+**No leveraged ETF positions held.** Sleeve: 0%. Friday rule confirmed satisfied. ✓
+
+### Deployment check
+Equity: **$96.54** / Total: **$96.54** = **100%** — well above 75% floor ✓ (no cash; fully deployed)
+
+### Portfolio peak and drawdown
+Peak: **$103.93** (set 2026-06-16) | EOD total: **$96.54** | Drawdown: **−7.11%** | CB buffer: **$3.00** above $93.537 trigger
+
+### Position thesis reviews — all HOLD
+
+**VRT — HOLD.** $320.43, +1.55% unrealized from avg cost $315.54. Down −1.08% on the day (from Thursday EOD $323.92) — no VRT-specific negative catalyst; sector-wide modest Friday consolidation after a strong week. Bernstein Buy/$416 PT reaffirmed July 6. Pillar 1 thesis intact and strengthening: PJM $28K/MWh grid stress, 13+ nuclear projects 9.8 GW committed to AI datacenters, Bloomberg nuclear revival (July 9) as macro tailwind. Q2 earnings July 29 — 19 days out, catalyst live. No S9 action (gain below 15% threshold; $362.87 concentration trim trigger not reached). HOLD into weekend.
+
+**VST — HOLD.** $159.31, −0.20% unrealized from avg cost $159.63. Up +0.84% on the day (from Thursday EOD $157.98). Iran ceasefire remains collapsed; US struck ~80 Iranian targets, Hormuz shipping attacks ongoing, Kalshi 75% odds gas above $3.50 through November. Merchant power scarcity thesis intact. Oil modest pullback on talks language does not break the structural conflict premium. Q2 earnings August 6 — catalyst live. No S9 action (loss, no gain to protect). HOLD into weekend.
+
+**SPCX — HOLD with elevated watch.** $147.83, −1.58% unrealized from avg cost $150.20. Down −2.85% on the day (from Thursday EOD $152.16 adjusted close). Price has now declined below the $150 IPO reference price. Negative driver today: continued Blue Origin $10B fundraise narrative and possible sector rotation out of high-beta space names into close. No new contract loss, no Blue Origin Falcon 9 client wins, no SpaceX operational negative. Exit thesis thresholds: $140 early-warning (current $147.83 is $7.83 above), $135 hard exit (current $12.83 above). CME SPCX futures July 27 (17 days) and August 6 earnings are structural catalysts still live. The -2.85% today is noteworthy but does not cross any exit trigger. HOLD, but elevated monitoring next week. If price continues to decline toward $140 on volume, will reassess whether the Blue Origin narrative has become a sustained thesis break rather than a narrative headwind.
+
+**CORT — HOLD OVERNIGHT (binary play).** $91.76, +0.82% unrealized from avg cost $91.01. Entered today at 1:11 PM ET as a lottery-ticket PDUFA binary: FDA decision on relacorilant in platinum-resistant ovarian cancer. PDUFA date is July 11, 2026 (Saturday). FDA doesn't issue formal decisions on weekends — announcement will come **pre-market Monday July 14**. Exit thesis is firm and unchanged: EXIT at Monday open regardless of direction. (1) Approval → sell at open, catalyst fully priced. (2) CRL → sell at open, limit further loss from gap. Position is 1.1% of portfolio — bounded risk. Do not hold CORT past the Monday July 14 open under any scenario.
+
+### EOD news scan — no new actionable catalysts
+
+**Pillar 1:** No new grid/nuclear news beyond this morning's context. GEV +0.9% on the day, confirming sector-wide Pillar 1 strength but no entry trigger (all capital deployed).
+
+**Pillar 2:** No humanoid deployment or volume-order news surfaced at close.
+
+**Pillar 3:** QTREX USA subsidiary announcement (this morning) remains unresolved — no confirmed US exchange listing or liquidity. No action.
+
+**Pillar 4:** SPCX continuing to pull back — no new positive or negative space catalysts at close today.
+
+**Wildcards:** CORT closing at $91.76 (+0.82% from our entry). FDA silence today (no emergency action pre-weekend). Position remains intact heading into the binary event.
+
+### Pre-market checklist for Monday July 14
+
+| Priority | Item | What to check | Action |
+|----------|------|--------------|--------|
+| **#1 — URGENT** | **CORT** | FDA decision on relacorilant (due any time Sat–Mon pre-market) | **EXIT at Monday open at market price — no exceptions. If approval gap: sell immediately. If CRL gap-down: sell immediately. Do not hold past first minute of trading.** |
+| **#2** | **SKHY** (permanent ticker from SKHYV) | Fractional trading enabled? Price vs. $149 IPO price? | If fractional enabled AND price ≤ ~$163–$165 (10% above IPO), Gate 2 passes → HBM/Pillar 1 entry with cash freed from CORT exit |
+| **#3** | **JPM Q2 earnings** | Pre-market July 14 | Strong beat = risk-on macro signal; aids VRT/VST multiple. Miss = compression risk |
+| **#4** | **Iran/Hormuz** | Any ceasefire announcement, escalation, or Hormuz closure over the weekend | VST: formal Hormuz closure = maximum energy scarcity thesis; ceasefire + oil reversal = reassess and potentially exit VST |
+| **#5** | **VRT** | Any pre-earnings analyst commentary, capex guidance updates, Bernstein/peers | 30% trim at $362.87 still the primary trigger; Q2 July 29 |
+| **#6** | **SPCX** | Blue Origin contracts, SpaceX news, lock-up selling data | Below $140 on volume = reassess thesis; below $135 = hard exit per thesis |
+| **#7** | **QTREX USA** | Confirm US ticker and exchange listing if available | If US-listed with adequate volume → Pillar 3 quantum entry with available buying power |
+
+### Thesis notes
+Three core positions (VRT, VST, SPCX) are all held on live structural catalysts — VRT/VST Q2 earnings are 19 and 27 days out respectively, and SPCX has CME futures July 27 and earnings August 6. The biggest intraday risk today was SPCX's -2.85% decline, which has now pushed the position below avg cost; the exit floor at $135 provides the stop, but the $147–$149 range needs to stabilize next week. CORT is the near-term forcing function — Monday open is the exit, full stop, regardless of FDA outcome. Capital freed from CORT exit ($~1.11) should be redeployed into SKHY if fractional is enabled and Gate 2 passes, or else held for the next available catalyst.
+
+---
+
 ## [2026-07-10T17:15:00Z] CYCLE SUMMARY — Friday July 10 2026, 1:00 PM ET Mid-Day
 
 ### Session context
