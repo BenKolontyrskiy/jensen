@@ -4,6 +4,137 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-07-13T13:45:00Z] CYCLE SUMMARY — Monday July 13 2026, 9:30 AM ET Open
+
+### Session context
+Monday July 13 market open. Weekend developments: fresh US-Iran military escalation over the weekend (additional strikes, Hormuz shipping attacks continuing); Nasdaq futures opened -1.0%, S&P -0.4% — risk-off tech sell-off to start the week. Memory chip stocks broadly lower, partly attributed to SK Hynix volatility after its first full week of US trading. Korean SKHY shares plummeted -15% on the domestic exchange overnight. Oil prices up +2% on renewed Middle East conflict — direct VST thesis confirmation. Bank earnings season begins (JPM pre-market). Inflation data and Fed policy in focus this week (MarketWatch: possible rate hike discussion).
+
+**MANDATORY CORT EXIT:** PDUFA binary resolution — per pre-market plan, EXIT CORT at Monday open regardless of FDA outcome. Executed. CORT moved from $91.88 (Friday close) to $89.75 sell avg — modest ~-2.3% decline, suggesting no catastrophic CRL gap but no approval pop either; FDA outcome unclear from price alone, but plan was explicit and non-negotiable.
+
+**SPCX EXIT:** Multiple negative catalysts today (balance sheet concerns Motley Fool, bearish TrendSpider technical signal, stock already below $150 debut price on Sunday July 12). At $141.23 fill, only $1.23 above $140 early-warning floor and in steady downtrend since IPO entry at $150.20. Exited proactively given CB buffer proximity (only $0.43 above trigger).
+
+### Circuit Breaker Status
+**NOT ACTIVE — IMMINENT WARNING.** Peak: $103.93 (set 2026-06-16). Trigger: $93.537 (−10%). Open total: **$93.97**. Drawdown from peak: **−9.61%**. CB buffer: **only $0.43** above trigger. VRT needs to fall only $2.71 more (0.87%) to trigger. VST needs to fall only $1.87 more (1.17%) to trigger. MONITOR EVERY CYCLE.
+
+### VIX
+**16.19** (up +7.7% from Friday close 15.03; range today 16.12–16.53). Sub-20 regime intact. 3x ETFs eligible max 3 days; 2x ETFs eligible max 5 days. No new leveraged ETF entries today — buying power = $0 (T+1 settlement).
+
+### Trades executed this cycle
+1. **SELL CORT** 0.012086 @ $89.75 avg → $1.085 proceeds | Loss −$0.015 (−1.38% from $91.01)
+2. **SELL SPCX** 0.049933 @ $141.2301 avg → $7.053 proceeds | Loss −$0.448 (−5.97% from $150.20)
+3. **NO new entries** — buying power = $0.00 (cash account T+1 settlement; proceeds unsettled until July 14)
+
+### All open positions — live quotes at ~9:41 AM ET
+
+| Ticker | Shares | Avg Cost | Price | Est. Value | Unrealized P&L | Portfolio % |
+|--------|--------|----------|-------|------------|----------------|-------------|
+| VRT | 0.159535 | $315.54 | $311.99 | $49.76 | −1.13% / −$0.57 | 52.9% of equity |
+| VST | 0.231785 | $159.63 | $159.11 | $36.86 | −0.33% / −$0.12 | 39.2% of equity |
+
+Cash: **$8.13** (unsettled — not available as buying power until July 14) | Equity: **$85.84** | Total: **$93.97**
+
+### Section 9 Profit-Taking Check
+- **VRT −1.13%:** No gain, no trigger.
+- **VST −0.33%:** No gain, no trigger.
+
+### Section 10 Leveraged ETF Hold Check
+No leveraged ETF positions. Sleeve: 0%. ✓
+
+### Deployment check
+Equity: $85.84 / Total: $93.97 = **91.4%** — above 75% floor ✓ (cash is unsettled; effectively 100% deployed in equity + unsettled cash)
+
+### Portfolio peak and drawdown
+Peak: **$103.93** (2026-06-16) | Cycle total: **$93.97** | Drawdown: **−9.61%** | CB buffer: **$0.43** above $93.537 trigger
+
+### Position thesis reviews
+
+**VRT — HOLD.** $311.99 (−2.16% from Friday close $318.86). Down on macro risk-off (Nasdaq futures -1%, tech broadly lower). No VRT-specific negative news today. Thesis fully intact: Pillar 1 power/grid constraint, Q2 earnings July 29 is the primary catalyst 16 days out. Bernstein Buy/$416 PT reaffirmed July 6. Nuclear AI datacenter pipeline (13+ projects, 9.8 GW committed) continues to compound. Concentration 52.9% of equity — Section 9 30% trim trigger remains $362.87. CB impact: 0.159535 shares; each $1 VRT decline = -$0.160 portfolio loss. HOLD — thesis live, no exit signal.
+
+**VST — HOLD.** $159.11 (+0.16% from Friday close $158.86 — outperforming in risk-off day). Fresh US-Iran escalation over weekend directly confirms the energy scarcity merchant power thesis. Oil +2% today. Kalshi odds on gas prices remain elevated. Q2 earnings August 6 (24 days). Thesis strengthening, not weakening. CB impact: 0.231785 shares; each $1 VST decline = -$0.232 portfolio loss. HOLD.
+
+### SKHY watchlist status
+Fractional trading now ENABLED on SKHY (confirmed today). Current price $153.46 (−8.7% from Friday $168.01 close; Korean shares -15% overnight on geopolitical shock). Seeking Alpha initiated Buy/$300 today. Memory chip crunch (Reuters July 13) confirms HBM bottleneck thesis. All three gates PASS. **Cannot execute today: buying power = $0 due to T+1 settlement of CORT/SPCX proceeds.** Target entry: Tuesday July 14 open with ~$8.13 settled cash.
+
+### Pre-market checklist for Tuesday July 14
+| Priority | Item | Action |
+|----------|------|--------|
+| **#1** | **SKHY** — $8.13 cash settles overnight | Buy at open if Gate 2 still passes (price not too far above $149 IPO, repricing still incomplete). Target ~$8 position. |
+| **#2** | **VRT** | CB buffer watch. Check price at open — if another -2% VRT triggers CB, halt entries, review thesis, log circuit breaker event. |
+| **#3** | **VST** | Iran/Hormuz — any ceasefire news overnight would shift thesis. Escalation = hold/add. Ceasefire = reassess exit. |
+| **#4** | **CORT** | FDA decision — if announced today (post-market/overnight), note result in next cycle log. No action needed (position closed). |
+| **#5** | **SPCX** | Post-exit monitoring. Note if $135 hard exit would have been triggered, for learning file. |
+
+---
+
+## [2026-07-13T13:43:00Z] ALERT — CIRCUIT BREAKER IMMINENT — Portfolio 9.61% Below Peak
+
+- **Reason:** Portfolio total $93.97 is 9.61% below the all-time peak of $103.93 (set 2026-06-16). Circuit breaker threshold is 10% drawdown → $93.537. Current buffer: only $0.43. VRT must fall only $2.71 more (0.87%) or VST must fall only $1.87 more (1.17%) — or any combination — to trigger the halt.
+- **Root cause:** Cumulative losses across multiple positions: (1) SPCX in steady downtrend from IPO; (2) VRT down -1.13% from avg cost on macro risk-off; (3) CORT binary resolved slightly negative; (4) Peak set at $103.93 during June portfolio high-water mark.
+- **Actions taken:** SPCX exited proactively to remove the fastest-declining position. CORT exited per plan. No new leveraged positions. Buying power = $0 (cannot add risk).
+- **If CB triggers:** HALT all new entries. Log circuit breaker event. Review VRT/VST theses. No lockout — rebuy allowed after re-validating Section 4 filter. Recovery requires VRT/VST to hold at current levels or recover.
+- **Next check:** Every cycle. CB resets when portfolio recovers above $103.93.
+
+---
+
+## [2026-07-13T13:40:35Z] SELL SPCX x0.049933 @ ~$141.23 | $7.05
+
+- **Catalyst for exit:** Multiple converging signals: (1) Motley Fool article July 13 5:29 AM: "SpaceX's Recent Move Should Have Investors Worried" — balance sheet changes "far from what investors saw before its IPO, happening sooner than shareholders expected"; (2) TrendSpider bearish technical signal flagged July 13 6:23 AM: "new lower low since hitting the ATH, bearish outlook"; (3) Stock was already below $150 debut price on Sunday July 12; (4) At $141.23 fill, only $1.23 above the $140 early-warning level and clearly accelerating lower at time of exit; (5) Circuit breaker buffer critically thin ($0.43 post-exit) — SPCX was the fastest-declining position and most likely to consume remaining CB buffer.
+- **Thesis gate at exit:** Gate 1 (bottleneck real): still valid — SpaceX launch dominance intact. Gate 3 (catalyst): Balance sheet concerns and technical breakdown are *negative* catalysts today. The *positive* catalysts (CME futures July 27, earnings August 6) are 14 and 24 days away — too far with no positive news and active downtrend. Gate 2 (not yet priced): FAILING — market is actively pricing risk in. This meets Section 5's "Position going nowhere after 2–3 days → EXIT — redeploy into active catalyst" rule plus proximity to $140 early-warning and CB buffer risk.
+- **Gain % at exit:** −5.97% (avg cost $150.20 → sell avg $141.23)
+- **Momentum state:** Reversing — new lower lows, bearish TrendSpider signal, no volume recovery
+- **Catalyst state:** Fully resolved (positive catalysts 14–24 days away; active negative catalyst today: balance sheet concerns + technical breakdown)
+- **Exit type:** Full
+- **Conviction level at exit:** N/A (exiting position)
+- **Sizing rationale at exit:** Small position (7.5% of portfolio) — limited on the loss, but protecting CB buffer and removing the most volatile/declining name
+- **Portfolio after:** $8.13 cash (unsettled) | ~$93.97 total
+- **Order ID:** 6a54ead3-c621-4ca2-b1b6-43deca602c34
+- **Status:** FILLED @ $141.2301 avg (0.049933 shares)
+
+---
+
+## [2026-07-13T13:40:34Z] SELL CORT x0.012086 @ ~$89.75 | $1.09
+
+- **Catalyst for exit:** Mandatory planned exit. Pre-market plan was explicit: "EXIT at Monday open regardless of direction — no exceptions." FDA PDUFA for relacorilant in platinum-resistant ovarian cancer was July 11 (Saturday). Market price moved from $91.88 (Friday close) to $89.75 sell avg (−2.3%) — modest decline consistent with uncertainty, not a catastrophic CRL gap. FDA outcome (approval vs. CRL) unknown from price action alone.
+- **Thesis gate summary:** Binary catalyst resolved at the date/time planned. Exit follows rule, not gate re-evaluation.
+- **Gain % at exit:** −1.38% (avg cost $91.01 → sell avg $89.75)
+- **Momentum state:** N/A (overnight binary)
+- **Catalyst state:** Fully resolved (PDUFA date passed)
+- **Exit type:** Full (per plan — lottery ticket binary, no holding past the catalyst date)
+- **Portfolio after:** Cash balance updated to $8.13 (with SPCX proceeds)
+- **Order ID:** 6a54ead2-e43f-4cca-b024-04453c17f0b7
+- **Status:** FILLED @ $89.75 avg (0.012086 shares)
+
+---
+
+## [2026-07-13T13:42:00Z] NO-ACTION — SKHY (SK Hynix ADR — Settlement Block)
+
+- **Reason:** Buying power = $0.00. Cash account T+1 settlement: proceeds from CORT and SPCX sales today ($8.13 total) are not available as buying power until tomorrow July 14. Cannot execute SKHY buy today despite all gates passing.
+- **Gate assessment (for tomorrow's entry):**
+  - Gate 1 PASS: HBM (High Bandwidth Memory) is the binding memory constraint for AI training. SK Hynix controls ~56% global HBM market share; deeply integrated with NVIDIA's H100/H200/B100 supply chain. Memory chip shortage confirmed today (Reuters: smartphone shipments -11% in Q2 2026 from memory crunch — inelastic AI demand unaffected).
+  - Gate 2 PASS: Stock at $153.46, down from $168 debut day high and -8.7% from Friday close. Korean domestic shares plummeted -15% overnight on geopolitical shock. US ADR has not fully absorbed the Korean market's reaction. Seeking Alpha initiation at $300 today creates asymmetric recovery narrative. Repricing still incomplete.
+  - Gate 3 PASS: Seeking Alpha Buy initiation with $300 ADR target published July 13 2026. Reuters memory chip crunch story published July 13 2026. Named, specific, verifiable, same-day catalysts.
+  - Market data disclosure: Bid $153.46 × 100 Q · Ask $153.47 × 3600 K · Last $153.46 × 100 Q. Updated 9:41 AM ET.
+- **Thesis gate that failed (execution block):** Not a gate failure — a settlement constraint. All three required gates pass. Conviction: Medium (first week of US trading, Korean -15% shock, risk-off day). Suggested size: ~$8 (full available cash).
+- **Next check:** Tuesday July 14 open. Deploy ~$8.13 into SKHY at market if Gate 2 still passes (price not >10% above $149 IPO = not above ~$163.90). If stock has recovered above $163.90, re-evaluate Gate 2. If stock has crashed further (below $130), re-evaluate Gate 1.
+
+---
+
+## [2026-07-13T13:41:00Z] HOLD — VRT (Monday July 13 2026 Open)
+
+- **Reason:** $311.99, −1.13% from avg cost $315.54. Down -2.16% from Friday close $318.86 — driven purely by macro risk-off (Nasdaq futures -1%; no VRT-specific negative catalyst surfaced in news scan). Pillar 1 thesis intact and strengthening: Q2 earnings July 29 (16 days) is the primary live catalyst. Bernstein Buy/$416 PT confirmed July 6. Nuclear-AI datacenter pipeline (13+ projects, 9.8 GW) continues building. GE Vernova (peer) also declining today confirming this is sector-wide macro, not VRT-specific. CB alert: VRT decline of another $2.71 (to $309.28) triggers circuit breaker.
+- **Section 9 check:** −1.13% unrealized. No gain — no trigger. 30% concentration trim trigger remains $362.87.
+- **Exit thesis (current read):** CB trigger at $309.28 current VRT price = hard review and halt on new entries (per CB rule). Thesis exit: Q2 July 29 revenue miss or backlog guidance cut targeting power delivery; hyperscaler capex freeze. Momentum reversal: break below $300 on high volume with no recovery catalyst. Hold until earnings unless one of these triggers fires.
+
+---
+
+## [2026-07-13T13:41:00Z] HOLD — VST (Monday July 13 2026 Open)
+
+- **Reason:** $159.11, −0.33% from avg cost $159.63. Outperforming on a risk-off day: up +0.16% from Friday close $158.86. Fresh US-Iran escalation over weekend (additional military strikes, Hormuz shipping attacks continuing, oil +2%) directly validates the merchant power scarcity thesis. Amos Hochstein (CNBC July 13): "We're seeing the consequences of a hurried deal" — expert consensus is conflict continuation, not resolution. Delta Q2 noted fuel costs from Middle East tensions fully passed through to customers — confirms energy pricing power environment. Q2 earnings August 6 (24 days). Thesis strengthening.
+- **Section 9 check:** −0.33% unrealized. No gain — no trigger.
+- **Exit thesis (current read):** Exit if: formal US-Iran ceasefire AND sustained oil price reversal simultaneously (ceasefire alone isn't enough — merchant power thesis has ERCOT + AI demand legs). Q2 August 6 earnings miss on revenue or margin guidance. FERC adverse capacity pricing ruling. None of these present today.
+
+---
+
 ## [2026-07-10T19:30:00Z] EOD CYCLE SUMMARY — Friday July 10 2026, 3:30 PM ET Close
 
 ### Session context
