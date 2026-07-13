@@ -4,6 +4,122 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-07-13T18:05:00Z] CYCLE SUMMARY — Monday July 13 2026, 1:00 PM ET Mid-Day
+
+### Circuit Breaker Status
+**ACTIVE — TRIGGERED.** Peak: $103.93 (set 2026-06-16). Trigger: $93.537 (−10%). Mid-day total: **$93.07**. Drawdown from peak: **−10.45%**. CB is $0.47 BELOW trigger. All new entries halted per protocol.
+
+### VIX
+Morning reading: **16.19** (range 16.12–16.53). Sub-20 regime intact. No leveraged ETF entries regardless (buying power = $0).
+
+### Macro context (1:00 PM ET)
+- Iran declared Strait of Hormuz CLOSED "until further notice" — Brent crude +4-5% to ~$78.82 (highest since June 22)
+- Korea Kospi circuit breaker triggered: SK Hynix Seoul −15.4% (worst day in company history), Kospi −9%; Samsung −11%
+- Fed hawkish repricing: Goldman Sachs pushed rate-cut call to 2027; CPI due Wednesday (core expected 0.3% MoM, ~3.9% YoY headline)
+- S&P near 52-week highs ~7,575 but risk/reward asymmetric ahead of CPI; semiconductor sector under pressure from Korea contagion
+
+### Trades executed this cycle
+**None.** Buying power = $0.00 (T+1 settlement from Monday morning CORT/SPCX sells). CB active. No executions.
+
+### All open positions — live quotes at ~1:05 PM ET
+
+| Ticker | Shares | Avg Cost | Price | Est. Value | Unrealized P&L | Portfolio % |
+|--------|--------|----------|-------|------------|----------------|-------------|
+| VRT | 0.159535 | $315.54 | $303.95 | $48.49 | −3.67% / −$1.85 | 52.1% of equity |
+| VST | 0.231785 | $159.63 | $157.03 | $36.39 | −1.63% / −$0.60 | 39.1% of equity |
+
+Cash: **$8.13** (unsettled — settles July 14) | Equity: **$84.88** | Total: **$93.07**
+
+### Section 9 Profit-Taking Check
+- **VRT −3.67%:** No gain, no trigger.
+- **VST −1.63%:** No gain, no trigger.
+
+### Section 10 Leveraged ETF Hold Check
+No leveraged ETF positions. Sleeve: 0%. ✓
+
+### Deployment check
+Equity: $84.88 / Total: $93.07 = **91.2%** — above 75% floor ✓. CB active = deployment floor exception applies in any case; compliant regardless.
+
+### Portfolio peak and drawdown
+Peak: **$103.93** (2026-06-16) | Cycle total: **$93.07** | Drawdown: **−10.45%** | **CB: ACTIVE**
+
+### CB recovery path
+Portfolio needs $103.93 to reset the CB (+$10.86 / +11.7% from here). VRT at analyst consensus $363-$389 alone would overshoot recovery. VST at Morgan Stanley $210 target alone would also exceed recovery. Both positions reaching consensus PTs by their respective Q2 earnings dates (VRT August 5, VST August 7) provides a plausible path to CB reset without new entries.
+
+### Position thesis reviews (CB re-validated)
+
+**VRT — HOLD.** $303.95, −3.67% from avg cost. Down −4.67% from Friday — entirely macro-driven (Iran/Hormuz, Korea chip rout, Fed repricing). No VRT-specific negative catalyst in today's news scan. Analyst consensus Strong Buy, 16/19 analysts, average PT $363-$389. Q2 earnings now confirmed **August 5** (before open — previously noted as July 29; August 5 is the confirmed date per TipRanks/MarketBeat). Section 4 gates re-pass: Gate 1 (AI power constraint deepening) ✓ Gate 2 (stock $304 vs. $363-$389 consensus, no pre-announcement) ✓ Gate 3 (August 5 earnings, specific dated) ✓. HOLD.
+
+**VST — HOLD, thesis STRENGTHENING.** $157.03, −1.63% from avg cost. Down only −1.16% from Friday vs. broad tech −3-5% — outperforming on a risk-off day. Hormuz CLOSED = maximum energy scarcity scenario for the merchant power thesis. Analyst targets $187 (Bernstein), $210 (Morgan Stanley), consensus $230. Q2 earnings August 7. Section 4 gates re-pass: Gate 1 (Hormuz closure + ERCOT summer + AI datacenter demand) ✓ Gate 2 ($157 vs. $187-$230 consensus, oil spike not priced into power margins) ✓ Gate 3 (Hormuz closure today + August 7 earnings) ✓. HOLD with elevated conviction.
+
+### SKHY watchlist update
+SKHY at $155.43, down −7.49% from Friday close $168.01. Seoul crash −15.4% driving ADR lower. Key risk: analyst Q2 earnings miss warning in circulation. Thesis still valid if miss warning doesn't confirm. Cash settles July 14 — decision deferred to Tuesday open.
+
+### Pre-market checklist for Tuesday July 14
+| Priority | Item | Action |
+|----------|------|--------|
+| **#1** | **SKHY** — $8.13 cash settles overnight | Buy at open if: price ≤ $163.90 (10% above $149 IPO) AND no confirmed Q2 guidance cut. Medium conviction, ~$8 size. |
+| **#2** | **VRT August 5 earnings** | Next major catalyst confirmed. Monitor for any pre-release analyst commentary or capex news. |
+| **#3** | **CPI Wednesday July 15** | Core 0.3%+ = multiple compression for VRT/VST. Inline or miss = macro tailwind. |
+| **#4** | **Hormuz / Iran** | Any ceasefire announcement = reassess VST exit thesis immediately. Escalation = hold/add when cash settles. |
+| **#5** | **VST August 7 earnings** | Thesis re-confirmation event 25 days out. Primary hold anchor. |
+
+---
+
+## [2026-07-13T18:02:00Z] CIRCUIT BREAKER — TRIGGERED — Portfolio 10.45% Below Peak
+
+- **Reason:** Portfolio total $93.07 has breached the 10% drawdown threshold from the all-time peak of $103.93 (set 2026-06-16). Trigger level: $93.537. Current level: $93.07. CB is now ACTIVE — $0.47 below trigger.
+- **Root cause:** VRT declined −4.67% from Friday close ($318.86 → $303.95; −$14.91/share × 0.159535 = −$2.38 portfolio impact) driven by macro risk-off: Iran/Hormuz closure (oil +4-5%), Korea Kospi circuit breaker (SK Hynix Seoul −15.4%, Kospi −9%, semiconductor contagion), hawkish Fed repricing (Goldman cuts rate-cut call to 2027). VST declined −1.16% ($158.86 → $157.03; −$0.43 portfolio impact). No VRT or VST specific negative catalysts in news scan.
+- **Morning cycle** already flagged CB as IMMINENT ($0.43 buffer). CB has now fired.
+- **Actions taken:** All new entries HALTED per protocol. Buying power = $0 (T+1 settlement from morning sells) — entry halt is operationally enforced regardless of CB.
+- **CB re-validation of open positions (Section 4 full filter):**
+  - VRT re-validation: Gate 1 PASS (AI power constraint deepening — datacenter load 80 GW → 150 GW by 2028, nuclear AI datacenter pipeline expanding) | Gate 2 PASS (Q2 earnings August 5 not priced, stock at $303.95 vs. analyst consensus $363-$389) | Gate 3 PASS (Q2 earnings August 5 specific dated catalyst). Conviction: High. → **HOLD.**
+  - VST re-validation: Gate 1 PASS (Hormuz closure = maximum energy scarcity; ERCOT summer demand; AI datacenter power contracts) | Gate 2 PASS ($157 vs. $187-$230 consensus; oil spike not yet reflected in power market margins) | Gate 3 PASS (Hormuz closure announced today, Q2 earnings August 7). Conviction: High — elevated vs. morning. → **HOLD.**
+- **Recovery:** No lockout period. Rebuy allowed when cash settles July 14 if Section 4 re-passes. CB resets when portfolio recovers above $103.93.
+
+---
+
+## [2026-07-13T18:01:00Z] HOLD — VRT (Mid-Day July 13 2026, 1:00 PM ET)
+
+- **Reason:** VRT $303.95, −3.67% unrealized from avg cost $315.54. Down −4.67% from Friday close $318.86 and −2.58% from this morning's $311.99 open. Decline is entirely macro-driven: Iran/Hormuz closure (oil +4-5%), Korea Kospi circuit breaker (SK Hynix Seoul −15.4%), hawkish Fed repricing (Goldman cuts 2027 rate cut). No VRT-specific negative catalyst surfaced in today's comprehensive news scan. Analyst consensus: 16 of 19 covering analysts are Buy/Strong Buy, average price target $363-$389. **VRT earnings date confirmed as August 5** (before open) per TipRanks/MarketBeat — correcting morning cycle note of July 29. Primary live catalyst intact.
+- **CB re-validation — Section 4 gates:**
+  - Gate 1 PASS: AI power infrastructure constraint real and deepening. AI datacenter IT load 80 GW → projected 150 GW by 2028. VRT raised FY2026 guidance to $13.5-$14.0B revenue following Q1 beat. Thermal management and grid hardware physical scarcity confirmed by ongoing hyperscaler nuclear PPA deal flow.
+  - Gate 2 PASS: Stock $303.95 vs. analyst consensus $363-$389. No pre-announcement of any Q2 miss. Fully 19-23% below consensus midpoint. Repricing of AI power infrastructure thesis is far from complete.
+  - Gate 3 PASS: Q2 earnings August 5 (before open) — 23 days. Specific, dated, live catalyst.
+  - Conviction: High.
+- **Section 9 check:** −3.67% unrealized. No gain — no trigger. 30% concentration trim trigger remains $362.87 (+15% from avg cost $315.54).
+- **Section 10 check:** N/A — equity position.
+- **Exit thesis (current read):** CB active — monitor closely. Exit if: (1) Q2 August 5 miss on revenue or backlog guidance; (2) Hyperscaler announces capex freeze specifically targeting power delivery or thermal management; (3) Momentum reversal below $290 on high volume with no recovery catalyst. Today's macro decline — driven by factors exogenous to the AI power infrastructure thesis — does not change the hold.
+
+---
+
+## [2026-07-13T18:01:00Z] HOLD — VST (Mid-Day July 13 2026, 1:00 PM ET) — Thesis STRENGTHENING
+
+- **Reason:** VST $157.03, −1.63% unrealized from avg cost $159.63. Down only −1.16% from Friday close $158.86 vs. broad tech market down −3-5% — significant relative outperformance confirming institutional thesis conviction. **Critical development: Iran declared the Strait of Hormuz CLOSED "until further notice."** Brent crude +4-5% to $78.82 (highest since June 22). This is the maximum energy scarcity scenario the merchant power thesis was built on. VST as a domestic nuclear + gas peaker is structurally insulated from oil import disruption while benefiting from elevated electricity prices driven by energy cost pass-through and AI datacenter demand. Amos Hochstein and expert consensus still pointing to conflict continuation, not resolution.
+- **CB re-validation — Section 4 gates:**
+  - Gate 1 PASS: Merchant power scarcity constraint intensifying. Hormuz closure = global energy supply shock; ERCOT summer heat demand ongoing; AI datacenter power contracts creating sustained baseload demand. VST's nuclear and gas generation capacity is a constrained domestic resource.
+  - Gate 2 PASS: VST at $157 vs. analyst targets $187 (Bernstein Outperform), $210 (Morgan Stanley Overweight), consensus $230. Q2 earnings August 7 not yet pricing. Oil price spike into power market margins not yet reflected in the stock.
+  - Gate 3 PASS: Hormuz closure announced today (July 13, named verifiable event). Q2 earnings August 7 (25 days, specific dated catalyst). Both catalysts live and active.
+  - Conviction: High — elevated from morning read given Hormuz escalation.
+- **Section 9 check:** −1.63% unrealized. No gain — no trigger.
+- **Section 10 check:** N/A — equity position.
+- **Exit thesis (current read):** Exit requires simultaneous convergence of: (1) Formal US-Iran peace agreement AND (2) Sustained oil price reversal (Brent below $65) AND (3) ERCOT demand normalization. All three, not one. Hormuz closure makes conditions (1) and (3) less likely today. Additionally: exit on Q2 August 7 revenue miss or adverse FERC capacity pricing ruling. Momentum reversal signal: break below $148 on high volume. None of these present today — thesis is strengthening.
+
+---
+
+## [2026-07-13T18:00:00Z] NO-ACTION — SKHY (Settlement Block, Mid-Day July 13)
+
+- **Reason:** Buying power = $0.00. T+1 settlement: $8.13 from Monday July 13 CORT/SPCX sells settles Tuesday July 14. Cannot execute today regardless of thesis state.
+- **Updated thesis assessment (for Tuesday decision):**
+  - Gate 1 PASS: SK Hynix controls ~56% global HBM (High Bandwidth Memory) market share. HBM is the binding AI training memory constraint. Today's Seoul crash (−15.4%) is a capital rotation event (domestic investors selling Seoul to buy US ADR), not a fundamental deterioration. HBM demand from NVIDIA supply chain is structurally unchanged.
+  - Gate 2 PASS: SKHY at $155.43, down from $168.01 Friday close (−7.49%). Seoul shares crashed −15.4% in a capital rotation event. US ADR has not fully repriced the Seoul move. Seeking Alpha $300 ADR initiation (July 13) vs. $155 current = significant thesis gap unpriced.
+  - Gate 2 RISK: An analyst Q2 earnings miss warning is in circulation today. If this is confirmed as formal guidance revision, Gate 2 would need re-evaluation — a confirmed earnings miss would be partially priced already.
+  - Gate 3 PASS: Seoul crash is today's named, dated, verifiable catalyst. Seeking Alpha initiation July 13. Fresh and specific.
+- **Thesis gate that failed (execution block):** Not a gate failure — settlement constraint. All required gates pass.
+- **Next check:** Tuesday July 14 open. Deploy ~$8.13 if: (a) Price ≤ $163.90 (10% above $149 IPO, Gate 2 still valid); (b) No confirmed Q2 guidance cut; (c) CB re-validation passes. Conviction: Medium. Suggested size: ~$8 (full available cash post-settlement).
+
+---
+
 ## [2026-07-13T13:45:00Z] CYCLE SUMMARY — Monday July 13 2026, 9:30 AM ET Open
 
 ### Session context
