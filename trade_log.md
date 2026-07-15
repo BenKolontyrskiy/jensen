@@ -4,6 +4,114 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-07-15T13:30:00Z] CYCLE SUMMARY — Wednesday July 15 2026, 9:30 AM ET Open
+
+### Circuit Breaker Status
+**ACTIVE.** Peak: $103.93 (2026-06-16). Trigger: $93.537 (−10%). Open total: **$95.86**. Drawdown from peak: **−7.76%** — recovered above CB trigger ($93.537) overnight but has NOT reset (reset requires full recovery above $103.93). All new entries in new tickers HALTED. Buying power: **$0.00** — no execution capacity regardless of CB status.
+
+### VIX check
+VIX **15.97** — sub-20 regime, declining (−3.2% from 16.50 prior close). 3x ETFs eligible (max 3-day hold); 2x ETFs eligible (max 5-day hold). No leveraged ETF positions. Section 10 N/A.
+
+### Today's date
+Wednesday July 15, 2026. Not Thursday — leveraged ETF weekend rule NOT applicable. No leveraged ETF positions in portfolio.
+
+### Macro context at open
+- **PPI June 2026 −0.3% MoM (WSJ/CNBC, 8:35 AM):** First wholesale price drop in 10 months, vs. consensus flat and +0.6% in May. CPI 3.5% yesterday + PPI −0.3% today = disinflation confirmed across both measures. Significantly reduces rate hike probability. Positive for VRT (capital-intensive infrastructure) and broadly risk-on.
+- **NY Fed President Williams (CNBC, 8:46 AM):** "Inflation has peaked, rates well positioned" — dovish signal from a key voting member. Directly counters yesterday's Warsh hawkishness.
+- **Hassett (CNBC, 8:38 AM):** "No excuse to raise rates, Warsh will push Fed to the right answer" — political/administrative alignment with dovish outcome.
+- **WSJ (9:08 AM): "China's Crude Buying Pause Has Helped Cushion the Market. That Might Be Changing."** — China crude purchasing pause may be ending; removal of that buffer would intensify global oil supply tightness. Directly bullish for VST domestic merchant generation margin thesis.
+- **Seeking Alpha (8:30 AM): "Focus on Markets and Tolls at the Strait of Hormuz"** — Hormuz remains primary crude driver; no ceasefire signal. Brent remains elevated.
+- **Nasdaq futures +0.4%, S&P +0.1% at open** — risk-on following PPI surprise and dovish Fed commentary.
+
+### Critical VRT development
+**VRT officially confirmed Q2 2026 earnings date: Wednesday, July 29, 2026 (before market open)** — PRNewswire 8:00 AM. Previously logged as August 5. The primary catalyst arrives two weeks sooner than tracked. Neutral-to-positive: compresses uncertainty window, accelerates thesis resolution. Motley Fool (7:30 AM) names VRT explicitly as a direct AI capex beneficiary ($1T capex crossing next year). All three Section 4 gates pass (see HOLD entry below).
+
+### Catalyst scan results
+
+**Pillar 1 — AI Infrastructure / Power & Grid:**
+- Motley Fool (7:30 AM): "AI Capex Crosses $1 Trillion Next Year. Here Are 2 Industrial Stocks That Will Benefit" — names VRT explicitly alongside Quanta (PWR). AI capex demand directly confirmed. Constructive for VRT thesis.
+- VRT Q2 earnings confirmed July 29 (see above) — sooner than Aug 5 previously logged.
+- PPI disinflation + Williams dovish tone reduce discount rate headwind on VRT that Warsh's testimony created yesterday.
+- No new VRT-specific negative catalyst. NY datacenter ban (July 14) still assessed as non-thesis-breaking (confirmed: no other states have followed with similar bans as of market open today).
+- **Action: HOLD VRT. Gates 1/2/3 all pass.**
+
+**Pillar 2 — Physical AI & Robotics:**
+- BigBear.ai (BBAI, 9:15 AM): Expanded generative AI platform for Department of War (DoW) missions — defense AI catalyst. Potential new entry candidate. Gate 1 (defense AI = constraint? marginal), Gate 3 (specific platform launch: yes). CB active + buying power $0.00 — cannot execute. Watchlist for next cycle if capital becomes available.
+- MicroVision (MVIS): CCO appointment — no contract or revenue catalyst. Gate 3 fails. NO ACTION.
+
+**Pillar 3 — Quantum Computing:** No relevant news.
+
+**Pillar 4 — Space Economy:** No relevant news.
+
+**Wildcards:**
+- Perma-Fix Environmental (PESI): Hanford vitrification revenue inflection thesis (Seeking Alpha, 9:20 AM) — nuclear waste cleanup, $59M LTM → $89-99M projected plus up to $216M grouting contract. Interesting nuclear waste catalyst. CB active, $0.00 buying power. Cannot execute. Monitor.
+
+**Macro:** PPI + CPI disinflation → dovish rate path building. China crude demand restart risk → higher oil floor. Both additive to the current portfolio thesis.
+
+**Existing positions:**
+- VRT: Earnings confirmed July 29. Thesis intact. HOLD.
+- VST: Iran/Hormuz thesis strengthening via China demand signal. Thesis intact. HOLD.
+
+### Trades executed this cycle
+**None.** CB ACTIVE. Buying power $0.00. Both positions HOLD — thesis intact on each. No new capacity without exiting an existing position, and no exit signal present on either.
+
+### All open positions — live quotes at ~9:30 AM ET
+
+| Ticker | Shares | Avg Cost | Price | Est. Value | Unrealized P&L | Portfolio % |
+|--------|--------|----------|-------|------------|----------------|-------------|
+| VRT | 0.159535 | $315.54 | $309.27 | $49.34 | −1.99% / −$1.00 | 51.5% |
+| VST | 0.281424 | $160.36 | $165.475 | $46.57 | +3.19% / +$1.44 | 48.6% |
+
+Cash: **$0.00** | Buying Power: **$0.00** | Equity: **$95.86** | Total: **$95.86**
+
+### Section 9 Profit-Taking Check
+- **VRT −1.99%:** No gain — no trigger. Hold.
+- **VST +3.19%:** Gain < 15% — HOLD per trigger matrix. Position is 48.6% of portfolio (>30% threshold), but gain is only +3.19%, far below the +15% trigger for that size tier. No action.
+
+### Section 10 Leveraged ETF Hold Check
+**No leveraged ETF positions.** Sleeve: 0%. ✓
+
+### Deployment check
+Equity: **$95.86** / Total: **$95.86** = **100%** — above 75% floor ✓. CB active (floor exception applies in any case). No gap to deploy.
+
+### Portfolio peak and drawdown
+Peak: **$103.93** (2026-06-16) | Open: **$95.86** | Drawdown: **−7.76%** | **CB: ACTIVE** (reset requires recovery above $103.93; needs +8.4% from current). Recovery from yesterday's EOD $93.06 (below CB trigger) to $95.86 (above trigger) driven by overnight moves in VRT and VST. CB will not reset until full recovery to peak.
+
+### Pre-market watch items for Wednesday session
+1. **VRT earnings now July 29** — primary date corrected from Aug 5. Watch for analyst previews and guidance whispers this week.
+2. **VST catalyst strengthening** — WSJ China crude + Hormuz ongoing = oil price floor rising. August 7 earnings 24 days away.
+3. **Dovish macro pivot forming** — PPI + CPI + Williams = rate cuts may start being priced. Positive for the full portfolio.
+4. **CB reset path:** Needs +8.4% from $95.86 to $103.93. Primary path: VRT July 29 beat + VST August 7 beat.
+5. **Buying power $0.00** — no new entries possible. Exits only on thesis break, momentum reversal, or superior rotation opportunity.
+
+---
+
+## [2026-07-15T13:30:00Z] HOLD — VRT (Open Wednesday July 15 2026)
+
+- **Reason:** VRT at $309.27 (+1.84% from yesterday's close $303.67). Unrealized: −1.99% from avg cost $315.54. Key development: VRT officially confirmed Q2 2026 earnings on **July 29 (before market open)** via PRNewswire 8:00 AM — two weeks earlier than August 5 as previously logged. This accelerates the thesis resolution timeline and is neutral-to-positive for the holding case. Motley Fool (7:30 AM) names VRT explicitly as direct AI capex beneficiary in context of $1T annual capex projection. PPI −0.3% (dovish) and NY Fed Williams ("inflation peaked, rates well positioned") reduce the discount rate headwind that dominated yesterday's session.
+- **CB re-validation — Section 4 gates:**
+  - Gate 1 (Bottleneck real?): AI datacenter IT load 80 GW → 150 GW by 2028; thermal management and power delivery physical scarcity confirmed by ongoing hyperscaler capex commitments. PASS.
+  - Gate 2 (Not fully priced?): $309.27 vs. analyst consensus ~$380 — 23% upside gap intact. Q2 earnings July 29 not yet reported; July 29 announcement itself was unknown before today. PASS.
+  - Gate 3 (Specific catalyst?): Q2 earnings July 29 (before open), confirmed this morning via PRNewswire. Specific and dated. PASS.
+- **Section 9 check:** −1.99% unrealized. No gain — no profit-taking trigger. No action.
+- **Catalyst state:** Live. Q2 earnings July 29 (before open), 14 days away. Primary upcoming catalyst intact and confirmed earlier than expected.
+- **Exit thesis (current read):** Exit requires: (1) Q2 July 29 revenue miss or backlog guidance cut on power delivery segment; (2) Hyperscaler global capex freeze specifically targeting power delivery or thermal management; (3) Momentum reversal below $285 on high volume with no recovery catalyst; (4) Multiple additional states (CA, TX, or VA) enacting datacenter bans similar to NY's July 14 order — would materially weaken the total addressable market thesis. Today's PPI and Williams commentary are additive positives. No current exit signal. Hold through July 29.
+
+---
+
+## [2026-07-15T13:30:00Z] HOLD — VST (Open Wednesday July 15 2026)
+
+- **Reason:** VST at $165.475 (+4.45% from yesterday's close $158.43). Unrealized: +3.19% from avg cost $160.36. Iran/Hormuz thesis continues to strengthen with a new incremental signal. WSJ (9:08 AM): "China's Crude Buying Pause Has Helped Cushion the Market. That Might Be Changing." — China's pause in crude purchasing had been suppressing global oil demand; a restart would remove this buffer and intensify supply tightness, directly raising the price floor for domestic electricity tied to commodity cost curves. Combined with ongoing Hormuz disruption (no ceasefire signal, US blockade posture per yesterday's Fox Business report), the supply-side squeeze thesis is now being reinforced from a demand-side direction as well. VST price at $165.475 is well above its 50-day MA ($154.11), confirming an uptrend in place.
+- **CB re-validation — Section 4 gates:**
+  - Gate 1 (Bottleneck real?): Iran conflict + potential China crude demand restart = supply-side squeeze on global oil markets. Domestic nuclear/gas peaker generation (insulated from import disruption) = constraint-owning asset when commodity prices are elevated. PASS.
+  - Gate 2 (Not fully priced?): Catalyst is ongoing and deepening (new China signal today). PPI/CPI disinflation adds macro tailwind the market hasn't fully priced for VST. August 7 earnings remain ahead. PASS.
+  - Gate 3 (Specific catalyst?): Ongoing Iran/Hormuz escalation (US blockade posture), WSJ China crude restart report (July 15), August 7 Q2 earnings (24 days). PASS.
+- **Section 9 check:** +3.19% gain — below 15%, HOLD per trigger matrix. Position is 48.6% of portfolio (>30% size tier), but gain is +3.19%, far below the +15% forced partial trigger for that tier. No action.
+- **Catalyst state:** Live and strengthening. Iran conflict ongoing, China crude demand signal new today, August 7 earnings 24 days away.
+- **Exit thesis (current read):** Exit if: (1) US-Iran ceasefire formally announced AND Brent reverts and sustains below ~$70 (current elevated, no ceasefire signal); (2) VST-specific negative catalyst (nuclear plant outage, adverse FERC ruling, ERCOT summer demand miss); (3) Momentum reversal below $148 on elevated volume with no recovery catalyst. China crude demand restart signal is a new incremental bullish factor — the thesis is now stronger than at EOD yesterday. Hold through August 7 earnings.
+
+---
+
 ## [2026-07-14T19:45:00Z] CYCLE SUMMARY — EOD Tuesday July 14 2026, 3:30 PM ET Close
 
 ### Circuit Breaker Status
