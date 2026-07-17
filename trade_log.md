@@ -4,6 +4,129 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-07-17T19:38:00Z] EOD CYCLE SUMMARY — Friday July 17 2026, ~3:38 PM ET Close
+
+### Today's Date
+**Friday July 17, 2026.** Last trading day of the week. EOD cycle complete.
+
+### Circuit Breaker Status
+**ACTIVE.** Peak: **$103.93** (2026-06-16). Trigger: $93.537 (−10%). EOD total: **$90.05**. Drawdown from peak: **−13.35%**. CB remains firmly active — requires recovery to $103.93 (+15.4% from EOD) to reset. All new entries halted throughout today's session. Buying power: **$0.00**.
+
+### Friday Leveraged ETF Weekend Rule Check
+**No leveraged ETF positions held at any point today.** Friday weekend rule: N/A ✓. Sleeve: 0%.
+
+### VIX Check
+Sub-20 regime (17.21 at morning open, unchanged regime). No leveraged ETF positions — Section 10 N/A.
+
+### Open positions — live quotes at ~3:38 PM ET (EOD)
+
+| Ticker | Shares | Avg Cost | EOD Price | Est. Value | Unrealized P&L | Today's Change | Portfolio % |
+|--------|--------|----------|-----------|------------|----------------|----------------|-------------|
+| VRT | 0.159535 | $315.54 | $291.34 | $46.48 | −7.67% / −$3.86 | −0.94% | 51.6% |
+| VST | 0.281424 | $160.36 | $154.82 | $43.57 | −3.45% / −$1.56 | +1.48% | 48.4% |
+
+Cash: **$0.00** | Buying Power: **$0.00** | Equity: **$90.05** | Total: **$90.05**
+
+### Closed positions today
+**None.** No exits executed. Hard exit triggers ($285 VRT / $148 VST) not breached at any point in the session. Hard exit buffer at EOD: VRT $6.34 (2.18%); VST $6.82 (4.41%).
+
+### Daily P&L
+Session: **+$0.63 (+0.70%)** from Thursday's EOD of $89.42. Recovery from the morning open low ($86.05). VRT contributed −$0.44 (daily −0.94%) and VST contributed +$0.64 (daily +1.48%). Net: modestly positive session on a highly volatile Friday.
+
+Intraday range: Low $86.05 (9:36 AM open) → High ~$91.28 (mid-day) → Close $90.05. Volatile session with significant morning recovery then partial afternoon fade.
+
+### Section 9 Profit-Taking Check
+- **VRT −7.67% unrealized:** No gain — no profit-taking trigger. No action.
+- **VST −3.45% unrealized:** No gain — no profit-taking trigger. No action.
+
+### Section 10 Leveraged ETF Hold Check
+**No leveraged ETF positions.** Sleeve: 0%. ✓ N/A.
+
+### Deployment check
+Equity: **$90.05** / Total: **$90.05** = **100%** — above 75% floor ✓. CB active (floor exception applies regardless). No deployment gap.
+
+### Portfolio peak and drawdown
+Peak: **$103.93** (2026-06-16) | EOD: **$90.05** | Drawdown: **−13.35%** | **CB: ACTIVE** (improved from −17.22% at today's morning open; needs +15.4% recovery to reset).
+
+### Market context — Friday July 17 2026 EOD
+
+**Broad market AI rotation — major development:**
+- **Apple (AAPL) dethroned Nvidia as world's most valuable company today** (AAPL hit all-time high $334.99 intraday, HSBC upgrade). Market is rotating from AI hardware supply chain (semiconductors, chips) to consumer tech execution (Apple). This is a narrative headwind for the AI chip/hardware theme but does NOT break the power/grid bottleneck thesis driving VRT. VRT is in the power constraint layer — which remains the bottleneck regardless of which chip maker wins.
+- S&P 500 closed modestly lower. Nasdaq 100 continued weakness (AI hardware selloff persisting).
+
+**Iran/Hormuz — no de-escalation detected in afternoon:**
+- No ceasefire signal detected in any source through EOD.
+- Brent crude remained elevated ($86+ range throughout the session).
+- Trump's "ceasefire is over" declaration at NATO summit remains the operative posture.
+- VST's exit condition (ceasefire + Brent < $70) remains far from being met.
+
+**VRT catalysts unchanged:**
+- Baird Outperform/$370 PT (July 16) intact.
+- Q2 earnings July 29 remains the primary catalyst (12 days). No new negative development identified.
+
+### EOD position review
+
+**VRT — HOLD into weekend:**
+Closing at $291.34. Down −0.94% from Thursday's official close ($294.11). Session range: $276.41 open → $295.55 mid-day high → $291.34 close. The afternoon gave back $4.21 from the mid-day high but the session closed well above the morning low. Apple/Nvidia rotation is the dominant market narrative and is mildly unfavorable for AI hardware perception, but VRT operates in the power/thermal layer that is infrastructure-agnostic — demand is driven by data center build-out, not which chip vendor wins. Q2 earnings July 29 (12 days) is the primary catalyst. Hard exit trigger $285: buffer $6.34 (2.18%). Thesis intact, no action.
+
+**VST — HOLD into weekend:**
+Closing at $154.82. Up +1.48% from Thursday's official close ($152.56). VST is recovering from the week's lows — pattern of morning weakness and afternoon/session recovery across multiple days suggests accumulated buying interest at these levels. Iran thesis at maximum intensity: Trump declared ceasefire "over," Brent elevated all day, Hormuz at 2%, Iranian oil authorization expired. Hard exit trigger $148: buffer $6.82 (4.41%). This is significantly improved from this morning's $0.87 buffer. Thesis intact, no action.
+
+### Weekend risk assessment
+- **VST:** Primary risk remains unexpected Iran capitulation / surprise de-escalation over the weekend (Trump NATO posture makes this lower probability than any prior point in the trade). Secondary risk: VST-specific plant outage, ERCOT miss, FERC ruling. None signaled. Hold.
+- **VRT:** No weekend event risk identified. Nearest scheduled catalyst: Q2 earnings July 29 (12 days). Macro Apple/Nvidia rotation narrative may persist into next week but does not break VRT fundamentals. Hold.
+
+### Trades executed this session
+**None.** CB ACTIVE all day. Buying power $0.00 throughout. Both positions HOLD across all three cycles (open, mid-day, EOD).
+
+### Watchlist for Monday (pending CB reset)
+1. **VST (add)** — Iran thesis at maximum intensity; if CB resets on a gap up, VST is first add target. BofA $222.89, Scotiabank $298.
+2. **LHX (L3Harris)** — Golden Dome satellite contract $875M (awarded today, Pillar 4). Monday: check price action on contract follow-through.
+3. **RKLB** — Prior Space Force contract. CB active.
+4. **BBAI** — Defense AI, Iran/Middle East escalation adds demand. CB active.
+5. **Energy (XOM, COP)** — Oil at $86+ on Hormuz closure. CB active.
+
+### Pre-market checklist for Monday July 20
+
+1. **Iran/Hormuz**: Check Brent crude direction and any ceasefire news over the weekend. If VST opens at or below $148, EXIT immediately.
+2. **VRT pre-market**: Check for any VRT-specific news (analyst notes, earnings pre-announcements, datacenter news).
+3. **Broad market**: Nasdaq futures direction — continued Apple/Nvidia rotation or stabilization?
+4. **CB status**: Check if any position recovery over the weekend brings total portfolio closer to CB reset ($103.93). Current gap: +$13.88 (+15.4%).
+5. **LHX / Golden Dome**: Monitor Monday price action on $875M contract. If CB resets, this is a pillar 4 entry candidate.
+
+---
+
+## [2026-07-17T19:38:00Z] HOLD — VRT (EOD Friday July 17 2026, ~3:38 PM ET)
+
+- **Reason:** VRT closing at $291.34, down −0.94% from Thursday's official close of $294.11. Session range: $276.41 (morning open, extreme AI/tech selloff) → $295.55 (mid-day recovery) → $291.34 (EOD). The session closed well above the morning low — constructive given the continued broad AI hardware narrative pressure (Apple dethroned Nvidia today as world's most valuable company, signaling continued rotation from AI chip/hardware plays). VRT's power/thermal management thesis is infrastructure-agnostic: demand is driven by data center electricity load growth (80 GW → 150 GW by 2028), not by which semiconductor maker wins. TSMC additional $100B in US AI manufacturing investment (announced Thursday) remains the strongest available capex confirmation and directly supports VRT's forward revenue opportunity. Baird Outperform/$370 PT (July 16) and 236,000 sq ft Malaysia facility expansion (today) both intact as pre-earnings setup catalysts. Hard exit trigger $285: buffer $6.34 (2.18%). No VRT-specific negative catalyst identified across any source in today's three cycles (open, mid-day, EOD). Q2 earnings July 29 is 12 days away and is LIVE.
+- **CB re-validation — Section 4 gates at $291.34:**
+  - Gate 1 (Bottleneck real?): AI datacenter power constraint: 80 GW → 150 GW by 2028. TSMC additional $100B US AI manufacturing (Thursday) = demand confirmation. Malaysia facility expanding production capacity. $15B backlog. PASS.
+  - Gate 2 (Not fully priced?): $291.34 vs. analyst consensus $392.38 (Baird $370 new July 16) — 34.7% upside gap. Q2 earnings July 29 unresolved. Today's decline is narrative rotation (Apple/Nvidia), not VRT fundamental repricing. PASS.
+  - Gate 3 (Specific catalyst?): Q2 earnings July 29 (before open), 12 days. Named, specific, dated, LIVE. PASS.
+- **Section 9 check:** −7.67% unrealized (−$3.86). No gain — no profit-taking trigger. No action.
+- **Catalyst state:** Live. Q2 earnings July 29 (before open), 12 days. TSMC $100B US AI investment (yesterday). Baird $370 PT (July 16). Malaysia facility expansion (today).
+- **Momentum state:** Weakening intraday. Fourth consecutive session trading below prior close, recovering from extreme morning low. Pattern of morning weakness and recovery has been consistent this week. EOD close well above morning open ($276.41 → $291.34 = +$14.93 recovery from the session low).
+- **Exit thesis (current read):** Hold through July 29 Q2 earnings. Exit requires: (1) Q2 July 29 revenue miss or backlog guidance cut on power delivery segment — 12 days away, cannot occur earlier; (2) Hyperscaler global capex freeze specifically targeting power/thermal — TSMC $100B directly contradicts; (3) Momentum break below $285 on high volume WITHOUT recovery catalyst — Q2 earnings July 29 is the live recovery catalyst, condition NOT met (buffer $6.34, 2.18%); (4) Multiple additional states enacting datacenter power bans — none identified. Pre-market Monday: watch for any VRT-specific news; if VRT opens below $285, evaluate immediately for potential exit. Apple/Nvidia rotation narrative may persist next week — watch if it extends to VRT specifically (it hasn't yet).
+
+---
+
+## [2026-07-17T19:38:00Z] HOLD — VST (EOD Friday July 17 2026, ~3:38 PM ET)
+
+- **Reason:** VST closing at $154.82, up +1.48% from Thursday's official close ($152.56). The session range was $148.87 (morning open, $0.87 buffer to hard exit) → $156.80 (mid-day) → $154.82 (EOD). VST recovered from the morning's extreme stress and is closing above Thursday's close — the only position in the portfolio to close green on the day. Buffer to $148 hard exit: **$6.82 (4.41%)** — substantially improved from this morning's $0.87 (0.58%). The Iran/Hormuz catalyst remains at maximum intensity at EOD: no ceasefire signal detected in any afternoon search, Trump's "ceasefire is over" NATO declaration is still the operative US foreign policy posture, Brent crude elevated through the session, Hormuz at 2% capacity. Iranian oil authorization expired this morning. The VST exit condition (US-Iran ceasefire formally announced AND Brent sustains below ~$70) is more distant today than at any prior point since position entry. VST's nuclear and gas peaker merchant generation capacity is price-setting in this environment — margin expansion continues as energy commodity prices remain elevated. Q2 earnings August 7 (21 days) not yet reported.
+- **CB re-validation — Section 4 gates at $154.82:**
+  - Gate 1 (Bottleneck real?): Iran/Hormuz at maximum intensity at close — ceasefire formally declared dead, Brent elevated, Hormuz functionally closed, Iranian oil authorization expired. VST merchant nuclear/gas generation = price-setting in elevated commodity regime. PASS.
+  - Gate 2 (Not fully priced?): $154.82 vs. BofA consensus $222.89 / Scotiabank $298 — 44–93% upside gap. Thesis intensity at maximum while price is below entry. Q2 earnings August 7 (21 days) unresolved. PASS.
+  - Gate 3 (Specific catalyst?): Iran/Hormuz crisis live and at maximum intensity (Trump declared ceasefire over; oil elevated; Hormuz closed; 6th night of US Iran strikes); August 7 Q2 earnings (21 days). Multiple specific, named, live catalysts. PASS.
+- **Section 9 check:** −3.45% unrealized (−$1.56). No gain — no profit-taking trigger. No action.
+- **Catalyst state:** Live and at maximum intensity. Trump declared ceasefire "over" at NATO summit in Turkey. Iranian oil authorization expired. Hormuz at 2% capacity. No ceasefire signal at EOD.
+- **Momentum state:** Recovering. Closing +1.48% above Thursday's close. Up from morning low $148.87 (+$5.95 / +4.0% recovery from session open). Sustained recovery through the afternoon session. Pattern of intraday recovery on the Iran catalyst is constructive — thesis-specific buying absorbing macro sell pressure.
+- **Exit thesis (current read):** Hard exit if VST touches or falls through $148 intraday at any point — exit immediately at market, no discretion. EOD buffer $6.82 (4.41%). Weekend hold: Iran thesis at maximum strength; probability of sudden weekend de-escalation is now lower than any prior point given Trump's explicit public posture. Primary exit conditions: (1) US-Iran ceasefire formally announced AND Brent < $70 — declared formally dead today, further than ever from this condition; (2) VST-specific negative catalyst (nuclear plant outage, adverse FERC ruling, ERCOT summer demand miss) — none identified; (3) Momentum reversal below $148 — $6.82 buffer (4.41%). Pre-market Monday: check Brent crude and any Iran/ceasefire developments immediately. If VST opens at or near $148, EXIT immediately at market.
+- **Gain % at exit:** N/A (not exiting)
+- **Momentum state:** Recovering. Session high-to-low range covered; closed above Thursday's close.
+- **Catalyst state:** Live and at maximum intensity.
+
+---
+
 ## [2026-07-17T17:05:00Z] CYCLE SUMMARY — Friday July 17 2026, 1:05 PM ET Mid-Day
 
 ### Today's Date
