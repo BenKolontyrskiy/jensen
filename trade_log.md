@@ -4,6 +4,110 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-07-17T13:36:00Z] CYCLE SUMMARY — Friday July 17 2026, 9:36 AM ET Open
+
+### Today's Date
+**Friday July 17, 2026.** Last trading day of the week. Leveraged ETF weekend rule in force (no leveraged positions held — N/A).
+
+### Circuit Breaker Status
+**ACTIVE — DEEPENED.** Peak: $103.93 (2026-06-16). Trigger: $93.537 (−10%). Open total: **$86.05**. Drawdown from peak: **−17.22%** — deepened significantly from Thursday EOD ($89.42, −13.97%). Both positions declined at open: VRT −6.01% from Thursday's official close ($294.11 → $276.41), VST −2.41% ($152.56 → $148.87). Primary driver: broad AI/tech momentum unwind (Netflix −10% on in-line Q2 + weak Q3 guidance, Alphabet −1.5% on Gemini delay reports, Intuitive Surgical −11% after Q2). CB remains firmly active. All new entries HALTED. Buying power: **$0.00**.
+
+### VIX Check
+**17.21** at market open July 17, 2026 (prior close: 16.73 on July 16). Sub-20 regime unchanged. No leveraged ETF positions — Section 10 N/A. VIX regime: 3x ETFs eligible (max 3 days hold), 2x ETFs eligible (max 5 days hold) — moot given CB active and $0 buying power.
+
+### Friday Leveraged ETF Check
+**No leveraged ETF positions.** Friday weekend rule confirmed N/A — no positions to exit. ✓
+
+### Open positions — live quotes at 9:36 AM ET
+
+| Ticker | Shares | Avg Cost | Open Price | Est. Value | Unrealized P&L | From Prev Close | Portfolio % |
+|--------|--------|----------|------------|------------|----------------|-----------------|-------------|
+| VRT | 0.159535 | $315.54 | $276.41 | $44.10 | −12.40% / −$6.22 | −6.01% | 51.3% |
+| VST | 0.281424 | $160.36 | $148.87 | $41.91 | −7.16% / −$2.46 | −2.41% | 48.7% |
+
+Cash: **$0.00** | Buying Power: **$0.00** | Equity: **$86.01** | Total: **$86.05** (Robinhood reported $86.0489)
+
+### Section 9 Profit-Taking Check
+- **VRT −12.40% unrealized:** No gain — no profit-taking trigger. No action.
+- **VST −7.16% unrealized:** No gain — no profit-taking trigger. No action.
+
+### Section 10 Leveraged ETF Hold Check
+**No leveraged ETF positions.** Sleeve: 0%. Friday weekend rule confirmed N/A. ✓
+
+### Deployment check
+Equity: **$86.01** / Total: **$86.05** = **99.95%** — above 75% floor ✓. CB active (floor exception applies in any case). No cash gap. All capital deployed in equity.
+
+### Portfolio peak and drawdown
+Peak: **$103.93** (2026-06-16) | Open 9:36 AM ET: **$86.05** | Drawdown: **−17.22%** | **CB: ACTIVE** (deepened from Thursday EOD −13.97%; reset requires recovery to $103.93 — needs +20.8% from current value). CB has now deepened 3.25 percentage points in one session.
+
+### Market context — Friday July 17, 2026 open
+**Broad AI/tech momentum selloff:**
+- Netflix −10%+ premarket: Q2 in-line, Q3 earnings and revenue guidance BELOW consensus. Market treating this as an AI/streaming demand signal.
+- Alphabet −1.5%: Bloomberg reports Google is "months behind" delivering latest Gemini AI model — direct AI capability disappointment.
+- Intuitive Surgical −11%: Q2 results disappointed; robotic surgical tools.
+- U.S. futures sharply lower across the board. "AI/semiconductor momentum trade continues to unwind in July."
+- Economic data due today: June housing starts, building permits, industrial production, University of Michigan consumer sentiment. Earnings: Travelers (TRV), Truist (TFC), Fifth Third (FITB).
+
+**Iran-Hormuz crisis — further escalation overnight:**
+- Iran struck US allies in Iraq (8+ killed), missile strikes targeting Qatar, Jordan, Kurdish population in Iraq.
+- Renewed attacks on Strait of Hormuz shipping — 3 merchant vessels hit.
+- IMO Secretary-General condemned "reckless attacks" against vessels transiting Hormuz.
+- Oil climbing for a FOURTH consecutive day (US attacks on Iran to secure Hormuz shipping lanes).
+- IEA Executive Director Birol: "Global economy in peril if Hormuz crisis persists."
+- Zero ceasefire signal. This is the most intense escalation since the crisis began.
+
+### Position management decisions
+
+**VRT — HOLD (re-validated):**
+VRT at $276.41, down −6.01% from Thursday's official close of $294.11. Now $8.59 below the stated hard exit trigger of $285. Exit condition 3 from prior log ("Momentum break below $285 on high volume with NO recovery catalyst") is evaluated: Recovery catalyst EXISTS — Q2 earnings July 29 (12 days, live, unresolved). GPU deployment delay reports characterized as "slight/temporary" per sector analysis; critically, the data center build delays cited are due to "power infrastructure shortages" (not demand destruction) — which directly supports VRT's power delivery thesis, not undermines it. Vertiv's backlog is $15B, with liquid cooling being designed into 2026-2027 AI deployments as the DEFAULT. Today's VRT decline is broad macro/AI sentiment (Netflix, Alphabet, ISRG all down sharply), not VRT-specific negative catalyst. Exit condition 3 NOT met: recovery catalyst (Q2 July 29) is live.
+
+**VST — HOLD (thesis dramatically strengthened):**
+VST at $148.87, down −2.41% from Thursday's official close of $152.56. Buffer to $148 hard exit trigger: **$0.87 (0.58%)**. Hard exit at $148 NOT breached. Iran-Hormuz escalation overnight is the most significant since position entry: Iran struck multiple US allies with missiles, 3 merchant vessels hit in Hormuz, oil up day 4, IEA global economy warning. This is a massive VST thesis strengthener — the catalyst driving the position has intensified dramatically. The ONLY exit condition for VST on the thesis (ceasefire + Brent < $70) is now FURTHER from being met than at any prior point. Today's slight VST decline is entirely secondary market sympathy with broad energy utility sector selling on risk-off, not thesis-specific.
+
+**Critical watch for Friday session:**
+1. **VST $148 trigger — CRITICAL:** Buffer only $0.87 (0.58%). If VST trades at $148 or below at any point today, EXIT immediately at market regardless of thesis. This is the only actionable intraday trip-wire.
+2. **VRT $265 secondary watch:** If VRT breaches $265 on high volume without any positive sector development, it will signal a more structural repricing. This is a monitoring level, not a hard exit.
+3. **Weekend risk — VST:** Iran escalation increasing. A ceasefire over the weekend would gap VST down below $148 at Monday open. Position is held into the weekend on the strength of the thesis — the Iran thesis is now stronger than ever. Weekend ceasefire risk is the primary unmanaged variable.
+
+### Trades executed this cycle
+**None.** CB ACTIVE. Buying power $0.00. Both positions HOLD — thesis intact per re-validation above.
+
+### Watchlist (pending CB reset)
+1. **RKLB** — Iridium acquisition (Pillar 4). CB active, no capital.
+2. **BBAI** — Defense AI (Pillar 2). CB active, no capital. Middle East escalation now adds defense catalyst.
+3. **Defense names (LOAR, MRCY)** — Iran/Hormuz military escalation is a direct catalyst. Requires diligence before entry. CB active.
+4. **Energy sector (XOM, COP)** — Oil rising day 4 on Hormuz crisis. CB active.
+
+---
+
+## [2026-07-17T13:36:00Z] HOLD — VRT (Open Friday July 17 2026, 9:36 AM ET)
+
+- **Reason:** VRT at $276.41, down −6.01% from Thursday's official close of $294.11. Now $8.59 below the stated hard exit trigger of $285. Extensive review conducted. The exit thesis condition 3 requires "Momentum break below $285 on HIGH VOLUME with NO RECOVERY CATALYST." Today's decline is partially thesis-adjacent (GPU deployment delay reports sparking cooling demand uncertainty) but: (1) The GPU delays are characterized as "slight" and "temporary" by sector analysis; (2) The underlying cause of data center delays is "power infrastructure shortages" — which SUPPORTS VRT, not undermines it; (3) VRT's $15B backlog is primarily booked revenue; (4) Liquid cooling is being designed into 2026-2027 AI deployments as the default configuration; (5) The primary driver of today's selloff is broad market (Netflix −10%, Alphabet −1.5%, ISRG −11%) — macro sector rotation, not VRT fundamentals; (6) TSMC additional $100B US AI manufacturing investment (announced yesterday) remains the single most concrete AI capex confirmation available — directly supports VRT; (7) Recovery catalyst EXISTS and is LIVE: Q2 earnings July 29, 12 days. Exit condition 3 NOT met. No other exit condition met. Selling into idle cash (CB active, buying power $0) would lock in −12.40% loss with 12 days until the primary thesis-resolving catalyst.
+- **CB re-validation — Section 4 gates at $276.41:**
+  - Gate 1 (Bottleneck real?): AI datacenter IT load 80 GW → 150 GW by 2028. Data center build delays are caused by "power infrastructure shortages" (per sector analysis this cycle) — VRT IS the power constraint layer. TSMC additional $100B US AI investment (yesterday) = strongest available confirmation of AI capex supercycle. AWS fastest cloud growth in years. Vertiv backlog: $15B. PASS.
+  - Gate 2 (Not fully priced?): $276.41 vs analyst consensus ~$380 — 37.5% upside gap, widening dramatically. Q2 earnings July 29 (12 days) not yet reported. Today's decline is macro rotation (Netflix, Alphabet, ISRG), not VRT fundamental repricing. GPU delay concerns characterized as "slight/temporary." The repricing is moving in the wrong direction vs. fundamentals — thesis/price divergence widening further in Jensen's favor. PASS.
+  - Gate 3 (Specific catalyst?): Q2 earnings July 29 (before open), 12 days. Named, specific, dated. LIVE. PASS.
+- **Section 9 check:** −12.40% unrealized (−$6.22). No gain — no profit-taking trigger. No action.
+- **Catalyst state:** Live. Q2 earnings July 29 (before open), 12 days. TSMC additional $100B US AI manufacturing investment (yesterday) = pre-earnings setup catalyst.
+- **Momentum state:** Weakening severely. Down −6.01% today, in a broad AI/tech selloff. Fourth consecutive down session. No VRT-specific negative catalyst identified. Decline is macro rotation.
+- **Exit thesis (current read):** Hold through July 29 earnings. Exit requires: (1) Q2 July 29 revenue miss or backlog guidance cut on power delivery segment — cannot occur until July 29; (2) Hyperscaler global capex freeze specifically targeting power/thermal — TSMC $100B directly contradicts; (3) Momentum break below $285 on high volume WITHOUT recovery catalyst — recovery catalyst live (July 29 earnings), condition NOT met; (4) Multiple additional states following NY datacenter ban — none identified. Secondary watch: if VRT breaches $265 on high volume with no positive sector catalyst, re-evaluate immediately for possible exit before July 29.
+
+---
+
+## [2026-07-17T13:36:00Z] HOLD — VST (Open Friday July 17 2026, 9:36 AM ET)
+
+- **Reason:** VST at $148.87, down −2.41% from Thursday's official close of $152.56. Buffer to hard exit trigger: $0.87 (0.58%) — tightest buffer since position entry. Hard exit trigger at $148 NOT breached. Today's Iran-Hormuz catalyst news is the most significant escalation since the crisis began: (1) Iran struck US allies in Iraq (8+ killed), with missile strikes on Qatar, Jordan, and Kurdish population in Iraq; (2) 3 merchant vessels struck in Strait of Hormuz; (3) IMO Secretary-General condemned attacks on ships transiting Hormuz; (4) Oil climbing for a FOURTH consecutive day; (5) IEA Executive Director Birol: "Global economy in peril if Hormuz crisis persists." This is not a minor escalation — Iran has now directly attacked US allies across multiple countries. The thesis strengthens while the price slightly weakens — classic thesis/price divergence. No ceasefire signal. The ONLY exit condition for VST (US-Iran ceasefire + Brent < $70) is FURTHER from being met today than at any prior point since position entry. BofA maintaining Buy rating, Scotiabank raising price target to $298. The $2.41% decline in VST appears to be entirely secondary market sympathy with broad energy utility selling on risk-off sentiment, not VST-specific negative catalyst.
+- **CB re-validation — Section 4 gates at $148.87:**
+  - Gate 1 (Bottleneck real?): Iran striking US allies (Qatar, Jordan, Iraq) and Hormuz merchant vessels — the most hawkish escalation since position entry. Oil rising day 4. IEA warning about global economy peril if crisis persists. VST nuclear and gas peaker merchant generation = price-setting constraint in elevated energy commodity regime. PASS.
+  - Gate 2 (Not fully priced?): VST −2.41% today while thesis intensity hits new peak — thesis/price divergence strongest since entry. Analyst consensus $222.89 (BofA Buy, Scotiabank PT $298, both current). Current $148.87 = 39%–100% upside gap. Q2 earnings August 7 (21 days) not yet reported. PASS.
+  - Gate 3 (Specific catalyst?): Iran/Hormuz military escalation live and intensifying (Iran striking US allies with missiles, Hormuz ships hit TODAY, oil up day 4); August 7 Q2 earnings (21 days). Multiple named, specific, live catalysts. PASS.
+- **Section 9 check:** −7.16% unrealized (−$2.46). No gain — no profit-taking trigger. No action.
+- **Catalyst state:** Live and dramatically intensifying. Iran has now directly attacked US allies with missiles across multiple countries. Hormuz merchant vessels being struck. Zero ceasefire signal. This is the most intense escalation since position entry.
+- **Momentum state:** Weakening. −2.41% session at open, following three prior down sessions. However, today's decline is secondary market noise given the extraordinary thesis strengthening overnight. Buffer to $148 at $0.87 (0.58%) — on close watch.
+- **Exit thesis (current read):** HARD EXIT if VST touches or falls through $148 AT ANY POINT TODAY — exit immediately at market, no discretion. Otherwise hold into weekend on thesis integrity. Weekend risk: Iran ceasefire announcement could cause VST to gap below $148 at Monday open without intraday management capability. Thesis is intact and strengthening; position held on thesis merit. Exit requires: (1) US-Iran ceasefire formally announced AND Brent sustains below ~$70 — Iran is NOW STRIKING US ALLIES, zero ceasefire signal; (2) VST-specific negative catalyst (nuclear plant outage, adverse FERC ruling, ERCOT summer demand miss) — none identified; (3) Momentum reversal below $148 — buffer $0.87 (0.58%), on active watch. Monday open and Brent direction are the weekend variables. Pre-market Monday: if VST opens near or below $148, exit immediately.
+
+---
+
 ## [2026-07-16T19:55:00Z] EOD CYCLE SUMMARY — Thursday July 16 2026, ~3:38 PM ET Close
 
 ### Circuit Breaker Status
