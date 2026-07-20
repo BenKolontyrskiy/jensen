@@ -4,6 +4,119 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-07-20T13:36:00Z] CYCLE SUMMARY — Monday July 20 2026, 9:36 AM ET Open
+
+### Today's Date
+**Monday July 20, 2026.** Week opens with Iran/Hormuz at maximum intensity (ninth consecutive night of US strikes), Brent crude surging to $88–90/barrel. S&P 500 futures +0.13%, Nasdaq futures +0.43%. VIX 17.68 (sub-20 regime, down from 18.77 Friday close).
+
+### Circuit Breaker Status
+**ACTIVE.** Peak: **$103.93** (2026-06-16). Trigger: $93.537 (−10%). Open total: **$92.18**. Drawdown from peak: **−11.31%**. CB remains active — requires recovery to $103.93 (+13.8% from open) to reset. All new entries halted. Buying power: **$0.00**. Portfolio up +$2.13 (+2.37%) from Friday's EOD ($90.05) — VRT +$1.38, VST +$0.80.
+
+### VIX Check
+**17.68** — Sub-20 regime (down from 18.77 at Friday's close). Leveraged ETF eligibility: 3x ETFs eligible (max 3 days), 2x ETFs eligible (max 5 days). No leveraged positions — Section 10 N/A. Buying power $0.00 prevents any new entries regardless of CB or VIX status.
+
+### Leveraged ETF Hold Check
+**No leveraged ETF positions.** Sleeve: 0%. ✓ N/A.
+
+### Open positions — live quotes at ~9:36 AM ET (open)
+
+| Ticker | Shares | Avg Cost | Price | Est. Value | Unrealized P&L | vs Fri Close | Portfolio % |
+|--------|--------|----------|-------|------------|----------------|--------------|-------------|
+| VRT | 0.159535 | $315.54 | $299.99 | $47.86 | −4.93% / −$2.48 | +3.60% | 51.9% |
+| VST | 0.281424 | $160.36 | $157.65 | $44.37 | −1.69% / −$0.76 | +1.42% | 48.1% |
+
+Cash: **$0.00** | Buying Power: **$0.00** | Equity: **$92.18** | Total: **$92.18**
+
+### Section 9 Profit-Taking Check
+- **VRT −4.93% unrealized:** No gain — no profit-taking trigger. No action.
+- **VST −1.69% unrealized:** No gain — no profit-taking trigger. No action.
+
+### Deployment check
+Equity: **$92.18** / Total: **$92.18** = **100%** — above 75% floor ✓. CB active (floor exception applies in any case). All capital deployed.
+
+### Market context — Monday July 20 2026, ~9:36 AM ET
+
+**Iran/Hormuz — escalation continues, oil at new highs:**
+- **US conducted NINTH consecutive night of strikes against Iran** early Monday per CENTCOM.
+- Brent crude: **$88–90/barrel** — RISING above Friday's ~$86, at new post-crisis highs. WTI: ~$83.
+- Hormuz Strait: functionally closed. Iranian oil authorization expired July 17.
+- No ceasefire signal. Trump declared ceasefire "over" at NATO summit Friday — posture unchanged into Monday.
+- VST exit condition (ceasefire + Brent < $70) FURTHER from being met than at any prior point.
+
+**Broad market:**
+- S&P 500 futures: +0.13%. Nasdaq futures: +0.43%. Moderate risk-on open after losing week.
+- **AMD +4.5% premarket** on Microsoft announcement that MSFT will use AMD's Helios system in its data centers. Positive for AI infrastructure capex thesis broadly — confirms hyperscaler AI compute investment pace is undiminished. This is a demand-side confirmation for VRT's cooling/thermal management segment.
+- Tesla (TSLA) and Alphabet (GOOG) earnings this week — major catalysts for AI monetization and capex guidance read-through.
+- Apple/Nvidia narrative rotation continues: AAPL adding Alibaba Qwen AI for China market.
+
+**VRT catalysts intact:**
+- Q2 earnings July 29 (before open) — **9 days away**. Live, named, dated catalyst.
+- Baird Outperform/$370 PT (July 16) intact. Analyst consensus $392.38.
+- AMD/Microsoft Helios deal today: hyperscaler AI capex confirmation — demand-side read-through for VRT.
+- No negative VRT-specific news identified.
+
+**Pillar 4 — Space:**
+- LHX: $283.50 (+0.53%) — Golden Dome $875M contract follow-through. CB active, no action.
+
+### Hard exit trigger checks
+- **VRT $299.99 vs $285 trigger**: Buffer $14.99 (5.26%) — **SAFE**. Recovering sharply from Friday lows (+3.60%).
+- **VST $157.65 vs $148 trigger**: Buffer $9.65 (6.14%) — **SAFE**. Above Friday's close. Brent rising supports further recovery.
+
+### Trades executed this session
+**None.** CB ACTIVE. Buying power $0.00. Both positions HOLD. No hard exit triggers breached.
+
+### Watchlist for intraday / next cycle (pending CB reset)
+1. **VRT** — monitor Q2 earnings run-up. Hard exit at $285. AMD/MSFT deal is positive context.
+2. **VST** — Iran escalating, Brent rising. Hard exit at $148. Monitor continuously intraday.
+3. **LHX** — Golden Dome $875M contract. CB prevents entry; valid Pillar 4 candidate when CB lifts.
+4. **AMD / SOXL** — Helios/Microsoft deal is a live Pillar 1/2 AI infrastructure catalyst. Evaluate if CB resets.
+5. **TSLA / GOOG** — Earnings this week. AI capex guidance is the key variable for portfolio thesis validation.
+
+### Portfolio peak and drawdown
+Peak: **$103.93** (2026-06-16) | Open: **$92.18** | Drawdown: **−11.31%** | **CB: ACTIVE** (improved from −13.35% at Friday EOD; needs +13.8% recovery to reset).
+
+---
+
+## [2026-07-20T13:36:00Z] HOLD — VRT (Monday July 20 2026, ~9:36 AM ET)
+
+- **Reason:** VRT opening at $299.99, up +3.60% from Friday's official close ($289.56). Strong open on broad market recovery and continued AI infrastructure capex confirmation — AMD/Microsoft Helios system announcement today confirms hyperscaler AI compute investment is accelerating, a direct demand-side positive for VRT's cooling/thermal segment. Hard exit trigger $285: buffer **$14.99 (5.26%)** — materially improved from Friday's EOD buffer of $6.34 (2.18%). CB active, no action beyond hold. Thesis intact across all three gates.
+- **CB re-validation — Section 4 gates at $299.99:**
+  - Gate 1 (Bottleneck real?): AI datacenter power constraint: 80 GW → 150 GW by 2028; US data center electricity demand already at 42 GW (2026 vs 23 GW in 2023). AMD/Microsoft Helios deal today confirms hyperscaler capex continues. $15B backlog. PASS.
+  - Gate 2 (Not fully priced?): $299.99 vs. analyst consensus $392.38 (Baird $370, July 16) — 30.8% upside gap. Q2 earnings July 29 unresolved. PASS.
+  - Gate 3 (Specific catalyst?): Q2 earnings July 29 (before open), 9 days. Named, specific, dated, LIVE. PASS.
+- **Section 9 check:** −4.93% unrealized (−$2.48). No gain — no profit-taking trigger. No action.
+- **Hard exit trigger:** $285.00. Current buffer: $14.99 (5.26%).
+- **Exit thesis (current read):** Hold through July 29 Q2 earnings. Exit conditions: (1) Q2 revenue miss or backlog guidance cut on power delivery segment — 9 days away, cannot occur sooner; (2) Hyperscaler global capex freeze — AMD/Microsoft Helios deal today directly contradicts; (3) Break below $285 on high volume without recovery catalyst; (4) Multiple states enacting datacenter power bans — none identified. This week: watch TSLA/Alphabet earnings for AI capex guidance signals. If VRT touches $285 intraday at any point, evaluate for immediate exit.
+
+---
+
+## [2026-07-20T13:36:00Z] HOLD — VST (Monday July 20 2026, ~9:36 AM ET)
+
+- **Reason:** VST opening at $157.65, up +1.42% from Friday's close ($155.44). Iran/Hormuz at MAXIMUM intensity and ESCALATING: US conducted 9th consecutive night of strikes against Iran early Monday per CENTCOM; Brent crude at $88–90/barrel — HIGHER than Friday's ~$86 (new post-crisis high). Hard exit trigger $148: buffer $9.65 (6.14%) — substantially improved from last week's danger zone (VST hit $148.87 at Friday's open, $0.87 buffer). PJM capacity win at $325/MW-day confirmed July 14 (future revenue visibility). Q2 earnings August 7 (18 days). Thesis at maximum intensity. No ceasefire signal. No VST-specific negative catalyst.
+- **CB re-validation — Section 4 gates at $157.65:**
+  - Gate 1 (Bottleneck real?): Iran/Hormuz at maximum intensity — 9th night of US strikes, Brent at $88–90 (new post-crisis highs), Hormuz functionally closed, Iranian oil authorization expired. VST merchant nuclear/gas generation = price-setting in this elevated commodity regime. PASS.
+  - Gate 2 (Not fully priced?): $157.65 vs. BofA consensus $222.89 / Scotiabank $298 — 41–89% upside gap. Brent rising to new highs while VST is still recovering from last week's lows — thesis intensifying while price is not fully reflecting it. Q2 earnings August 7 (18 days) unresolved. PASS.
+  - Gate 3 (Specific catalyst?): Iran/Hormuz crisis escalating (Trump declared ceasefire "over"; 9th night of US strikes; Brent at new post-crisis highs); August 7 Q2 earnings (18 days); PJM capacity win $325/MW-day (July 14). Multiple specific, named, live catalysts. PASS.
+- **Section 9 check:** −1.69% unrealized (−$0.76). No gain — no profit-taking trigger. No action.
+- **Hard exit trigger:** $148.00. Current buffer: $9.65 (6.14%).
+- **Exit thesis (current read):** Hard exit immediately if VST touches or falls through $148 at any point intraday — no discretion. Otherwise hold through Iran/Hormuz crisis resolution + August 7 Q2 earnings. Primary exit conditions: (1) US-Iran ceasefire formally announced AND Brent < $70 — Brent at new post-crisis highs ($88–90), Trump declared ceasefire "over," 9th night of strikes — this condition is further away than ever; (2) VST-specific negative catalyst (nuclear plant outage, adverse FERC ruling, ERCOT summer demand miss) — none identified; (3) Momentum reversal below $148 — current buffer $9.65 (6.14%). Intraday monitoring critical: Iran escalation can produce rapid moves in either direction.
+- **Catalyst state:** Live and at maximum intensity. Brent rising to new post-crisis highs.
+- **Momentum state:** Recovering. +1.42% from Friday's close. Buffer to hard exit improved substantially from last week's lows.
+
+---
+
+## [2026-07-20T13:36:00Z] NO-ACTION — Circuit Breaker Active, All New Entries Halted
+
+- **Reason:** Circuit breaker remains active. Portfolio total $92.18 vs. CB trigger $93.537 (−10% from peak $103.93). Current drawdown from peak: **−11.31%**. Buying power: $0.00 — no capital available for new entries.
+- **New catalysts identified but not actionable (CB blocks all new entries):**
+  - AMD/Microsoft Helios system — AMD +4.5% premarket on MSFT deal (Pillar 1/2 AI infrastructure). Gates 1–3 would pass. CB blocks entry.
+  - LHX Golden Dome $875M contract follow-through (Pillar 4 Space). Gates 1–3 pass. CB blocks entry.
+  - Iran energy plays (XOM, COP, energy sector) — Brent $88–90, 9th night of US strikes. CB blocks entry.
+- **Thesis gate that failed:** No gate failed — CB hard constraint (CLAUDE.md Hard Constraint #4) overrides all entries.
+- **Next check:** CB resets if portfolio recovers to $103.93 (+13.8% from open $92.18). No lockout period — rebuy allowed immediately upon reset with Section 4 re-validation on every new entry. VRT Q2 earnings July 29 (+9 days) is the most likely near-term catalyst for a CB reset.
+
+---
+
 ## [2026-07-17T19:38:00Z] EOD CYCLE SUMMARY — Friday July 17 2026, ~3:38 PM ET Close
 
 ### Today's Date
