@@ -4,6 +4,123 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-07-21T13:37:00Z] OPENING CYCLE SUMMARY — Tuesday July 21 2026, 9:37 AM ET
+
+### Today's Date
+**Tuesday July 21, 2026.** Morning open cycle. Quotes captured at 13:37 UTC (9:37 AM ET), ~7 minutes after market open.
+
+### Circuit Breaker Status
+**ACTIVE (formally — resets at peak $103.93).** Peak: **$103.93** (2026-06-16). Trigger threshold: $93.537 (−10%). Current portfolio: **$93.756**. Drawdown from peak: **−9.79%** — now ABOVE the trigger threshold (portfolio recovered from yesterday's EOD $90.88 → $93.756, +3.17%). CB is formally still active (resets only at $103.93), but portfolio is no longer below the trigger. Recovery progress: $90.88 → $93.756 — need $103.93 (+10.8% further) to fully reset. Buying power: **$0.00** — no new entries possible regardless of CB status.
+
+### Day of Week
+**Tuesday** — Not Thursday. Leveraged ETF weekend rule does not apply.
+
+### VIX Check
+**~18.65-18.85** (sub-20, declining). VIX futures opened at 18.85, ranging 18.63–19.03. Sub-20 regime — 3x ETFs eligible (max 3 days hold), 2x ETFs eligible (max 5 days hold). No leveraged ETF positions — Section 10 N/A.
+
+### Leveraged ETF Hold Check
+**No leveraged ETF positions.** Sleeve: 0%. ✓ N/A.
+
+### Open Positions — live quotes at 9:37 AM ET
+
+| Ticker | Shares | Avg Cost | Open Price | Prev Close | Today Δ | Est. Value | Unrealized P&L | Portfolio % |
+|--------|--------|----------|------------|------------|---------|------------|----------------|-------------|
+| VRT | 0.159535 | $315.54 | $300.89 | $291.67 | +$9.22 (+3.16%) | $48.01 | −4.64% / −$2.33 | 51.2% |
+| VST | 0.281424 | $160.36 | $160.72 | $157.99 | +$2.73 (+1.73%) | $45.23 | +0.22% / +$0.10 | 48.3% |
+
+Cash: **$0.00** | Buying Power: **$0.00** | Equity (Robinhood): **$93.756** | Total: **$93.756**
+
+### Section 9 Profit-Taking Check
+- **VRT −4.64% unrealized:** No gain — no profit-taking trigger. No action.
+- **VST +0.22% unrealized:** Far below +15% threshold. No profit-taking trigger. No action.
+
+### Section 10 Leveraged ETF Hold Check
+**No leveraged ETF positions.** Sleeve: 0%. N/A.
+
+### Deployment Check
+Equity: **$93.756** / Total: **$93.756** = **100%** — above 75% floor ✓. CB active (floor exception applies regardless). All capital deployed.
+
+### Hard Exit Trigger Checks
+- **VRT $300.89 vs. $285 trigger:** Buffer **$15.89 (5.28%)** — significantly improved from yesterday's EOD $7.24 (2.54%). Healthy cushion. Monitor remains in place but pressure has eased.
+- **VST $160.72 vs. $148 trigger:** Buffer **$12.72 (7.91%)** — solid. Iran/Hormuz thesis at maximum intensity; Brent above $90.
+
+### Position Review — Opening Judgment
+
+**VRT — HOLD:**
+Opens at $300.89, up +$9.22 (+3.16%) from yesterday's official close $291.67. Broad tech and chip rally (Nasdaq +0.9%, S&P +0.6% today) is the primary driver, with two massive AI capex catalysts arriving TOMORROW (July 22 after-hours): TSLA Q2 earnings (Q2 deliveries 480K +25% YoY, $25B+ capex for AI/Optimus) and GOOG Q2 earnings (capex guidance raised to $180–190B/year for 2026). Both are direct, thesis-level read-throughs for VRT's datacenter power and cooling demand. VRT Q2 earnings still 8 days away (July 29). STL (Strategic Thermal Labs) acquisition from yesterday continues to be absorbed by market — analyst upgrades/PT revisions expected. Hard exit buffer restored to healthy $15.89 (5.28%) from yesterday's tight $7.24. Grid bottleneck confirmed today: 14-year grid connection waits, Joulent received $1.75B from National Grid for grid tech scale, Hitachi Energy expanded datacenter grid portfolio. Thesis stronger than ever. HOLD through tomorrow's earnings catalyst.
+
+**VST — HOLD:**
+Opens at $160.72, up +$2.73 (+1.73%) from yesterday's close $157.99. Iran/Hormuz crisis at new peak intensity: 10th consecutive night of US strikes on Iran (overnight into July 21), Iran intercepted 4 vessels over the weekend, Strait of Hormuz crossings falling sharply across multiple datasets, Brent crude above $90/barrel (new post-crisis high, up from ~$88 at yesterday's EOD). Original ceasefire framework from mid-June has formally collapsed; Iran declared ceasefire "over." Reports of mediators pushing for a 10-day ceasefire added some near-term oil price moderation (easing from $90+ intraday highs), but this is noise — the structural thesis is intact and intensifying. VST as merchant power generator (nuclear + gas) is the primary beneficiary of sustained $90+ commodity prices in the Texas/PJM markets. Exit condition (formal ceasefire + Brent < $70) remains the furthest it has ever been from being met. Q2 earnings August 7 (17 days) still live. HOLD through crisis resolution.
+
+### Trades Executed This Cycle
+**None.** Buying power: $0.00. CB formally active. Both positions HOLD — thesis intact on both names.
+
+### Catalyst Scan Summary (Not Actionable — No Capital)
+- **Pillar 1 (AI Power):** Grid connection queues at 14-year waits (AI datacenter load crisis confirmed). Joulent $1.75B investment from National Grid (grid tech demand). Hitachi Energy datacenter grid expansion (July 2026). GOOG $180-190B capex tomorrow — direct VRT read-through. All thesis-positive but no capital to deploy.
+- **Pillar 2 (Physical AI):** TSLA Q2 earnings tomorrow — $25B+ capex, Optimus ramp update, 480K deliveries record. Massive Pillar 2 catalyst for the thesis; not actionable today (no capital).
+- **Pillar 3 (Quantum):** No specific catalyst identified today.
+- **Pillar 4 (Space):** No specific catalyst identified today.
+- **Wildcards:** No actionable wildcard catalysts identified.
+- **Macro:** Iran/Hormuz 10th night of strikes; Brent >$90; chip stocks reviving; Nasdaq +0.9%.
+
+### Portfolio Peak and Drawdown
+Peak: **$103.93** (2026-06-16) | Today open: **$93.756** | Drawdown: **−9.79%** | **CB: ACTIVE** (improved from −12.56% at yesterday's EOD; now above CB trigger of $93.537; needs +10.8% to reset at $103.93).
+
+### Pre-Market Checklist for Today (July 21, 2026) and Tomorrow
+1. **TSLA earnings (TOMORROW, July 22 after-hours):** AI capex ($25B+), Optimus deployment update, Cybercab progress. Direct VRT read-through — could move VRT ±5-8% premarket Wednesday.
+2. **GOOG earnings (TOMORROW, July 22 after-hours):** $180-190B capex guidance — most important VRT AI capex read-through of the quarter. This is the most critical near-term catalyst.
+3. **Iran/Hormuz:** Monitor for any ceasefire developments intraday. Mediator pressure for 10-day ceasefire is a near-term oil headwind for VST if it gains traction. Exit condition unchanged: formal ceasefire + Brent < $70.
+4. **VRT $285 hard exit trigger:** Buffer $15.89 (5.28%) — healthy but monitor through TSLA/GOOG earnings reactions.
+5. **CB reset path:** Need +10.8% total gain from $93.756 to $103.93. TSLA/GOOG AI capex beats tomorrow could accelerate VRT toward that goal.
+6. **VRT Q2 earnings July 29:** 8 days away — primary exit/entry catalyst.
+7. **VST August 7 earnings:** 17 days away — secondary exit/entry catalyst.
+
+---
+
+## [2026-07-21T13:37:00Z] HOLD — VRT (Tuesday July 21 2026, 9:37 AM ET Open)
+
+- **Reason:** VRT opens at $300.89, up +3.16% from yesterday's official close $291.67. Broad tech rally (Nasdaq +0.9%) and semiconductor revival are the primary drivers, amplified by tomorrow's TSLA and GOOG Q2 earnings — both of which will provide direct AI capex read-throughs for VRT's datacenter power/cooling demand. $25B+ TSLA capex for AI/robotics and $180-190B GOOG capex guidance (the most aggressive hyperscaler AI capital program in history) directly validate VRT's core thesis. STL acquisition (yesterday) still being absorbed — analyst upgrades expected. Grid bottleneck is validating in real-time: 14-year grid connection queues, Joulent $1.75B from National Grid. Hard exit buffer restored to $15.89 (5.28%) from dangerously thin $7.24 yesterday. No thesis break. CB active, buying power $0 — HOLD only.
+- **CB re-validation — Section 4 gates at $300.89:**
+  - Gate 1 (Bottleneck real?): AI datacenter power constraint confirmed — grid connection queues at 14-year waits. VRT's STL liquid cooling acquisition addresses the physical stack. GOOG capex $180-190B, TSLA capex $25B — demand side unambiguous. $15B backlog. PASS.
+  - Gate 2 (Not fully priced?): $300.89 vs. analyst consensus $392.38 (Baird $370) — 30.5% upside gap. Q2 earnings July 29 (8 days) unresolved. TSLA/GOOG AI capex read-throughs TOMORROW will add analyst conviction. PASS.
+  - Gate 3 (Specific catalyst?): TSLA Q2 earnings July 22 (tomorrow), GOOG Q2 earnings July 22 (tomorrow), VRT Q2 earnings July 29 (8 days). All named, specific, dated, LIVE. PASS.
+- **Section 9 check:** −4.64% unrealized (−$2.33). No gain — no profit-taking trigger. No action.
+- **Momentum state:** Strongly positive at open (+3.16% vs. yesterday's close). Broad tech/chip revival. Not a reversal — breakout from yesterday's close in direction consistent with the catalyst thesis.
+- **Catalyst state:** Live and accelerating. TSLA/GOOG earnings tomorrow are the most imminent and high-impact catalysts in this position's holding window.
+- **Hard exit trigger:** $285.00. Current buffer: $15.89 (5.28%).
+- **Exit thesis (updated):** Hold through TSLA/GOOG earnings tomorrow (AI capex guidance will either extend or resolve the thesis repricing). Primary hard exit trigger: $285 break on volume. Exit conditions: (1) GOOG or TSLA AI capex guidance cut or freeze (direct thesis break) — both reporting tomorrow; (2) VRT Q2 July 29 revenue miss or backlog cut; (3) Break below $285 on high volume — buffer restored to $15.89, healthy; (4) Thesis fully priced before earnings — requires VRT to close the full consensus gap (currently 30.5%), unlikely before July 29.
+
+---
+
+## [2026-07-21T13:37:00Z] HOLD — VST (Tuesday July 21 2026, 9:37 AM ET Open)
+
+- **Reason:** VST opens at $160.72, up +$2.73 (+1.73%) from yesterday's close $157.99. Iran/Hormuz crisis at new peak intensity: 10th night of US strikes on Iran, Brent above $90 (new high for this crisis), Iran intercepted 4 vessels, Strait of Hormuz crossings declining sharply. Original ceasefire framework from mid-June formally collapsed. Vistra's position as a merchant power generator (nuclear + gas) is directly priced by sustained high commodity prices. VST also announced as a founding investor in Helix Digital Infrastructure (KKR, $10B+ AI infrastructure capital commitments) — incremental thesis-positive linking nuclear generation to AI power demand. Near-term ceasefire mediator reports may add some oil volatility but the structural exit condition (formal ceasefire + Brent < $70) is further from being met than ever. Hard exit buffer $12.72 (7.91%) solid. CB active, buying power $0 — HOLD only.
+- **CB re-validation — Section 4 gates at $160.72:**
+  - Gate 1 (Bottleneck real?): Iran/Hormuz at maximum intensity — 10th night of US strikes, Brent above $90 (new crisis high), Hormuz functionally constrained, Houthi maritime blockade on Saudi shipping (new development). VST merchant nuclear/gas is price-setting in elevated commodity regime. Helix Digital/KKR AI infrastructure ($10B+) confirms nuclear power demand from AI hyperscalers. PASS.
+  - Gate 2 (Not fully priced?): $160.72 vs. BofA consensus $222.89 / Scotiabank $298 — 38–85% upside gap. Brent at $90+ while VST still well below analyst targets — repricing incomplete. Q2 earnings August 7 (17 days) unresolved. PASS.
+  - Gate 3 (Specific catalyst?): Iran/Hormuz crisis at maximum intensity (10 consecutive nights of strikes; Brent >$90 new high; Houthi maritime blockade on Saudi shipping — new today); August 7 Q2 earnings; Helix Digital Infrastructure founding investment; PJM capacity win $325/MW-day (July 14). Multiple specific, named, live catalysts. PASS.
+- **Section 9 check:** +0.22% unrealized (+$0.10). Far below +15% threshold. No profit-taking trigger. No action.
+- **Momentum state:** Positive at open (+1.73% vs. yesterday's close). Iran/Hormuz at new peak intensity is the sustained price driver. Trend consistent with thesis direction.
+- **Catalyst state:** Live and at maximum intensity. New catalyst today: Houthi maritime blockade on Saudi shipping (new escalation beyond Iranian direct action).
+- **Hard exit trigger:** $148.00. Current buffer: $12.72 (7.91%).
+- **Exit thesis (updated):** Hold through Iran/Hormuz crisis resolution + August 7 Q2 earnings. Monitor ceasefire mediator developments intraday — any formal US-Iran ceasefire announcement requires immediate evaluation of whether Brent is also falling toward $70 (BOTH conditions required). Near-term mediator pressure may cause oil volatility but doesn't change the structural setup. Exit conditions unchanged: (1) Formal US-Iran ceasefire AND Brent < $70 — Brent at $90+ moves this condition further away; (2) VST-specific negative (nuclear outage, adverse FERC ruling, ERCOT demand collapse); (3) Momentum reversal through $148 — $12.72 buffer (7.91%). New Houthi blockade development is an incremental hold signal — broadens the crisis geographically.
+
+---
+
+## [2026-07-21T13:37:00Z] NO-ACTION — Circuit Breaker + Zero Buying Power, No New Entries
+
+- **Reason:** Circuit breaker formally active — portfolio $93.756 vs. peak $103.93 (drawdown −9.79%; CB resets only at $103.93). Additionally, buying power is $0.00 — no capital available for new entries regardless of CB status. Portfolio has recovered above the trigger threshold ($93.537) but has not reset the CB. No new positions can be initiated until (a) CB resets at $103.93 AND (b) capital becomes available through a position exit. Both conditions are unmet.
+- **Catalysts identified but not actionable (CB + zero capital blocks all new entries):**
+  - TSLA Q2 earnings July 22 (tomorrow) — $25B capex, Optimus update. Would warrant TSLL (2x TSLA) or direct TSLA if capital were available.
+  - GOOG Q2 earnings July 22 (tomorrow) — $180-190B capex. Would warrant additional VRT exposure or FNGU/TQQQ if capital were available and CB reset.
+  - Joulent $1.75B from National Grid — grid tech demand confirmed. No liquid pure-play identified in time.
+  - Houthi maritime blockade on Saudi shipping (new today) — energy sector escalation. Would warrant XOM, COP, or energy ETF if capital/CB allowed.
+  - Pillar 3 & 4: No actionable catalysts identified this cycle.
+- **Thesis gate that failed:** No gate failed on any candidate. CB hard constraint (CLAUDE.md Hard Constraint #4) + zero buying power override all new entries.
+- **Next check:** CB resets at $103.93 (+10.8% from current $93.756). Most likely path: GOOG/TSLA AI capex beats tomorrow move VRT +5-10% premarket Wednesday → VRT position value increases → portfolio approaches CB reset level. Monitor VRT price at Wednesday open closely.
+
+---
+
 ## [2026-07-20T19:45:00Z] EOD CYCLE SUMMARY — Monday July 20 2026, ~3:38 PM ET Close
 
 ### Today's Date
