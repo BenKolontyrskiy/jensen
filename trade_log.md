@@ -4,6 +4,147 @@ Append-only log of all agent activity. Never edit past entries.
 
 ---
 
+## [2026-07-24T13:40:00Z] OPENING CYCLE SUMMARY — Friday July 24 2026, ~9:40 AM ET
+
+### Today's Date
+**Friday July 24, 2026.** Opening cycle. Quotes captured at ~13:35 UTC (9:35 AM ET). Day of week: **Friday — leveraged ETF weekend rule in effect.** No leveraged ETF positions held — rule satisfied, no exits required.
+
+### Circuit Breaker Status
+**ABOVE TRIGGER THRESHOLD — formally active until peak recovery at $103.93.** Peak: **$103.93** (2026-06-16). Trigger threshold: $93.537 (−10%). Current portfolio: **$95.11**. Drawdown from peak: **−8.49%** — above the 10% trigger threshold ($93.537). CB halt rule NOT in force. CB formally resets only at $103.93 (+9.27% further needed from current). Buying power: **$0.00** — no new entries possible unless a position is exited.
+
+### Friday Leveraged ETF Weekend Rule
+**No leveraged ETF positions held.** Weekend rule: satisfied. No exits required. ✓
+
+### VIX Check
+**18.96** at market open. Sub-20 regime — 3x ETFs eligible (max 3 days hold), 2x ETFs eligible (max 5 days hold). **Today is Friday** — any leveraged ETF entered today would require same-day exit (weekend rule, Section 10). No leveraged ETF positions — Section 10 N/A.
+
+### Open Positions — Live Quotes at ~9:35 AM ET (13:35 UTC)
+
+| Ticker | Shares | Avg Cost | Open Price | Prev Close | Today Δ | Est. Value | Unrealized P&L | Portfolio % |
+|--------|--------|----------|------------|------------|---------|------------|----------------|-------------|
+| VRT | 0.159535 | $315.54 | $298.62 | $304.04 | −$5.42 (−1.78%) | $47.63 | −5.36% / −$2.69 | 50.1% |
+| VST | 0.281424 | $160.36 | $168.67 | $168.98 | −$0.31 (−0.18%) | $47.48 | +5.19% / +$2.34 | 49.9% |
+
+Cash: **$0.00** | Buying Power: **$0.00** | Equity: **$95.11** | Total: **$95.11**
+
+### Macro Context (Friday July 24 Open)
+- **Broad market (premarket):** S&P 500 futures +0.2%, Nasdaq +0.1% — tentative recovery after Thursday's S&P 500 −1.21%. New Trump tariffs taking effect today; AI spending ROI debate ongoing; Brent crude $97/bbl.
+- **Oil:** Brent crude settled at $100.69 on July 23 (crisis high), pulled back to ~$97.04 in early Friday trading. No formal Iran ceasefire announced. Trump Iran update ongoing — no diplomatic resolution visible. Iran/Hormuz crisis extends into Day 13 of active US strikes.
+- **Key premarket movers:** Intel +4% (quarterly revenue growth 15-year high). Amkor Technology (AMKR) +11% on $1.5B multiyear Nvidia advanced semiconductor packaging deal.
+
+### Catalyst Scan — Friday July 24, 2026
+
+**Pillar 1 — AI Infrastructure: Power & Grid:**
+No new specific July 24 contract or partnership announcement. Background thesis continues to strengthen: transformer lead times now 160+ weeks (up from 140 in 2023), switchgear effectively sold out through 2028. Hyperscaler nuclear/datacenter deals accumulating (Meta 6.6GW, GOOG $195–205B capex). AMKR (HBM/advanced packaging tier) surfaced as a new candidate — see Gate analysis below. No named grid hardware name with a fresh July 24 catalyst beyond what was already in cycle. VRT remains best expression of Pillar 1 in portfolio.
+
+**Pillar 1 — AMKR (Advanced Packaging sub-tier) — Evaluated, NO-ACTION:**
+Amkor Technology (AMKR) announced $1.5B multiyear Nvidia deal for advanced semiconductor packaging for next-gen AI platforms. Shares +11% premarket (up ~17% in extended hours on July 23 after announcement).
+- Gate 1 (Bottleneck real?): **PASS** — Nvidia prepaying $1.5B for U.S. packaging capacity directly confirms advanced packaging is a real constraint in AI chip supply chain.
+- Gate 2 (Not fully priced?): **MARGINAL FAIL** — +11% premarket move reflects the bulk of immediate catalyst repricing. The deal was announced July 23 after-hours; by open July 24 the initial gap is largely established. Long-term upside may remain, but the catalyst's intraday repricing window is largely closed.
+- Gate 3 (Specific catalyst?): **PASS** — Named $1.5B deal, Nvidia counterparty, U.S. capacity expansion in Arizona, announced July 23.
+- **Decision:** Gate 2 marginal fail. Additionally, buying AMKR requires selling VRT (3 days to Q2 earnings July 29) or VST (active Iran thesis). Rotating thesis-intact positions to chase a stock already +11% premarket does not clear the opportunity cost bar. **NO-ACTION.**
+
+**Pillar 2 — Physical AI & Robotics:**
+No new US-listed ticker with a specific July 24 catalyst. Agility Robotics first commercial Digit RaaS deployment is existing news. No named new catalyst surfaced. NO-ACTION.
+
+**Pillar 3 — Quantum Computing:**
+No specific July 24 announcement. Trump EOs from June 22-23 (PQC mandate, QC-ADDS initiative) remain background tailwind. No new contract or award. NO-ACTION.
+
+**Pillar 4 — Space Economy:**
+Space Force $17B launch contract (July 17, already in cycle). SDA Golden Dome $1.75B satellite contract (July 22, already in cycle). SpaceX SDA Tranche 3 launch July 16 (resolved). No new July 24 catalyst. NO-ACTION.
+
+**Wildcards — Biotech:**
+Otsuka centanafadine PDUFA July 24 for ADHD. Otsuka is a large Japanese pharma — not US-listed as a primary trading vehicle. Gate 1 FAIL: incremental indication approval for an existing drug class is not a structural bottleneck catalyst. NO-ACTION.
+
+**Existing Positions:**
+- VRT: Strategic Thermal Labs acquisition announced — adds liquid cooling capabilities. Bullish incremental news reinforcing Pillar 1 thesis. Earnings July 29 (Tuesday, 3 trading days) remains primary inflection catalyst.
+- VST: Brent crude ~$97/bbl (pulled back from $100 but still at crisis levels). No formal ceasefire. Iran/Hormuz crisis ongoing. Thesis fully intact.
+
+### Section 9 Profit-Taking Check
+- **VRT −5.36% unrealized:** At a loss — no profit-taking trigger. No action.
+- **VST +5.19% unrealized:** Below +15% threshold. No profit-taking trigger. No action.
+
+### Section 10 Leveraged ETF Hold Check
+**No leveraged ETF positions.** Sleeve: 0%. Friday weekend rule: satisfied. N/A. ✓
+
+### Deployment Check
+Equity: **$95.11** / Total: **$95.11** = **100%** — above 75% floor ✓. All capital deployed.
+
+### Hard Exit Trigger Checks
+- **VRT $298.62 vs. $285 trigger:** Buffer **$13.62 (4.57%)** — narrowed from EOD Thursday $19.32 (6.77%). VRT earnings July 29 in 3 trading days; thesis intact despite intraday pullback. Monitoring.
+- **VST $168.67 vs. $148 trigger:** Buffer **$20.67 (13.98%)** — essentially flat from EOD. Brent $97 with no ceasefire. Comfortable.
+
+### Position Review — Opening Judgment
+
+**VRT — HOLD:**
+Opens at $298.62, down −1.78% from Thursday close $304.04. Strategic Thermal Labs acquisition (liquid cooling) announced — incrementally positive thesis reinforcement. VRT Q2 earnings July 29 (3 trading days) remains the primary inflection catalyst: backlog growth vs. $15B target, revenue growth vs. Q1 +30.1%, and margin guidance. All Section 4 gates PASS. No Section 9 trigger. Hard exit buffer $13.62 (4.57%) — watching. Broad market up modestly (+0.2%); VRT underperforming today may reflect sector rotation or earnings-proximity volatility, not thesis break. HOLD.
+
+**VST — HOLD:**
+Opens at $168.67, down −0.18% from Thursday close $168.98. Brent crude at ~$97/bbl — pulled back from $100 crisis high but still elevated. No formal ceasefire announced. Trump Iran update remains escalatory. VST's merchant nuclear/gas generation position is unaffected by the intraday oil pullback — the structural energy price environment remains above all pre-crisis baselines. VST Q2 earnings August 7 (2 weeks). All Section 4 gates PASS. No Section 9 trigger (+5.19%). Exit condition (formal ceasefire AND Brent <$70 simultaneously) remains $27+ above Brent threshold. HOLD.
+
+### Trades Executed This Opening Cycle
+**None.** Buying power: $0.00. Both positions HOLD with intact theses. 75% deployment floor: 100% ✓.
+
+### Portfolio Peak and Drawdown
+Peak: **$103.93** (2026-06-16) | Opening: **$95.11** | Drawdown: **−8.49%** | CB: Formally active (above trigger $93.537; resets only at $103.93. Need +9.27% further to reset). Primary recovery path: VRT Q2 earnings July 29.
+
+### Pre-Market Checklist Resolution — Thursday EOD Items
+1. **No leveraged ETF positions** — no overnight weekend-hold risk. ✓
+2. **VRT $304.04 (prev close) / Earnings July 29:** Now at $298.62 (−1.78% today). Strategic Thermal Labs acquisition is positive. Hard exit: $285. Buffer: $13.62 (4.57%). Watching.
+3. **VST $168.67 / Iran:** Brent $97 (pulled back from $100 but still crisis-level). No ceasefire. Thesis intact. Hard exit: $148. Buffer: $20.67.
+4. **Buying power $0.00** — no new entries unless position exits.
+5. **CB reset path:** $95.11 → $103.93 = +9.27%. Primary driver: VRT recovery through Q2 earnings July 29.
+
+### Monday July 28 Checklist
+1. **VRT Q2 earnings Tuesday July 29** — final positioning day. Key metrics: backlog vs. $15B, revenue vs. Q1 +30.1%, margin guidance. Hold through print. Hard exit at $285.
+2. **VST / Iran:** Watch for any ceasefire signal over the weekend. If Brent gaps down significantly Monday on a diplomatic development, reassess. Exit condition: ceasefire + Brent <$70 simultaneously.
+3. **AMKR:** Monitor if the +11% open gains/holds. If AMKR pulls back materially (Gate 2 improves), assess rotation into buying power when available.
+
+---
+
+## [2026-07-24T13:40:00Z] NO-ACTION — AMKR (Amkor Technology)
+
+- **Reason:** Amkor Technology announced a $1.5B multiyear Nvidia deal for advanced semiconductor packaging for AI infrastructure. AMKR surged +11-17% in after-hours/premarket on the news. Evaluated as a Pillar 1 (advanced packaging/HBM tier) candidate.
+- **Thesis gate analysis:**
+  - Gate 1 (Bottleneck real?): PASS — Nvidia $1.5B prepayment directly proves advanced packaging capacity IS a binding constraint in the AI chip supply chain.
+  - Gate 2 (Not fully priced?): MARGINAL FAIL — +11% premarket gap captures the bulk of the immediate catalyst repricing. The deal was public since July 23 AH; by July 24 open, the initial market reaction is largely complete.
+  - Gate 3 (Specific catalyst?): PASS — $1.5B Nvidia deal, U.S. Arizona capacity expansion, multiyear AI packaging agreement. Named, dated, specific.
+- **Thesis gate that failed:** Gate 2 — most of the repricing happened in extended/premarket trading; chasing at open after +11% gap is a poor risk/reward entry.
+- **Opportunity cost check:** Buying AMKR requires selling VRT (earnings in 3 trading days, strongest Gate 1 since entry) or VST (Iran/Brent crisis thesis at peak intensity). Neither position's exit condition is met. Rotating into a +11% gap on marginal Gate 2 does not clear the bar.
+- **Next check:** If AMKR consolidates or pulls back to the pre-announcement range (offering a clean Gate 2 PASS), reassess in next cycle when buying power is available.
+
+---
+
+## [2026-07-24T13:40:00Z] HOLD — VRT (Friday July 24 2026, 9:35 AM ET)
+
+- **Reason:** VRT opens at $298.62, down −$5.42 (−1.78%) from Thursday close $304.04. Strategic Thermal Labs acquisition (liquid cooling) announced — incrementally positive reinforcement of Pillar 1 thermal management thesis. Broader market context: futures were up modestly (+0.2% S&P), yet VRT is underperforming — likely reflects earnings-proximity volatility or sector rotation, not a thesis change. VRT Q2 earnings July 29 is 3 trading days away and represents the primary thesis inflection point. All Section 4 gates PASS. Hard exit buffer $13.62 (4.57%).
+- **CB re-validation — Section 4 gates at $298.62:**
+  - Gate 1 (Bottleneck real?): GOOG capex raised to $195–205B (July 22 AH); Cloud backlog $514B; Meta 6.6GW nuclear; transformer lead times 160+ weeks; switchgear sold out through 2028; VRT $15B contracted backlog. Strategic Thermal Labs acquisition adds liquid cooling depth. PASS.
+  - Gate 2 (Not fully priced?): $298.62 vs. analyst consensus $370–380 — 24–27% upside gap. VRT Q2 earnings July 29 unresolved. PASS.
+  - Gate 3 (Specific catalyst?): VRT Q2 earnings July 29 (3 trading days); GOOG capex raise ($195–205B, ongoing repricing); Strategic Thermal Labs acquisition (new, announced July 24). Named, verifiable, dated. PASS.
+- **Section 9 check:** −5.36% unrealized. No gain. No profit-taking trigger. No action.
+- **Momentum state:** Weak intraday (−1.78%) but market context is mixed. Broad market tentative (+0.2% S&P). Earnings in 3 days — normal pre-print volatility.
+- **Catalyst state:** Live and strengthening. Earnings inflection in 3 trading days.
+- **Hard exit trigger:** $285.00. Buffer: $13.62 (4.57%). Watching — this buffer is tighter than prior cycles.
+- **Exit thesis (unchanged):** Hold through VRT Q2 earnings July 29. Exit conditions: (1) Hard exit at $285 — execute immediately if breached, no discretion; (2) VRT Q2 July 29 revenue miss or backlog below $15B; (3) Momentum reversal plus break below $285 on high volume; (4) Any hyperscaler materially walks back AI capex; (5) Better opportunity requiring capital — N/A at $0 buying power.
+
+---
+
+## [2026-07-24T13:40:00Z] HOLD — VST (Friday July 24 2026, 9:35 AM ET)
+
+- **Reason:** VST opens at $168.67, down −$0.31 (−0.18%) from Thursday close $168.98. Brent crude at ~$97/bbl — pulled back from the $100.69 crisis settle on July 23. No formal Iran ceasefire announced. Trump Iran update reflects ongoing negotiation posture, not resolution. Iran-backed Houthi tanker strikes active; US strikes ongoing. The pullback in Brent from $100 to $97 is normal intraday retracement — it does not change the structural energy price environment or VST's merchant nuclear/gas position. VST's exit condition (formal ceasefire AND Brent <$70 simultaneously) requires Brent to fall $27 from current levels while a ceasefire is formalized — condition nowhere near met. VST Q2 earnings August 7 (14 calendar days, 10 trading days). All Section 4 gates PASS. No Section 9 trigger (+5.19%).
+- **CB re-validation — Section 4 gates at $168.67:**
+  - Gate 1 (Bottleneck real?): Brent $97/bbl (crisis level, above all pre-crisis baselines); Iran/Hormuz crisis Day 13; Houthi tanker strikes active; VST merchant nuclear/gas = price-setter at current commodity levels; PJM capacity $325/MW-day; AI nuclear demand (Helix/KKR $10B+). PASS.
+  - Gate 2 (Not fully priced?): $168.67 vs. consensus $208–230 — 23–36% upside gap. Brent pulled back from $100 to $97 — VST has not repriced this week's oil move fully. Q2 earnings August 7 unresolved. PASS.
+  - Gate 3 (Specific catalyst?): Iran/Hormuz crisis active; US strikes ongoing (Day 13); Houthi tanker strikes (July 23); Brent $97+; VST Q2 earnings August 7. Multiple live catalysts. PASS.
+- **Section 9 check:** +5.19% unrealized. Below +15% threshold. No profit-taking trigger. No action.
+- **Momentum state:** Essentially flat (−0.18%) on a day oil pulled back. Thesis stable.
+- **Catalyst state:** Live. Crisis ongoing. No diplomatic resolution visible.
+- **Hard exit trigger:** $148.00. Buffer: $20.67 (13.98%).
+- **Exit thesis (unchanged):** Hold through Iran/Hormuz evolution and VST Q2 earnings August 7. Exit conditions: (1) Formal US-Iran ceasefire AND Brent <$70 simultaneously — $27+ above threshold; (2) VST-specific negative catalyst (nuclear/gas outage, adverse FERC/ERCOT ruling); (3) Break below $148 on high volume; (4) Better opportunity requiring capital — N/A at $0 buying power.
+
+---
+
 ## [2026-07-23T19:40:00Z] EOD CYCLE SUMMARY — Thursday July 23 2026, ~3:40 PM ET
 
 ### Today's Date
